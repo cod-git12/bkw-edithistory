@@ -69,9 +69,53 @@
       padding: 40px;
       color: #666;
     }
+    /* 更新通知バナーのスタイル */
+    #update-banner {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #00bfff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      z-index: 9999;
+      animation: fadeInUp 0.3s ease-out;
+    }
+    #update-banner button {
+      margin-left: 12px;
+      padding: 6px 12px;
+      background: white;
+      color: #00bfff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+    #update-banner button:hover {
+      background: #f0f0f0;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   </style>
 </head>
 <body>
+  <!-- 新着更新時の通知バナー -->
+  <div id="update-banner">
+    <span>📝 Wikiの最新更新があります！</span>
+    <button onclick="location.reload()">リロードする</button>
+  </div>
+
   <div class="container">
     <header>
       <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ</h1>
@@ -83,13 +127,16 @@
   </div>
 
   <script>
+    const HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json";
+    let currentLastTimestamp = null;
+
     async function loadLogs() {
       const loadingEl = document.getElementById("loading");
       const listEl = document.getElementById("logList");
 
       try {
-        // 同一ディレクトリの history.json を取得
-        const res = await fetch("./history.json");
+        // キャッシュを防ぎ常に最新データを取得するためタイムスタンプを付与
+        const res = await fetch(`${HISTORY_URL}?t=${Date.now()}`);
         if (!res.ok) throw new Error("データの取得に失敗しました");
 
         const logs = await res.json();
@@ -98,6 +145,11 @@
         if (logs.length === 0) {
           listEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
           return;
+        }
+
+        // 初回ロード時に最新ログのタイムスタンプを記憶
+        if (currentLastTimestamp === null && logs.length > 0) {
+          currentLastTimestamp = logs[0].timestamp;
         }
 
         listEl.innerHTML = logs.map(item => `
@@ -112,7 +164,31 @@
       }
     }
 
+    // バックグラウンドで更新チェック
+    async function checkLatestHistory() {
+      try {
+        const res = await fetch(`${HISTORY_URL}?t=${Date.now()}`);
+        if (!res.ok) return;
+
+        const data = await res.json();
+        if (!data || data.length === 0) return;
+
+        const latestEntry = data[0];
+
+        if (currentLastTimestamp !== null && currentLastTimestamp !== latestEntry.timestamp) {
+          // タイムスタンプが更新されていれば通知バナーを表示
+          document.getElementById("update-banner").style.display = "block";
+        }
+      } catch (err) {
+        console.error("更新チェックエラー:", err);
+      }
+    }
+
+    // 初回読み込み
     loadLogs();
+
+    // 30秒ごとにバックグラウンドで新着チェックを実行
+    setInterval(checkLatestHistory, 30 * 1000);
   </script>
 </body>
 </html>
