@@ -59,17 +59,48 @@
     .log-title:hover {
       text-decoration: underline;
     }
+    .log-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      white-space: nowrap;
+    }
     .log-time {
       font-size: 0.85rem;
       color: #777;
-      white-space: nowrap;
+    }
+    .detail-link {
+      font-size: 0.85rem;
+      color: #00bfff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .detail-link:hover {
+      text-decoration: underline;
     }
     #loading {
       text-align: center;
       padding: 40px;
       color: #666;
     }
-    /* 更新通知バナーのスタイル */
+    /* 詳細画面用スタイル */
+    .diff-box {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      white-space: pre-wrap;
+      word-break: break-all;
+      overflow-x: auto;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
     #update-banner {
       display: none;
       position: fixed;
@@ -81,113 +112,105 @@
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
       z-index: 9999;
-      animation: fadeInUp 0.3s ease-out;
-    }
-    #update-banner button {
-      margin-left: 12px;
-      padding: 6px 12px;
-      background: white;
-      color: #00bfff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background-color 0.2s;
-    }
-    #update-banner button:hover {
-      background: #f0f0f0;
-    }
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
     }
   </style>
 </head>
 <body>
-  <!-- 新着更新時の通知バナー -->
   <div id="update-banner">
     <span>📝 Wikiの最新更新があります！</span>
     <button onclick="location.reload()">リロードする</button>
   </div>
 
   <div class="container">
-    <header>
+    <header id="header">
       <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ</h1>
-      <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件（2026/08/26 7:30 JSTからのもの）</div>
+      <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
     </header>
 
     <div id="loading">データを読み込み中...</div>
-    <div id="logList" class="log-list"></div>
+    <div id="mainContent"></div>
   </div>
 
   <script>
     const HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json";
     let currentLastTimestamp = null;
 
-    async function loadLogs() {
+    async function init() {
       const loadingEl = document.getElementById("loading");
-      const listEl = document.getElementById("logList");
+      const contentEl = document.getElementById("mainContent");
+
+      // URLのパラメータから ?editid=xxx を取得
+      const urlParams = new URLSearchParams(window.location.search);
+      const editId = urlParams.get("editid");
 
       try {
-        // キャッシュを防ぎ常に最新データを取得するためタイムスタンプを付与
         const res = await fetch(`${HISTORY_URL}?t=${Date.now()}`);
         if (!res.ok) throw new Error("データの取得に失敗しました");
 
         const logs = await res.json();
         loadingEl.style.display = "none";
 
-        if (logs.length === 0) {
-          listEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
-          return;
-        }
-
-        // 初回ロード時に最新ログのタイムスタンプを記憶
-        if (currentLastTimestamp === null && logs.length > 0) {
+        if (logs.length > 0 && currentLastTimestamp === null) {
           currentLastTimestamp = logs[0].timestamp;
         }
 
-        listEl.innerHTML = logs.map(item => `
+        // editid が指定されている場合は【詳細・差分画面】を表示
+        if (editId) {
+          const item = logs.find(l => l.id === editId);
+          if (!item) {
+            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            return;
+          }
+
+          document.title = `${item.title} の更新詳細 - Wiki履歴`;
+          contentEl.innerHTML = `
+            <a href="./" class="back-btn">← 一覧に戻る</a>
+            <h2>${item.title} の全差分詳細</h2>
+            <p><strong>更新時間:</strong> ${item.timestamp} | <strong>対象:</strong> <a href="${item.url}" target="_blank">${item.title}</a></p>
+            <h3>📝 差分データ (Diff)</h3>
+            <div class="diff-box">${escapeHtml(item.diff || "差分情報はありません。")}</div>
+          `;
+          return;
+        }
+
+        // editid がない場合は【通常の一覧画面】を表示
+        if (logs.length === 0) {
+          contentEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
+          return;
+        }
+
+        contentEl.innerHTML = `<div class="log-list">` + logs.map(item => `
           <div class="log-item">
             <a href="${item.url}" class="log-title" target="_blank" rel="noopener noreferrer">${item.title}</a>
-            <span class="log-time">${item.timestamp}</span>
+            <div class="log-right">
+              <span class="log-time">${item.timestamp}</span>
+              ${item.id ? `<a href="?editid=${item.id}" class="detail-link">[詳細]</a>` : ''}
+            </div>
           </div>
-        `).join("");
+        `).join("") + `</div>`;
+
       } catch (err) {
         loadingEl.innerText = "❌ データの読み込みに失敗しました。";
         console.error(err);
       }
     }
 
-    // バックグラウンドで更新チェック
+    function escapeHtml(str) {
+      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
     async function checkLatestHistory() {
       try {
         const res = await fetch(`${HISTORY_URL}?t=${Date.now()}`);
         if (!res.ok) return;
-
         const data = await res.json();
-        if (!data || data.length === 0) return;
-
-        const latestEntry = data[0];
-
-        if (currentLastTimestamp !== null && currentLastTimestamp !== latestEntry.timestamp) {
-          // タイムスタンプが更新されていれば通知バナーを表示
+        if (data.length > 0 && currentLastTimestamp !== null && currentLastTimestamp !== data[0].timestamp) {
           document.getElementById("update-banner").style.display = "block";
         }
-      } catch (err) {
-        console.error("更新チェックエラー:", err);
-      }
+      } catch (e) {}
     }
 
-    // 初回読み込み
-    loadLogs();
-
-    // 30秒ごとにバックグラウンドで新着チェックを実行
+    init();
     setInterval(checkLatestHistory, 30 * 1000);
   </script>
 </body>
