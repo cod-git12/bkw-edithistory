@@ -1,5 +1,12 @@
 [
   {
+    "id": "9f97eec801",
+    "title": "ゲームモード/ベッドウォーズ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%83%99%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA",
+    "timestamp": "2026/8/26 20:08:51",
+    "diff": "```diff\n- #cssbox(width:fit-content;margin:20px 4px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n```"
+  },
+  {
     "id": "2bfea533be",
     "title": "編集者",
     "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
