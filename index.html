@@ -170,7 +170,7 @@
             <h2>${item.title} の全差分詳細</h2>
             <p><strong>更新時間:</strong> ${item.timestamp} | <strong>対象:</strong> <a href="${item.url}" target="_blank">${item.title}</a></p>
             <h3>📝 差分データ (Diff)</h3>
-            <div class="diff-box">${escapeHtml(item.diff || "差分情報はありません。")}</div>
+            <div class="diff-box">${formatDiffHtml(item.diff)}</div>
           `;
           return;
         }
@@ -210,6 +210,29 @@
           document.getElementById("update-banner").style.display = "block";
         }
       } catch (e) {}
+    }
+
+    // Diffテキストを色付きHTMLに変換する関数
+    function formatDiffHtml(diffText) {
+      // 差分データが存在しない・空の場合は安全にメッセージを返す
+      if (!diffText) return "差分情報はありません。";
+
+      // マークダウン記法 (```diff や ```) を除去
+      const cleanText = diffText.replace(/```diff\n?|\n?```/g, "").trim();
+
+      // 空文字になった場合も同様に安全なメッセージを返す
+      if (!cleanText) return "差分情報はありません。";
+
+      // 行ごとに分解して + は緑、- は赤に色付け
+      return cleanText.split("\n").map(line => {
+        const escaped = escapeHtml(line);
+        if (line.startsWith("+")) {
+          return `<span style="color: #4ec9b0; font-weight: bold;">${escaped}</span>`;
+        } else if (line.startsWith("-")) {
+          return `<span style="color: #f14c4c; font-weight: bold;">${escaped}</span>`;
+        }
+        return escaped;
+      }).join("\n");
     }
 
     init();
