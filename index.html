@@ -144,7 +144,9 @@
       const editId = urlParams.get("editid");
 
       try {
-        const res = await fetch(`${HISTORY_URL}?t=${Date.now()}`);
+        const res = await fetch(`https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json?t=${Date.now()}`, {
+          cache: "no-store" // キャッシュを保持しないヘッダーを指定
+        });
         if (!res.ok) throw new Error("データの取得に失敗しました");
 
         const logs = await res.json();
