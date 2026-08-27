@@ -1,5 +1,12 @@
 [
   {
+    "id": "d9fa1c90b5",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/27 15:09:58",
+    "diff": "```diff\n- |Lv.2|&attachref(アイテム一覧/Truffle.png,,50x50);|特別なドロップ([[トリュフ>アイテム/トリュフ]])|[[弾性力>効果]]を得られる[[トリュフオイル>アイテム/トリュフオイル]]を作れるよ。&br;餌を与えると をドロップします。|\n- |~|~|Special Drops ([[Truffle>アイテム/トリュフ]])|Combine to make [[Truffle Oil>アイテム/トリュフオイル]] to give you [[Bounciness>効果]]&br;Drop When fed.|\n- |Lv.3|&attachref(アイコン一覧/Double Poop.png,50x50);|[[うんち>アイテム/うんち]]2倍|通常のドロップが2倍になります。|\n- |~|~|Double [[Poop>アイテム/うんち]]|Produces double the amount of common drops.|\n- |Lv.4|&attachref(アイテム一覧/Unforgotten Pig.png,,50x50);|[[絵画>アイテム/Unforgotten Pig]]|[[ペットの絵画>アイテム/Unforgotten Pig]]をプレゼントします。|\n- |~|~|[[Painting>アイテム/Unforgotten Pig]]|Gifts a [[painting of your pet>アイテム/Unforgotten Pig]].|\n- |Lv.5|&attachref(アイコン一覧/Feed Aura.png,50x50);|餌の[[オーラ>経験値一覧]]|他のペットは、餌を与えるとボーナス[[オーラ>経験値一覧]]を付与します。&br;このペットが満腹の時のみ。|\n- |~|~|Feed [[Aura>経験値一覧]]|All other pets give bonus [[aura>経験値一覧]] when fed.&br;Only whilst this pet is Full.|\n+ |Lv.2|&attachref(アイテム一覧/Sheep's Milk.png,,50x50)\n... (省略されました)\n```"
+  },
+  {
     "id": "59d5fc52e8",
     "title": "編集者",
     "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
