@@ -1,5 +1,12 @@
 [
   {
+    "id": "75a3a83871",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/8/27 15:04:55",
+    "diff": "```diff\n- #cssbox(width:fit-content;margin:20px 40px auto;padding:3px;border-radius:8px;background-color:#44444420){{\n+ //#cssbox(width:fit-content;margin:20px 40px auto;padding:3px;border-radius:8px;background-color:#44444420){{\n- }}\n+ //}}\n```"
+  },
+  {
     "id": "ed3f508b2d",
     "title": "モブ",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
