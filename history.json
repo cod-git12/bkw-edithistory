@@ -1,5 +1,12 @@
 [
   {
+    "id": "8a001465c0",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/27 15:13:08",
+    "diff": "```diff\n- |Lv.2|&attachref(アイテム一覧/Sheep's Milk.png,,50x50);|特別なドロップ([[羊の乳>アイテム/羊の乳]])|[[体力吸収>効果]]を得られる[[ヨーグルトポット>アイテム/ヨーグルトポット]]を作れるよ。&br;餌を与えると をドロップします。|\n- |~|~|Special Drops ([[Sheep's Milk>アイテム/羊の乳]])|Combine to make [[Yoghurt Pod>アイテム/ヨーグルトポット]] to give you [[Lifesteal>効果]]&br;Drop When fed.|\n- |Lv.3|&attachref(アイコン一覧/Rainbow Wool.png,50x50);|レインボーウール|毛を刈ると、異なる色の[[羊毛>アイテム/羊毛]]が再生します。|\n- |~|~|Rainbow Wool|Regrows different wool colours when sheared.|\n- |Lv.4|&attachref(アイテム一覧/Grant Wool.png,,50x50);|[[絵画>アイテム/Grant Wool]]|[[ペットの絵画>アイテム/Grant Wool]]をプレゼントします。|\n- |~|~|[[Painting>アイテム/Grant Wool]]|Gifts a [[painting of your pet>アイテム/Grant Wool]].|\n- |Lv.5|&attachref(アイコン一覧/Mob Slayer.png,50x50);|モブスレイヤー|[[モブ]]へのダメージが増加。|\n- |~|~|Mob Slayer|Increased damage against [[mobs>モブ]].|\n+ |Lv.2|&attachref(アイテム一覧/Meaty Bone.png,,50x50);|特別なドロップ([[骨付き肉>アイテム/骨付き肉]])|相手に[[盲目>効果]]を与える[[閃光弾>アイテム/閃光弾]]を作れるよ。&br;餌を与えると をドロップします。|\n+ |~|~|Special Drops ([[Meaty B\n... (省略されました)\n```"
+  },
+  {
     "id": "d9fa1c90b5",
     "title": "編集者",
     "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
