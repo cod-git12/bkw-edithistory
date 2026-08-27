@@ -1,5 +1,12 @@
 [
   {
+    "id": "74734c0ba1",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/27 15:06:33",
+    "diff": "```diff\n+ *test2 [#yba1f964]\n+ |レベル|画像|名前|説明|h\n+ |Lv.1|&attachref(アイテム一覧/Name Tag.png,,50x50);|名前変更|[[名札>アイテム/名札]]を使って名前を変更できます。|\n+ |~|~|Renaming|Can be renamed using a [[Name Tag>アイテム/名札]].|\n+ |Lv.2|&attachref(アイテム一覧/Cow's Milk.png,,50x50);|特別なドロップ([[牛の乳>アイテム/牛の乳]])|[[空中歩行>効果]]を得られる[[チーズ>アイテム/チーズ]]を作れるよ。&br;餌を与えると をドロップします。|\n+ |~|~|Special Drops ([[Cow's Milk>アイテム/牛の乳]])|Combine to make [[Cheese>アイテム/チーズ]] to give you [[Air Walk>アイテム/牛の乳]]&br;Drop When fed.|\n+ |Lv.3|&attachref(アイコン一覧/Self Yield.png,50x50);|自己収穫量|餌を与えると、より多くの特別な食べ物をドロップします。|\n+ |~|~|Self Yield|Drops more special food when fed.|\n+ |Lv.4|&attachref(アイテム一覧/Stampede.png,,50x50);|[[絵画>アイテム/Stampede]]|[[ペットの絵画>アイテム/Stampede]]をプレゼントします。|\n+ |~|~|[[Painting>アイテム/Stampede]]|Gifts a [[painting of your pet>アイテム/Stampede]].|\n+ |Lv.5|&attachref(アイコン一覧/Mob Yield.png,50x50);|モブの収穫量|他のペットは餌を与えるとより多くのアイテムをドロップします。&br;このペットが満腹の時のみ。|\n+ |~|~|Mob Yield|All other pets will drop more when fed.&br;Only \n... (省略されました)\n```"
+  },
+  {
     "id": "4ef039e68d",
     "title": "モブ/ウシ",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96/%E3%82%A6%E3%82%B7",
