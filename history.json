@@ -1,5 +1,12 @@
 [
   {
+    "id": "a734681763",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/27 15:14:33",
+    "diff": "```diff\n- |Lv.2|&attachref(アイテム一覧/Meaty Bone.png,,50x50);|特別なドロップ([[骨付き肉>アイテム/骨付き肉]])|相手に[[盲目>効果]]を与える[[閃光弾>アイテム/閃光弾]]を作れるよ。&br;餌を与えると をドロップします。|\n- |~|~|Special Drops ([[Meaty Bone>アイテム/骨付き肉]])|Combine to make [[Blinding Pebble>アイテム/閃光弾]] to give opponents [[blindness>効果]]&br;Drop When fed.|\n- |Lv.3|&attachref(アイコン一覧/Max Health.png,50x50);|最大体力＋|最大体力が増加。|\n- |~|~|Max Health +|Increased maxnium health.|\n- |Lv.4|&attachref(アイテム一覧/Dreaming Canine.png,,50x50);|[[絵画>アイテム/Dreaming Canine]]|[[ペットの絵画>アイテム/Dreaming Canine]]をプレゼントします。|\n- |~|~|[[Painting>アイテム/Dreaming Canine]]|Gifts a [[painting of your pet>アイテム/Dreaming Canine]].|\n- |Lv.5|&attachref(アイコン一覧/Pack Leader.png,50x50);|群れのリーダー|自分が飼っているほかのオオカミの攻撃力が20%増加します。((原文:他のオオカミは、20%の追加ダメージを受けます。))&br;このペットが満腹の時のみ。|\n- |~|~|Pack Leader|All other wolves gain 20% extra damage.&br;Only whilst this pet is Full.|\n+ |Lv.2|&attachref(アイテム一覧/Acorn.png,,50x50);|特別なドロップ([[ドングリ>アイテム/ドングリ]])|[[採掘速度上昇効果>効果]]を得られる[[ドングリゼ\n... (省略されました)\n```"
+  },
+  {
     "id": "8a001465c0",
     "title": "編集者",
     "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
