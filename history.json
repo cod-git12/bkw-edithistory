@@ -1,5 +1,12 @@
 [
   {
+    "id": "dbe8100d2a",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/8/27 16:51:59",
+    "diff": "```diff\n- |~Lv.5|&attachref(アイコン一覧/Mob Yield.png,30x30);|&tooltip(モブの収穫量){他のペットは餌を与えるとより多くのアイテムをドロップします。&br;このペットが満腹の時のみ。};|&attachref(アイコン一覧/Feed Aura.png,30x30);|&tooltip(餌のオーラ){他のペットは、餌を与えるとボーナス[[オーラ>経験値一覧]]を付与します。&br;このペットが満腹の時のみ。};|&attachref(アイコン一覧/Mob Slayer.png,30x30);|&tooltip(モブスレイヤー){[[モブ]]へのダメージが増加};((スレイヤーは殺害者、討伐者などの意味を持つ。))|&attachref(アイコン一覧/Pack Leader.png,30x30);|&tooltip(群れのリーダー){自分が飼っているほかのオオカミの攻撃力が20%増加します。(原文:他のオオカミは、20%の追加ダメージを受けます。)&br;このペットが満腹の時のみ。};|&attachref(アイコン一覧/Antlers Bonus.png,30x30);|&tooltip(角){角が生え、攻撃的になります。};|&attachref(アイコン一覧/Poison Claws.png,30x30);|&tooltip(毒の爪){攻撃時に[[毒>効果]]状態になる確率があります。&br;このペットが満腹の時のみ。};|&attachref(アイコン一覧/Friends.png,30x30);|&tooltip(友達){他のペットは餌を与えると友情ポイントがボーナスで与えられます。&br;このペットが満腹の時のみ。};|\n+ |~Lv.5|&attachref(アイコン一覧/Mob Yield.png,30x30);|&tooltip(モブの収穫量){他のペットは餌を与えるとより多くのアイテムをドロップします。&br;このペットが満腹の時のみ。};|&attachref(アイコン一覧/Feed Aura.png,30x30);|&tooltip(餌のオーラ){他のペットは、餌を与えるとボーナス[[オーラ>経験値一覧]]\n... (省略されました)\n```"
+  },
+  {
     "id": "d6a732bbad",
     "title": "モブ",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
