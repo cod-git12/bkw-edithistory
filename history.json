@@ -1,5 +1,12 @@
 [
   {
+    "id": "4ef039e68d",
+    "title": "モブ/ウシ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96/%E3%82%A6%E3%82%B7",
+    "timestamp": "2026/8/27 15:05:55",
+    "diff": "```diff\n- //#style(margin:0px 20px auto;){{{\n+ #style(margin:0px 20px auto;){{{\n- //}}}\n+ }}}\n```"
+  },
+  {
     "id": "75a3a83871",
     "title": "モブ",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
