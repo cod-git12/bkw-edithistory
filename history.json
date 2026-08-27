@@ -1,5 +1,12 @@
 [
   {
+    "id": "0ae559a7ff",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/27 15:16:28",
+    "diff": "```diff\n- |Lv.2|&attachref(アイテム一覧/Acorn.png,,50x50);|特別なドロップ([[ドングリ>アイテム/ドングリ]])|[[採掘速度上昇効果>効果]]を得られる[[ドングリゼリー>アイテム/ドングリゼリー]]を作れるよ。&br;餌を与えると をドロップします。|\n- |~|~|Special Drops ([[Acorn>アイテム/ドングリ]])|Combine to make [[Acorn Jelly>アイテム/ドングリゼリー]] to give you [[Mining Haste>効果]]&br;Drop When fed.|\n- |Lv.3|&attachref(アイコン一覧/Thorns.png,50x50);|とげ|攻撃を受けると反動ダメージを与えます。|\n- |~|~|Thorns|Deals recoil damage when attacked.|\n- |Lv.4|&attachref(アイテム一覧/A Doe Through The Green.png,,50x50);|[[絵画>アイテム/A Doe Through The Green]]|[[ペットの絵画>アイテム/A Doe Through The Green]]をプレゼントします。|\n- |~|~|[[Painting>アイテム/A Doe Through The Green]]|Gifts a [[painting of your pet>アイテム/A Doe Through The Green]].|\n- |Lv.5|&attachref(アイコン一覧/Antlers Bonus.png,50x50);|角|角が生え、攻撃的になります。|\n- |~|~|Antlers|Grows Antlers and becomes aggressive.|\n+ |Lv.2|&attachref(アイテム一覧/Caught Fish.png,,50x50);|特別なドロップ([[捕まえた魚>アイテム/捕まえた魚]])|[[スリ>効果]]を得られる[[魚の切り身>アイテム/魚の切り身]]を作れるよ。&br;餌を与えると をドロップします。|\n+ |~|~|Special Dr\n... (省略されました)\n```"
+  },
+  {
     "id": "4e554e5bcf",
     "title": "モブ/ヤマネコ",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96/%E3%83%A4%E3%83%9E%E3%83%8D%E3%82%B3",
