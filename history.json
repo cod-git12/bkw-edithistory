@@ -1,5 +1,12 @@
 [
   {
+    "id": "d6a732bbad",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/8/27 15:44:09",
+    "diff": "```diff\n- |~レベル|>|~&attachref(./Cow.gif,x30);[[ウシ>モブ/ウシ]]|>|~&attachref(./Pig.png,x30);[[ブタ>モブ/ブタ]]|>|~&attachref(./Sheep.gif,x30);[[ヒツジ>モブ/ヒツジ]]|>|~&attachref(./Wolf.gif,x30);[[オオカミ>モブ/オオカミ]]|>|~&attachref(./Deer.png,x30);[[シカ>モブ/シカ]]|>|~&attachref(./Wildcat.gif,x30);[[ヤマネコ>モブ/ヤマネコ]]|>|~&attachref(./Horse.gif,x30);[[ウマ>モブ/ウマ]]|h\n+ |レベル|>|~&attachref(./Cow.gif,x30);[[ウシ>モブ/ウシ]]|>|~&attachref(./Pig.png,x30);[[ブタ>モブ/ブタ]]|>|~&attachref(./Sheep.gif,x30);[[ヒツジ>モブ/ヒツジ]]|>|~&attachref(./Wolf.gif,x30);[[オオカミ>モブ/オオカミ]]|>|~&attachref(./Deer.png,x30);[[シカ>モブ/シカ]]|>|~&attachref(./Wildcat.gif,x30);[[ヤマネコ>モブ/ヤマネコ]]|>|~&attachref(./Horse.gif,x30);[[ウマ>モブ/ウマ]]|h\n- |Lv.1|>|>|>|>|>|>|>|>|>|>|>|>|>|CENTER:&attachref(アイテム一覧/Name Tag.png,,30x30);名前変更|\n+ |~Lv.1|>|>|>|>|>|>|>|>|>|>|>|>|>|CENTER:&attachref(アイテム一覧/Name Tag.png,,30x30);名前変更|\n- |Lv.2|&attachref(アイテム一覧/Cow's Milk.png,,30x30);|特別なドロップ&br;([[牛の乳>アイテム/牛の乳]])|&attachref(アイテム一覧/Truffle.png,,30x30);|特別なドロップ&br;\n... (省略されました)\n```"
+  },
+  {
     "id": "bf9ffe643a",
     "title": "モブ",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
