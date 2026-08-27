@@ -1,5 +1,19 @@
 [
   {
+    "id": "ad7f5adfe3",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/27 15:17:23",
+    "diff": "```diff\n- |Lv.2|&attachref(アイテム一覧/Caught Fish.png,,50x50);|特別なドロップ([[捕まえた魚>アイテム/捕まえた魚]])|[[スリ>効果]]を得られる[[魚の切り身>アイテム/魚の切り身]]を作れるよ。&br;餌を与えると をドロップします。|\n- |~|~|Special Drops ([[Caught Fish>アイテム/捕まえた魚]])|Combine to make [[Fish Fillet>アイテム/魚の切り身]] to give you [[Pickpocketing>効果]]&br;Drops When fed.|\n- |Lv.3|&attachref(アイコン一覧/Damage.png,50x50);|ダメージ＋|ダメージが増加。|\n- |~|~|Damage +|Increased damage.|\n- |Lv.4|&attachref(アイテム一覧/Whiskers.png,,50x50);|[[絵画>アイテム/Whiskers]]|[[ペットの絵画>アイテム/Whiskers]]をプレゼントします。|\n- |~|~|[[Painting>アイテム/Whiskers]]|Gifts a [[painting of your pet>アイテム/Whiskers]].|\n- |Lv.5|&attachref(アイコン一覧/Poison Claws.png,50x50);|[[毒>効果]]の爪|攻撃時に[[毒>効果]]状態になる確率があります。&br;このペットが満腹の時のみ。|\n- |~|~|[[Poison>効果]] Claws|Has a chance of dealing [[Poisoned status>効果]] when attacking.&br;Only whilst this pet is Full.|\n+ |Lv.2|&attachref(アイテム一覧/Oats.png,,50x50);|特別なドロップ([[オート麦>アイテム/オート麦]])|[[壁登り>効果]]を得られる[[お粥>アイテム/お粥]]を作れるよ。&br;餌を与えると をドロップします。|\n+ |~|~|Special Dro\n... (省略されました)\n```"
+  },
+  {
+    "id": "4486877be7",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/8/27 15:17:54",
+    "diff": "```diff\n- |~|画像|名前|画像|名前|画像|名前|画像|名前|画像|名前|画像|名前|画像|名前|\n- |Lv.1|>|>|>|>|>|>|>|>|>|>|>|>|>|CENTER:&attachref(アイテム一覧/Name Tag.png,,50x50);''名前変更''|\n+ |~|画像|名前|画像|名前|画像|名前|画像|名前|画像|名前|画像|名前|画像|名前|h\n+ |Lv.1|>|>|>|>|>|>|>|>|>|>|>|>|>|CENTER:&attachref(アイテム一覧/Name Tag.png,,50x50);名前変更|\n- |Lv.2|&attachref(アイテム一覧/Cow's Milk.png,,50x50);|Special Drops (Cow's milk)|&attachref(アイテム一覧/Truffle.png,,50x50);|Special Drops (Truffle)|&attachref(アイテム一覧/Sheep's Milk.png,,50x50);|Special Drops (Sheep's milk)|&attachref(アイテム一覧/Meaty Bone.png,,50x50);|Special Drops (Meaty Bone)|&attachref(アイテム一覧/Acorn.png,,50x50);|Speial Drops (Acorn)|&attachref(アイテム一覧/Caught Fish.png,,50x50);|Special Drops (caught fish)|&attachref(アイテム一覧/Oats.png,,50x50);|Special Drops (Oats)|\n- |Lv.3|&attachref(アイコン一覧/Self Yield.png,50x50);|Self Yield|&attachref(アイコン一覧/Double Poop.png,50x50);|Double Poop|&attachref(アイコン一覧/Rainbow Wool.png,50x50);|Rainbow Wool|&attachref(アイコン一覧/Max Health.png,50x50\n... (省略されました)\n```"
+  },
+  {
     "id": "0ae559a7ff",
     "title": "編集者",
     "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
