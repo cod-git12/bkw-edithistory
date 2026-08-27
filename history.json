@@ -1,5 +1,12 @@
 [
   {
+    "id": "bf9ffe643a",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/8/27 15:42:18",
+    "diff": "```diff\n+ Lv.3とLv.5の特典の内容は、特典名をホバーorタップして表示。\n- //#cssbox(width:fit-content;margin:20px 40px auto;padding:3px;border-radius:8px;background-color:#44444420){{\n- |~レベル|>|~&attachref(./Cow.gif,30x30);[[ウシ>モブ/ウシ]]|>|~&attachref(./Pig.png,30x30);[[ブタ>モブ/ブタ]]|>|~&attachref(./Sheep.gif,30x30);[[ヒツジ>モブ/ヒツジ]]|>|~&attachref(./Wildcat.gif,30x30);[[オオカミ>モブ/オオカミ]]|>|~&attachref(./Deer.png,30x30);[[シカ>モブ/シカ]]|>|~&attachref(./Wildcat.gif,30x30);[[ヤマネコ>モブ/ヤマネコ]]|>|~&attachref(./Horse.gif,30x30);[[ウマ>モブ/ウマ]]|h\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:3px;border-radius:8px;background-color:#44444420){{\n+ |~レベル|>|~&attachref(./Cow.gif,x30);[[ウシ>モブ/ウシ]]|>|~&attachref(./Pig.png,x30);[[ブタ>モブ/ブタ]]|>|~&attachref(./Sheep.gif,x30);[[ヒツジ>モブ/ヒツジ]]|>|~&attachref(./Wolf.gif,x30);[[オオカミ>モブ/オオカミ]]|>|~&attachref(./Deer.png,x30);[[シカ>モブ/シカ]]|>|~&attachref(./Wildcat.gif,x30);[[ヤマネコ>モブ/ヤマネコ]]|>|~&attachref(./Horse.gif,x30);[[ウマ>モブ/ウマ]]|h\n- |Lv.1|>|>|>|>|>|>|>|>|>|\n... (省略されました)\n```"
+  },
+  {
     "id": "ad7f5adfe3",
     "title": "編集者",
     "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
