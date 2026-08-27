@@ -1,5 +1,12 @@
 [
   {
+    "id": "30634785d2",
+    "title": "コード/QandA、作成依頼/目潰しっ!",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89/QandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC/%E7%9B%AE%E6%BD%B0%E3%81%97%E3%81%A3%21",
+    "timestamp": "2026/8/27 14:19:34",
+    "diff": "```diff\n+ 実行:\n+ #code_x{{\n+ api.applyEffect(myId,\"Blindness\",null,{})\n+ }}\n+ 解除:\n+ #code_x{{\n+ api.removeEffect(myId,\"Blindness\")\n+ }}\n- //\n```"
+  },
+  {
     "id": "92cdbe348e",
     "title": "コード/QandA、作成依頼/目潰しっ!",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89/QandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC/%E7%9B%AE%E6%BD%B0%E3%81%97%E3%81%A3%21",
