@@ -1,5 +1,12 @@
 [
   {
+    "id": "ed3f508b2d",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/8/27 15:00:12",
+    "diff": "```diff\n- |~レベル|>|~[[ウシ>モブ/Cow]]|>|~[[ブタ>モブ/Pig]]|>|~[[ヒツジ>モブ/Sheep]]|>|~[[オオカミ>モブ/Wolf]]|>|~[[シカ>モブ/Deer]]|>|~[[ヤマネコ>モブ/Wildcat]]|>|~[[ウマ>モブ/Horse]]|h\n+ |~レベル|>|~&attachref(./Cow.gif,30x30);[[ウシ>モブ/ウシ]]|>|~&attachref(./Pig.png,30x30);[[ブタ>モブ/ブタ]]|>|~&attachref(./Sheep.gif,30x30);[[ヒツジ>モブ/ヒツジ]]|>|~&attachref(./Wildcat.gif,30x30);[[オオカミ>モブ/オオカミ]]|>|~&attachref(./Deer.png,30x30);[[シカ>モブ/シカ]]|>|~&attachref(./Wildcat.gif,30x30);[[ヤマネコ>モブ/ヤマネコ]]|>|~&attachref(./Horse.gif,30x30);[[ウマ>モブ/ウマ]]|h\n```"
+  },
+  {
     "id": "30634785d2",
     "title": "コード/QandA、作成依頼/目潰しっ!",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89/QandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC/%E7%9B%AE%E6%BD%B0%E3%81%97%E3%81%A3%21",
