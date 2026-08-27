@@ -1,5 +1,12 @@
 [
   {
+    "id": "d0811bcc31",
+    "title": "ゲームモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/8/27 9:45:49",
+    "diff": "```diff\n+ **[[アウトブレイク>ゲームモード/アウトブレイク]] [#goalRush]\n+ アウトブレイクはpixelbakerがカスタムゲームで公開した物を一時期ホーム画面にも載せていた。\n+ ゾンビ役は市民役を倒してゾンビにし、仲間を増やす。最終的にゾンビ役は全員ゾンビにしたら勝利。\n+ 市民役は銃でゾンビ役を倒したり飛ばしたりして生き延びれば勝利。\n+ #flex_container(left){{\n+ CENTER:[[\n+ //&attachref(./Goal Rush.jpg,nolink,zoom,125x70,ゴールラッシュ);\n+ &br;''アウトブレイク''>ゲームモード/アウトブレイク]]\n+ }}\n+ TAG: PLAYER CRAFTED, MINIGAMES\n```"
+  },
+  {
     "id": "c342bd04b6",
     "title": "ゲームモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89",
