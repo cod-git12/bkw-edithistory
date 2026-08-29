@@ -1,5 +1,12 @@
 [
   {
+    "id": "592dae7f04",
+    "title": "ゲームモード/キャプチャーザフラッグ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
+    "timestamp": "2026/8/29 17:48:56",
+    "diff": "```diff\n+ 都合上、ダイヤモンドをダイヤと表記している。\n+ 装備の下の文字は素材などを表す。\n+ |キット名|>|>|>|>|防具|剣|他|[[効果]]|h\n+ ||>|>|>|>|CENTER:|>|CENTER:||c\n+ |~(デフォルト)|&attachref(アイテム一覧/Red Wood Helmet.png);|&attachref(アイテム一覧/Red Wood Chestplate.png);|&attachref(アイテム一覧/Red Wood Gauntlets.png);|&attachref(アイテム一覧/Red Wood Leggings.png);|&attachref(アイテム一覧/Red Wood Boots.png);|&attachref(アイテム一覧/Wood Sword.png);|||\n+ |~|>|>|>|>|味方色|[[木>アイテム/木の剣]]|~|~|\n+ |~ナイト&br;KNIGHT|&attachref(アイテム一覧/Red Wood Helmet.png);|&attachref(アイテム一覧/Iron Chestplate.png);|&attachref(アイテム一覧/Red Wood Gauntlets.png);|&attachref(アイテム一覧/Iron Leggings.png);|&attachref(アイテム一覧/Iron Boots.png);|&attachref(アイテム一覧/Iron Sword.png);|||\n+ |~|味方色|[[鉄>アイテム/鉄のチェストプレート]]|味方色|[[鉄>アイテム/鉄のレギンス]]|[[鉄>アイテム/鉄のブーツ]]|[[鉄>アイテム/鉄の剣]]|~|~|\n+ |~タンク&br;TANK|&attachref(アイテム一覧/Red Wood Helmet.png);|&attachref(アイテム一覧/Diamond Chestplate.png);|&attachref(アイテム一覧/Red Wood Gauntlets.png);|&attachref(アイテム一覧/Diamond Leggings.png);|&attachref(アイテム一覧/Dia\n... (省略されました)\n```"
+  },
+  {
     "id": "ac2f624d50",
     "title": "ゲームモード/キャプチャーザフラッグ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
