@@ -1,5 +1,12 @@
 [
   {
+    "id": "afb0dcf59d",
+    "title": "トップニュース",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+    "timestamp": "2026/8/29 20:48:03",
+    "diff": "```diff\n- #style(width:calc(100% - 90px);display: flex;flex-direction: column;){{{{\n+ #style(width:calc(100% - 90px);display: flex;flex-direction: column;z-index:3){{{{\n- #style(width:100%;margin-top:-15px;padding: 0px 15px 0px 0px;text-align: right;margin-left: -15px;){{{\n- RIGHT:ryoku_&#91;[[BKW主要編集者>編集者]]&#93;・aaa_&#91;[[BKW管理人>管理人へ]]&#93;\n+ #style(width:100%;margin-top:-15px;padding: 0px 15px 0px 0px;text-align: right;margin-left: -15px;z-index:0){{{\n+ ryoku_&#91;[[BKW主要編集者>編集者]]&#93;・aaa_&#91;[[BKW管理人>管理人へ]]&#93;\n```"
+  },
+  {
     "id": "a32bb79f1b",
     "title": "ゲームモード/削除されたモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E5%89%8A%E9%99%A4%E3%81%95%E3%82%8C%E3%81%9F%E3%83%A2%E3%83%BC%E3%83%89",
