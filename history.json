@@ -1,5 +1,13 @@
 [
   {
+    "id": "6814588a3a",
+    "title": "トップニュース",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+    "timestamp": "2026/8/29 23:21:24",
+    "diff": "+ >\n+ #style(margin-top:-10px;display:flex;flex-wrap:nowrap;gap:20px;padding: 5px 0 5px 10px;background-color:#4ec9b080;width:auto;margin-left:5%;border-radius:30px;){{{{{\n+ #style(display: flex;flex-direction: column;gap:5px;){{{{\n+ CENTER:\n+ #style(width:60px; height:60px; border-radius: 25%;background-image:url(https://bloxd.wikiru.jp/attach2/4D656E75426172_424B5720446973636F72642049636F6E2E77656270.webp);background-size:100% 100%;position:relative;){{{\n+ #style(position: absolute;bottom:10px;right:-6px;width:26px;height:26px;){{\n+ &fa(2x,color=#FFD700){bullhorn};\n+ }}\n+ }}}\n+ }}}}\n+ #style(width:calc(100% - 90px);display: flex;flex-direction: column;){{{{\n+ #style(width:fit-content;){{{\n+ &size(15){''Wikiの更新を通知で受け取れるようになりました！''};\n+ &size(12){~ ''Wikiの『いま』を逃さない。更新も差分も、閉じているスマホへ即通知。'' ~};\n+ &new{2026-08-29 (土) 23:15:00};\n+ }}}\n+ #style(width:100%;margin-top:-15px;display: flex;flex-wrap: wrap;justify-content: flex-start;gap:20px;){{{\n+ #style(max-width:calc(100% - 260px);z-index:3){{\n+ Bloxd 攻略 Wikiが更新されると詳細が届く、全更新履歴アーカイブサイト。\n+ そのサイトに、通知機能を追加しました！\n+ このサイトに入り、通知をonにすると、Wikiが更新されるたびに通知が届きます！\n+ &size(10){※サイトに反映するまでの時間を考慮した遅延あり。(90秒ほど)};\n+ アーカイブサイトにまだたくさんの機能を追加する予定です。\n+ 通知をonにして、wikiの最新情報をいつでも取得しましょう！\n+ #back(いますぐ更新通知を受け取る,left,0,https://bkw-history.vercel.app)\n+ }}\n+ }}}\n+ #style(width:100%;margin-top:-15px;padding: 0px 15px 0px 0px;text-align: right;margin-left: -15px;z-index:1){{{\n+ yuuto&#91;[[BKW主要編集者>編集者]]&#93;\n+ }}}\n+ }}}}\n+ }}}}}\n+ <",
+    "_displayTitle": "トップニュース"
+  },
+  {
     "id": "115ca449a2",
     "title": "ゲームモード/削除されたモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E5%89%8A%E9%99%A4%E3%81%95%E3%82%8C%E3%81%9F%E3%83%A2%E3%83%BC%E3%83%89",
