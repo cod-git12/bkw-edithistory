@@ -1,5 +1,12 @@
 [
   {
+    "id": "73ba9c3d45",
+    "title": "トップニュース",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+    "timestamp": "2026/8/29 18:25:37",
+    "diff": "```diff\n- RIGHT:aaa_&#91;BKW管理人&#93;\n+ RIGHT:aaa_&#91;[[BKW管理人>管理人へ]]&#93;\n+ #style(margin-top:10px;display:flex;flex-wrap:nowrap;gap:20px;padding: 5px 0 5px 10px;background-color:#FF45001F;width:90%;margin-left:5%;border-radius:30px;){{{{{\n+ #style(display: flex;flex-direction: column;gap:5px;){{{{\n+ #style(width:60px; height:60px; border-radius: 25%;background-image:url(https://bloxd.wikiru.jp/image/pukiwiki.png);background-size:100% 100%;position:relative;){{{\n+ #style(position: absolute;bottom:10px;right:-6px;width:26px;height:26px;){{\n+ &fa(2x,color=gray){wrench};\n+ }}\n+ }}}\n+ }}}}\n+ #style(width:calc(100% - 90px);display: flex;flex-direction: column;){{{{\n+ #style(width:fit-content;){{{\n+ &size(12){( ''期間限定ゲーム:[[キャプチャーザフラッグ>ゲームモード/キャプチャーザフラッグ]]の追加'' )};\n+ &new{2026-08-29 (土) 1:55:00};\n+ }}}\n+ #style(width:100%;margin-top:-15px;display: flex;flex-wrap: wrap;justify-content: flex-start;gap:20px;){{{\n+ #style(max-width:100%){{\n+ 新しい期間限定ゲーム \ud83d\n... (省略されました)\n```"
+  },
+  {
     "id": "b40f9e6103",
     "title": "ゲームモード/キャプチャーザフラッグ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
