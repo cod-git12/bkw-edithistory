@@ -216,16 +216,10 @@
     const HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json";
     let currentLastTimestamp = null;
 
-    // キャッシュを強制バイパスして最新履歴を取得する共通関数
+    // 安全に最新履歴を取得する関数（CORSエラーを回避しつつキャッシュ破棄）
     async function fetchHistoryLogs() {
-      // タイムスタンプ＋ランダム文字列でURLレベルでキャッシュを無効化
-      const cacheBuster = `t=${Date.now()}_${Math.random().toString(36).substring(2, 9)}`;
-      const res = await fetch(`${HISTORY_URL}?${cacheBuster}`, {
-        cache: "no-store",
-        headers: {
-          "Pragma": "no-cache",
-          "Cache-Control": "no-cache, no-store, must-revalidate"
-        }
+      const res = await fetch(`${HISTORY_URL}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`, {
+        cache: "no-store"
       });
       if (!res.ok) throw new Error("データの取得に失敗しました");
       return await res.json();
@@ -250,23 +244,17 @@
         if (editId) {
           let item = logs.find(l => l.id === editId);
 
-          // まだデータが見つからない場合、キャッシュ遅延対策として最大3回（各2.5秒）リトライ
-          if (!item) {
-            loadingEl.style.display = "block";
-            for (let attempt = 1; attempt <= 3; attempt++) {
-              loadingEl.innerText = `⏳ 最新データを取得中... (試行 ${attempt}/3)`;
-              await new Promise(r => setTimeout(r, 2500));
-              try {
-                logs = await fetchHistoryLogs();
-                item = logs.find(l => l.id === editId);
-                if (item) break;
-              } catch (e) {}
-            }
-            loadingEl.style.display = "none";
+          // まだデータが見つからない場合、1度だけ画面リロードして再取得を試みる
+          if (!item && !urlParams.has("retry")) {
+            contentEl.innerHTML = '<div>⏳ 最新の更新データを読み込み中... (自動で再試行します)</div>';
+            setTimeout(() => {
+              window.location.href = window.location.href + "&retry=1";
+            }, 2500);
+            return;
           }
 
           if (!item) {
-            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから再度読み込んでください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込んでください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
             return;
           }
 
