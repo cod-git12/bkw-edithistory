@@ -1,5 +1,12 @@
 [
   {
+    "id": "9637649222",
+    "title": "ゲームモード/キャプチャーザフラッグ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
+    "timestamp": "2026/8/29 17:04:23",
+    "diff": "```diff\n+ マップは現在一種類のみ実装されている。\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |CENTER:|c\n+ |&attachref(./Map_FlagFlat.png,,300x);|\n+ |FlagFlat|f\n+ }}\n```"
+  },
+  {
     "id": "3b566dc608",
     "title": "ゲームモード/キャプチャーザフラッグ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
