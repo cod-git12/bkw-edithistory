@@ -1,5 +1,19 @@
 [
   {
+    "id": "17781c1472",
+    "title": "ゲームモード/キャプチャーザフラッグ_",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0_",
+    "timestamp": "2026/8/29 19:00:04",
+    "diff": "```diff\n- #style(margin-left:10%;width:fit-content +;height:85px;display:flex;background-color:orange;border-radius:10px;justify-content:center;gap:50px;padding: 0px 20px 0px 20px;){{{{\n+ #style(margin-left:10%;width:fit-content;height:85px;display:flex;background-color:orange;border-radius:10px;justify-content:center;gap:20px;padding: 0px 20px){{{{\n```"
+  },
+  {
+    "id": "ab2385fe89",
+    "title": "記事テンプレート",
+    "url": "https://bloxd.wikiru.jp/?%E8%A8%98%E4%BA%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88",
+    "timestamp": "2026/8/29 19:00:06",
+    "diff": "```diff\n+ *注意書きのテンプレート [#c15c6c80]\n+ プレビュー:\n+ #style(width:100%;display:flex;justify-content:center;){{{{{\n+ #style(margin-left:10%;width:fit-content;height:85px;display:flex;background-color:orange;border-radius:10px;justify-content:center;gap:20px;padding: 0px 20px){{{{\n+ #style(width:fit-content;display:grid;align-items: center;height:100%;){{{\n+ #style(height:fit-content;){{\n+ &fa(3x,color=red){circle-exclamation};\n+ }}\n+ }}}\n+ #style(width:fit-content;display:grid;align-items: center;height:100%;){{{\n+ #style(height:fit-content;){{\n+ &size(15){この記事は現在''削除されたゲームモード''に関するページです。&br;同名で現存する[[ゲームモード]]である[[キャプチャーザフラッグ>ゲームモード/キャプチャーザフラッグ]]に関しては、&br;別ページを参照して下さい。};\n+ }}\n+ }}}\n+ }}}}\n+ }}}}}\n+ コピー:\n+ #code_x{{{{{{\n+ #style(width:100%;display:flex;justify-content:center;){{{{{\n+ #style(margin-left:10%;width:fit-content;height:85px;display:flex;background-color:orange;border-radius:10px;justify-content:center;gap:20px;padding: 0px 20px;){{{{\n+ #style\n... (省略されました)\n```"
+  },
+  {
     "id": "011b55fdd8",
     "title": "ゲームモード/キャプチャーザフラッグ_",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0_",
