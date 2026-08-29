@@ -1,5 +1,12 @@
 [
   {
+    "id": "9420a0906b",
+    "title": "トップニュース",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+    "timestamp": "2026/8/29 20:49:32",
+    "diff": "```diff\n- #style(width:calc(100% - 90px);display: flex;flex-direction: column;z-index:3){{{{\n+ #style(width:calc(100% - 90px);display: flex;flex-direction: column;){{{{\n- #style(max-width:calc(100% - 260px);){{\n+ #style(max-width:calc(100% - 260px);z-index:3){{\n- #style(width:250px;display: grid;place-items: center;    margin-top: -60px;){{\n+ #style(width:250px;display: grid;place-items: center;    margin-top: -60px;z-index:2){{\n- #style(width:100%;margin-top:-15px;padding: 0px 15px 0px 0px;text-align: right;margin-left: -15px;z-index:0){{{\n+ #style(width:100%;margin-top:-15px;padding: 0px 15px 0px 0px;text-align: right;margin-left: -15px;z-index:1){{{\n```"
+  },
+  {
     "id": "afb0dcf59d",
     "title": "トップニュース",
     "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
