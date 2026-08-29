@@ -1,5 +1,12 @@
 [
   {
+    "id": "3e453c45a0",
+    "title": "ゲームモード/キャプチャーザフラッグ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
+    "timestamp": "2026/8/29 14:09:01",
+    "diff": "```diff\n- #shadowheader(1,攻撃力上昇/Damage)\n+ #shadowheader(3,攻撃力上昇/Damage)\n```"
+  },
+  {
     "id": "7ed7273694",
     "title": "コメント/コード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88/%E3%82%B3%E3%83%BC%E3%83%89",
