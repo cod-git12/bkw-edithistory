@@ -1,5 +1,12 @@
 [
   {
+    "id": "ac2f624d50",
+    "title": "ゲームモード/キャプチャーザフラッグ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
+    "timestamp": "2026/8/29 17:21:12",
+    "diff": "```diff\n- 画像クリックで拡大\n- #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n- |CENTER:|c\n- |&attachref(./Map_FlagFlat.png,,300x);|\n- |FlagFlat|f\n+ #shadowheader(2,FlagFlat)\n+ >\n+ #interactiveMap(Map_FlagFlat.png,603,376){{\n+ pin,800,1500,青チームキット選択場\n+ pin,1148,1620,青チームの旗\n+ pin,2425,350,赤チームキット選択場\n+ pin,1865,77,赤チームの旗\n+ pin,1250,1100,[[溶岩>アイテム/溶岩]]\n+ pin,1660,430,[[溶岩>アイテム/溶岩]]\n+ <\n```"
+  },
+  {
     "id": "f22758cf1a",
     "title": "ゲームモード/キャプチャーザフラッグ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89/%E3%82%AD%E3%83%A3%E3%83%97%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B6%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0",
