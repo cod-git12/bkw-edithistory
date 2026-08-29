@@ -1,5 +1,19 @@
 [
   {
+    "id": "305057020f",
+    "title": "wikiからのお知らせ",
+    "url": "https://bloxd.wikiru.jp/?wiki%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+    "timestamp": "2026/8/29 18:33:35",
+    "diff": "```diff\n+ #style(margin-top:10px;display:flex;flex-wrap:nowrap;gap:20px;padding: 5px 0 5px 10px;background-color:#F0E6FF;width:90%;margin-left:5%;border-radius:30px;){{{{{\n+ #style(display: flex;flex-direction: column;gap:5px;){{{{\n+ #style(width:60px; height:60px; border-radius: 25%;background-image:url(https://bloxd.wikiru.jp/image/pukiwiki.png);background-size:100% 100%;position:relative;){{{\n+ #style(position: absolute;bottom:10px;right:-6px;width:26px;height:26px;){{\n+ &fa(2x,color=gray){wrench};\n+ }}\n+ }}}\n+ #style(width:50px; height:50px;margin: 5px; border-radius: 50%;background-color:#F5FFE6;display: grid;place-items: center;overflow-x:hidden;){{{\n+ CENTER:&attachref(ゲームモード/Bedwars.jpg,nolink,60x);\n+ }}}\n+ }}}}\n+ #style(width:calc(100% - 90px);display: flex;flex-direction: column;){{{{\n+ #style(width:fit-content;){{{\n+ &size(15){''[[ベッドウォーズ>ゲームモード/ベッドウォーズ]]の突然変異&#129516;&#129516;''};\n+ &size(12){~ ''4つの変異: ガーディアン、ランダム武器、役職特典、速い鉱石'' ~};\n... (省略されました)\n```"
+  },
+  {
+    "id": "3bd6dbb49a",
+    "title": "トップニュース",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
+    "timestamp": "2026/8/29 18:34:06",
+    "diff": "```diff\n+ #style(margin-top:10px;display:flex;flex-wrap:nowrap;gap:20px;padding: 5px 0 5px 10px;background-color:#F0E6FF;width:90%;margin-left:5%;border-radius:30px;){{{{{\n+ #style(display: flex;flex-direction: column;gap:5px;){{{{\n+ #style(width:60px; height:60px; border-radius: 25%;background-image:url(https://bloxd.wikiru.jp/image/pukiwiki.png);background-size:100% 100%;position:relative;){{{\n+ #style(position: absolute;bottom:10px;right:-6px;width:26px;height:26px;){{\n+ &fa(2x,color=gray){wrench};\n+ }}\n+ }}}\n+ #style(width:50px; height:50px;margin: 5px; border-radius: 50%;background-color:#F5FFE6;display: grid;place-items: center;overflow-x:hidden;){{{\n+ CENTER:&attachref(ゲームモード/Bedwars.jpg,nolink,60x);\n+ }}}\n+ }}}}\n+ #style(width:calc(100% - 90px);display: flex;flex-direction: column;){{{{\n+ #style(width:fit-content;){{{\n+ &size(15){''[[ベッドウォーズ>ゲームモード/ベッドウォーズ]]の突然変異&#129516;&#129516;''};\n+ &size(12){~ ''4つの変異: ガーディアン、ランダム武器、役職特典、速い鉱石'' ~};\n... (省略されました)\n```"
+  },
+  {
     "id": "10f1e87c3c",
     "title": "トップニュース",
     "url": "https://bloxd.wikiru.jp/?%E3%83%88%E3%83%83%E3%83%97%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9",
