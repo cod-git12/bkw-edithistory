@@ -4,6 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ</title>
+
+  <!-- OneSignal SDK の読み込み -->
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "08f7ca6d-71ce-4c64-babe-16b7f3ccabec",
+        safari_web_id: "",
+        notifyButton: {
+          enable: false,
+        },
+      });
+
+      OneSignal.User.PushSubscription.addEventListener("change", updateNotifyButtonState);
+      updateNotifyButtonState();
+    });
+
+    async function requestNotificationPermission() {
+      if (window.OneSignal) {
+        await OneSignal.Notifications.requestPermission();
+        updateNotifyButtonState();
+      }
+    }
+
+    function updateNotifyButtonState() {
+      const btn = document.getElementById("notifyBtn");
+      if (!btn || !window.OneSignal) return;
+
+      const isSubscribed = OneSignal.User.PushSubscription.optedIn;
+      const permission = Notification.permission;
+
+      if (permission === "granted" && isSubscribed) {
+        btn.innerText = "🔔 通知ON";
+        btn.disabled = true;
+        btn.style.backgroundColor = "#4ec9b0";
+      } else if (permission === "denied") {
+        btn.innerText = "🔕 通知拒否中";
+        btn.disabled = true;
+        btn.style.backgroundColor = "#ccc";
+      } else {
+        btn.innerText = "🔔 通知をオンにする";
+        btn.disabled = false;
+        btn.style.backgroundColor = "#57c4ff";
+      }
+    }
+  </script>
+
   <style>
     :root {
       --bg-color: #f4f6f8;
@@ -25,6 +73,14 @@
     }
     header {
       margin-bottom: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .header-title-area {
+      flex: 1;
     }
     h1 {
       margin: 0 0 8px 0;
@@ -33,6 +89,27 @@
     .sub {
       color: #666;
       font-size: 0.9rem;
+    }
+    .notify-btn {
+      background-color: #57c4ff;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: background-color 0.2s, opacity 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .notify-btn:hover {
+      background-color: #3ab4f2;
+    }
+    .notify-btn:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
     }
     .log-list {
       display: flex;
@@ -83,7 +160,6 @@
       padding: 40px;
       color: #666;
     }
-    /* 詳細画面用スタイル */
     .diff-box {
       background: #1e1e1e;
       color: #d4d4d4;
@@ -123,8 +199,13 @@
 
   <div class="container">
     <header id="header">
-      <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.3</h1>
-      <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
+      <div class="header-title-area">
+        <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.3</h1>
+        <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
+      </div>
+      <button id="notifyBtn" class="notify-btn" onclick="requestNotificationPermission()">
+        🔔 通知をオンにする
+      </button>
     </header>
 
     <div id="loading">データを読み込み中...</div>
@@ -139,13 +220,12 @@
       const loadingEl = document.getElementById("loading");
       const contentEl = document.getElementById("mainContent");
 
-      // URLのパラメータから ?editid=xxx を取得
       const urlParams = new URLSearchParams(window.location.search);
       const editId = urlParams.get("editid");
 
       try {
         const res = await fetch(`https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json?t=${Date.now()}`, {
-          cache: "no-store" // キャッシュを保持しないヘッダーを指定
+          cache: "no-store"
         });
         if (!res.ok) throw new Error("データの取得に失敗しました");
 
@@ -156,7 +236,6 @@
           currentLastTimestamp = logs[0].timestamp;
         }
 
-        // editid が指定されている場合は【詳細・差分画面】を表示
         if (editId) {
           const item = logs.find(l => l.id === editId);
           if (!item) {
@@ -175,7 +254,6 @@
           return;
         }
 
-        // editid がない場合は【通常の一覧画面】を表示
         if (logs.length === 0) {
           contentEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
           return;
@@ -212,18 +290,11 @@
       } catch (e) {}
     }
 
-    // Diffテキストを色付きHTMLに変換する関数
     function formatDiffHtml(diffText) {
-      // 差分データが存在しない・空の場合は安全にメッセージを返す
       if (!diffText) return "差分情報はありません。";
-
-      // マークダウン記法 (```diff や ```) を除去
       const cleanText = diffText.replace(/```diff\n?|\n?```/g, "").trim();
-
-      // 空文字になった場合も同様に安全なメッセージを返す
       if (!cleanText) return "差分情報はありません。";
 
-      // 行ごとに分解して + は緑、- は赤に色付け
       return cleanText.split("\n").map(line => {
         const escaped = escapeHtml(line);
         if (line.startsWith("+")) {
