@@ -1,5 +1,14 @@
 [
   {
+    "id": "95c3931b90",
+    "title": "bloxd攻略 Wiki",
+    "url": "https://bloxd.wikiru.jp/?bloxd%E6%94%BB%E7%95%A5+Wiki",
+    "timestamp": "2026/8/30 16:49:29",
+    "diff": "- #style(display:flex;justify-content:center;align-items:center;){{\n- &attachref(./IMG_8091.jpeg,nolink);\n+ //トップ画像\n+ CENTER:&attachref(./IMG_8091.jpeg,nolink);\n+ //お知らせ\n+ //- 見出し\n+ #style(color: inherit;background-color: #DDEEFF;padding: .3em;border: 0px;margin: 0px 0px .5em 0px;display: block;font-size: 1.5em;margin-block-start: 0.83em;margin-block-end: 0.83em;margin-inline-start: 0px;margin-inline-end: 0px;font-weight: bold;unicode-bidi: isolate;){{{\n+ #style(width:fit-content;margin-block-start: -1em;margin-block-end: -1em;){{\n+ &attachref(アイテム一覧/Fireball Block.png,nolink,30x30);お知らせ\n+ }}}\n- *&attachref(アイテム一覧/Fireball Block.png,nolink,30x30);お知らせ [#news]\n+ //- 内容\n- //justify-content:center;align-items:center;\n- #style(display:flex;height:fit-content;gap:5%){{{{{{{{\n+ //ようこそ+Bloxd.ioとは\n+ //- 分割\n+ #style(display:flex;height:fit-content;gap:2.5%){{{{{{{{",
+    "_displayTitle": "bloxd攻略 Wiki",
+    "_isComment": false
+  },
+  {
     "id": "6ce90326bd",
     "title": "RecentDeleted",
     "url": "https://bloxd.wikiru.jp/?RecentDeleted",
