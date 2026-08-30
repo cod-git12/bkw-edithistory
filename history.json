@@ -1,5 +1,14 @@
 [
   {
+    "id": "cdca0c61f0",
+    "title": "bloxd攻略 Wiki",
+    "url": "https://bloxd.wikiru.jp/?bloxd%E6%94%BB%E7%95%A5+Wiki",
+    "timestamp": "2026/8/30 16:51:52",
+    "diff": "- #style(color: inherit;background-color: #DDEEFF;padding: .3em;border: 0px;margin: 0px 0px .5em 0px;display: block;font-size: 1.5em;margin-block-start: 0.83em;margin-block-end: 0.83em;margin-inline-start: 0px;margin-inline-end: 0px;font-weight: bold;unicode-bidi: isolate;){{{\n- #style(width:fit-content;margin-block-start: -1em;margin-block-end: -1em;){{\n- &attachref(アイテム一覧/Fireball Block.png,nolink,30x30);お知らせ\n- }}\n- }}}\n+ *&attachref(アイテム一覧/Fireball Block.png,nolink,30x30);お知らせ [#news]",
+    "_displayTitle": "bloxd攻略 Wiki",
+    "_isComment": false
+  },
+  {
     "id": "ca3ef69ad8",
     "title": "記事テンプレート",
     "url": "https://bloxd.wikiru.jp/?%E8%A8%98%E4%BA%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88",
