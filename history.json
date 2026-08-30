@@ -1,5 +1,14 @@
 [
   {
+    "id": "7be0fcc698",
+    "title": "編集者",
+    "url": "https://bloxd.wikiru.jp/?%E7%B7%A8%E9%9B%86%E8%80%85",
+    "timestamp": "2026/8/30 9:46:34",
+    "diff": "- *主要編集者リスト [#main]\n+ *主要編集者リスト [#editer-main]\n- *一般編集者リスト [#other]\n+ *一般編集者リスト [#editer-other]",
+    "_displayTitle": "編集者",
+    "_isComment": false
+  },
+  {
     "id": "44fa682052",
     "title": "メニューコメント！",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%81",
