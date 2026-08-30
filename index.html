@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ</title>
 
-  <link rel="icon" type="image/png" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
-  <link rel="apple-touch-icon" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
-
   <!-- OneSignal SDK の読み込み -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
@@ -23,6 +20,7 @@
 
       OneSignal.User.PushSubscription.addEventListener("change", updateNotifyButtonState);
       updateNotifyButtonState();
+      loadNotificationSettings(); // 設定状態の読み込みを追加
     });
 
     async function requestNotificationPermission() {
@@ -51,6 +49,36 @@
         btn.innerText = "🔔 通知をオンにする";
         btn.disabled = false;
         btn.style.backgroundColor = "#57c4ff";
+      }
+    }
+
+    // 💬 コメント通知設定の読み込み
+    async function loadNotificationSettings() {
+      if (window.OneSignal) {
+        const tags = await OneSignal.User.getTags();
+        const isCommentEnabled = tags && tags.receive_comments === "true";
+        const toggle = document.getElementById("commentNotifyToggle");
+        if (toggle) toggle.checked = isCommentEnabled;
+      }
+    }
+
+    // 💬 コメント通知設定の切り替え
+    async function toggleCommentNotification(enabled) {
+      if (!window.OneSignal) return;
+
+      const permission = Notification.permission;
+      if (permission !== "granted") {
+        alert("先に「通知をオンにする」ボタンから通知権限を許可してください。");
+        document.getElementById("commentNotifyToggle").checked = false;
+        return;
+      }
+
+      if (enabled) {
+        await OneSignal.User.addTag("receive_comments", "true");
+        console.log("💬 コメント通知: ON に設定しました");
+      } else {
+        await OneSignal.User.removeTag("receive_comments");
+        console.log("💬 コメント通知: OFF に設定しました");
       }
     }
   </script>
@@ -89,15 +117,15 @@
       margin: 0 0 8px 0;
       font-size: 1.5rem;
     }
-    .title-icon {
-      width: 1.8rem;
-      height: auto;
-      vertical-align: middle;
-      margin-right: 8px;
-    }
     .sub {
       color: #666;
       font-size: 0.9rem;
+    }
+    .notify-area {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
     }
     .notify-btn {
       background-color: #57c4ff;
@@ -119,6 +147,15 @@
     .notify-btn:disabled {
       background-color: #ccc;
       cursor: not-allowed;
+    }
+    .notify-option {
+      font-size: 0.8rem;
+      color: #555;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      user-select: none;
     }
     .log-list {
       display: flex;
@@ -209,12 +246,18 @@
   <div class="container">
     <header id="header">
       <div class="header-title-area">
-        <h1><img src="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png" alt="アイコン" class="title-icon">Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.5</h1>
+        <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.3</h1>
         <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
       </div>
-      <button id="notifyBtn" class="notify-btn" onclick="requestNotificationPermission()">
-        🔔 通知をオンにする
-      </button>
+      <div class="notify-area">
+        <button id="notifyBtn" class="notify-btn" onclick="requestNotificationPermission()">
+          🔔 通知をオンにする
+        </button>
+        <label class="notify-option">
+          <input type="checkbox" id="commentNotifyToggle" onchange="toggleCommentNotification(this.checked)">
+          💬 コメント通知も受け取る
+        </label>
+      </div>
     </header>
 
     <div id="loading">データを読み込み中...</div>
@@ -225,7 +268,6 @@
     const HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json";
     let currentLastTimestamp = null;
 
-    // 安全に最新履歴を取得する関数（CORSエラーを回避しつつキャッシュ破棄）
     async function fetchHistoryLogs() {
       const res = await fetch(`${HISTORY_URL}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`, {
         cache: "no-store"
@@ -249,11 +291,9 @@
           currentLastTimestamp = logs[0].timestamp;
         }
 
-        // editid が指定されている【詳細・差分画面】
         if (editId) {
           let item = logs.find(l => l.id === editId);
 
-          // まだデータが見つからない場合、1度だけ画面リロードして再取得を試みる
           if (!item && !urlParams.has("retry")) {
             contentEl.innerHTML = '<div>⏳ 最新の更新データを読み込み中... (自動で再試行します)</div>';
             setTimeout(() => {
@@ -263,7 +303,7 @@
           }
 
           if (!item) {
-            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込むか、トップに戻って該当する更新履歴が出てくるまでお待ちください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込んでください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
             return;
           }
 
@@ -278,7 +318,6 @@
           return;
         }
 
-        // 通常の一覧画面
         if (logs.length === 0) {
           contentEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
           return;
