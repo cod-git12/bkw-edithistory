@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ</title>
 
+  <link rel="icon" type="image/png" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
+  <link rel="apple-touch-icon" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
+
   <!-- OneSignal SDK の読み込み -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
@@ -116,6 +119,12 @@
     h1 {
       margin: 0 0 8px 0;
       font-size: 1.5rem;
+    }
+    .title-icon {
+      width: 1.8rem;
+      height: auto;
+      vertical-align: middle;
+      margin-right: 8px;
     }
     .sub {
       color: #666;
@@ -246,7 +255,7 @@
   <div class="container">
     <header id="header">
       <div class="header-title-area">
-        <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.3</h1>
+        <h1><img src="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png" alt="アイコン" class="title-icon">Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.5</h1>
         <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
       </div>
       <div class="notify-area">
@@ -303,7 +312,7 @@
           }
 
           if (!item) {
-            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込んでください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込むか、トップに戻って該当する更新履歴が出てくるまでお待ちください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
             return;
           }
 
