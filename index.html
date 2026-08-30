@@ -174,13 +174,16 @@
     .log-item {
       background: var(--card-bg);
       border: 1px solid var(--border-color);
-      border-left: 4px solid var(--accent-color);
+      border-left: 4px solid var(--accent-color); /* 水色 */
       border-radius: 6px;
       padding: 12px 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 16px;
+    }
+    .log-item.comment-item {
+      border-left-color: #ffa500;
     }
     .log-title {
       font-weight: bold;
@@ -332,15 +335,22 @@
           return;
         }
 
-        contentEl.innerHTML = `<div class="log-list">` + logs.map(item => `
-          <div class="log-item">
-            <a href="${item.url}" class="log-title" target="_blank" rel="noopener noreferrer">${item.title}</a>
-            <div class="log-right">
-              <span class="log-time">${item.timestamp}</span>
-              ${item.id ? `<a href="?editid=${item.id}" class="detail-link">[詳細]</a>` : ''}
+        contentEl.innerHTML = `<div class="log-list">` + logs.map(item => {
+          const isComment = item.isComment || (item.title && item.title.startsWith("コメント/"));
+          const itemClass = isComment ? "log-item comment-item" : "log-item";
+
+          return `
+            <div class="${itemClass}">
+              <a href="${item.url}" class="log-title" target="_blank" rel="noopener noreferrer">
+                ${isComment ? "💬 " : ""}${item.title}
+              </a>
+              <div class="log-right">
+                <span class="log-time">${item.timestamp}</span>
+                ${item.id ? `<a href="?editid=${item.id}" class="detail-link">[詳細]</a>` : ''}
+              </div>
             </div>
-          </div>
-        `).join("") + `</div>`;
+          `;
+        }).join("") + `</div>`;
 
       } catch (err) {
         loadingEl.innerText = "❌ データの読み込みに失敗しました。";
