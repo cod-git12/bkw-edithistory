@@ -1,5 +1,15 @@
 [
   {
+    "id": "4b7d19be52",
+    "title": "ゲームモード/1v1ファイト",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F1v1%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88",
+    "timestamp": "2026/9/2 7:17:57",
+    "diff": "- ランクはUNRANKED,GRASS,WOOD,STONE,IRON,GOLD,DIAMOND,MOONSTONE,MAGMAGOLEM,KNIGHTがあるらしい\n+ ***ランク [#p88a7512]\n+ |画像|英語表示|和訳|h\n+ ||UNRANKED|アンランクド|\n+ ||GRASS|グラス|\n+ ||WOOD|ウッド|\n+ ||STONE|ストーン|\n+ ||IRON|アイロン|\n+ ||GOLD|ゴールド|\n+ ||DIAMOND|ダイヤモンド|\n+ ||MOONSTONE|ムーンストーン|\n+ ||MAGMAGOLEM|マグマゴーレム|\n+ ||KNIGHT|ナイト|\n+ このゲームを初めてプレイする場合、ランクはアンランクドで、3回プレイするとランクが定まる。\n+ 各ランクは３段階ある。\n+ #null{{{{{\n+ }}}}}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/1v1ファイト",
+    "_isComment": false
+  },
+  {
     "id": "64dc233fdf",
     "title": "メニューコメント！",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%81",
