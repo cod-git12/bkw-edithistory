@@ -1,5 +1,15 @@
 [
   {
+    "id": "1cc3f71a4a",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/1 17:40:28",
+    "diff": "- ***particle [#q225db26]\n- bubbleのパーティクルが体から表示される。以下の通り\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |コマンド|内容|h\n+ |/particle|bubbleのパーティクルが体から表示される。|\n+ |/sound|サウンド「levelup」の音が流れる。|\n+ |/effect|Speedの[[効果>効果]]が10秒間つく。|\n+ |/throwable|向いてる方向に[[雪玉>アイテム/雪玉]]が発射される。|\n+ |/skin|自分のスキンがゾンビになる。|\n+ |/arrow|スポーン地点の場所にDirectionArrowが追加される。|\n+ }}\n- /particle\n- ***sound [#m3d6b370]\n- サウンド「levelup」の音が流れる。以下の通り\n- /sound\n- ***effect [#f75ab55b]\n- Speedの[[効果>効果]]が10秒間つく。以下の通り\n- /effect\n- ***throwable [#na5d555e]\n- 向いてる方向に[[雪玉>アイテム/雪玉]]が発射される。以下の通り\n- /throwable\n- ***skin [#qe7f440c]\n- 自分のスキンがゾンビになる。以下の通り\n- /skin\n- ***arrow [#t66db3bb]\n- スポーン地点の場所にDirectionArrowが追加される。以下の通り\n- /arrow\n- 押した場合、ADを見て、100コインを入手するという内容だが、入手できない。\n+ 押した場合、ADを見て100コインを入手するという内容だが、入手できない。\n- -ちなみに、昔まではジャンプの回数には制限があった\n+ ちなみに、昔まではジャンプの回数には制限があった\n- &tooltip(他のサイト){[[bloxd.io>https://bloxd.io]]やアンブロックドドメインなど};からはURLを張っても&tooltip(エラー){元:Could not find a server to join for &br;this gamemode&br;訳:このゲームモードに参加するサーバーが&br;見つからなかった};がでて入れない\n+ &tooltip(他のサイト){[[bloxd.io>https://bloxd.io]]やアンブロックドドメインなど};からはURLを張っても&tooltip(エラーコード){元:Could not find a server to join for &br;this gamemode&br;訳:このゲームモードに参加するサーバーが&br;見つからなかった};がでて入れない",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "c3c45ef904",
     "title": "コメント/bloxd攻略 Wiki",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2Fbloxd%E6%94%BB%E7%95%A5+Wiki",
