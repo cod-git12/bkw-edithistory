@@ -1,5 +1,15 @@
 [
   {
+    "id": "01976bb12f",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/1 18:31:53",
+    "diff": "- |/mob [タイプ]|モブが自分の位置に召喚される((Draugr Knightなど空白があるモブは出せない))|\n+ |/mob [タイプ]|モブが自分の位置に召喚される((Draugr Knightなど名前に空白があるモブは出せない))|\n- 「Cookie 1」((Cookie は 1から18まである))や、「Pickaxe」や「Wool」と書かれた10コインを消費ものや、「Reset Map」、「Test input」((テキストを入力する形式のもの))など無料のものもある。\n+ 「Cookie 1」((Cookieは 1から18まである))や、「Pickaxe」や「Wool」と書かれた10コインを消費ものや、「Reset Map」、「Test input」((テキストを入力する形式))など無料のものもある。\n- 今と昔((昔はビルや建物が連なっているようなもので、&br;今では崖のようなものが多数あり、細長い形状のロビーがある))ではマップが違っていた\n+ 今と昔((昔はビルや建物が連なっているようなもので&br;今では崖のようなものが多数あり、細長い形状のロビーがある))ではマップが違っていた\n- 他のサイトからはURLを張ってもエラーコード((元:Could not find a server to join for this gamemode&br;訳:このゲームモードに参加するサーバーが見つからなかった))がでて入れない\n+ 他のサイトからはURLを張ってもエラーコード((元 Could not find a server to join for this gamemode&br;訳 このゲームモードに参加するサーバーが見つからなかった))がでて入れない",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "6dd1480a05",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
