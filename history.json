@@ -1,5 +1,15 @@
 [
   {
+    "id": "08b1c26fbd",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/3 16:12:14",
+    "diff": "- これら以外にも自分がオーナーの場合、TPコマンド、Kick Banコマンドや可視性 説明コマンドが使える。\n+ これら以外にもOwnerhelp、自分がオーナーの場合、TPコマンド、Kick Banコマンドや可視性変更コマンドや説明コマンドが使える。",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "448da909e1",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
