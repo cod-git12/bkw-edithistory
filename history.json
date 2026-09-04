@@ -1,5 +1,15 @@
 [
   {
+    "id": "650e3eba33",
+    "title": "コード/API関数",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0",
+    "timestamp": "2026/9/4 9:43:17",
+    "diff": "+ |attemptSpawnVehicle|||||\n+ |getVariation|||||\n+ |matchmakeToVariation|||||",
+    "isComment": false,
+    "_displayTitle": "コード/API関数",
+    "_isComment": false
+  },
+  {
     "id": "a094f267f0",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
