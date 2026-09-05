@@ -1,5 +1,15 @@
 [
   {
+    "id": "4751fee37a",
+    "title": "MenuBar",
+    "url": "https://bloxd.wikiru.jp/?MenuBar",
+    "timestamp": "2026/9/5 11:34:53",
+    "diff": "- &size(25){&color(red){全ページにおいてアイテムやブロックのページの作成/編集、アイテム画像の添付は禁止です!};};\n+ &size(25){&color(red){アイテムやブロックのページの作成/編集は禁止です!};};\n+ &size(15){&color(lime){9/1~ 試験的にアイテム画像の添付は許可されました!};};",
+    "isComment": false,
+    "_displayTitle": "MenuBar",
+    "_isComment": false
+  },
+  {
     "id": "5eaa8e414d",
     "title": "コード/QandA、作成依頼/ドロップアイテム",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FQandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC%2F%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0",
