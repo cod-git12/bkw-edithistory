@@ -1,5 +1,15 @@
 [
   {
+    "id": "871f035239",
+    "title": "ゲームモード/ベッドウォーズ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%99%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA",
+    "timestamp": "2026/9/5 9:59:11",
+    "diff": "- *概要 [#j60f32e4]\n+ *概要 [#gaiyou]\n- *自陣について [#d4336f54]\n+ *自陣について [#myhome]\n- **ベッド [#h98fee28]\n+ **ベッド [#myhome-bed]\n- さらに、[[アップグレード>#upgrade]]の[[アラーム>#Alarm]]を購入することで、敵が自陣に来たときに知らせてくれる。\n+ さらに、[[アップグレード>#gs-upgrade]]のアラームを購入することで、敵が自陣に来たときに知らせてくれる。\n- *ショップ [#Btwshop]\n+ *ショップ [#GameShop]\n- **Block / ブロック [#me612d3f]\n+ **Block / ブロック [#gs-block]\n- **Combat / 武器 [#u48dd977]\n+ **Combat / 武器 [#gs-combat]\n- **Utility / ユーティリティ [#tcf47354]\n+ **Utility / ユーティリティ [#gs-utility]\n- **Lucky / ラッキー [#g48c13da]\n+ **Lucky / ラッキー [#gs-lucky]\n- **Upgrade / アップグレード [#c9a61f06]\n+ **Upgrade / アップグレード [#gs-upgrade]\n- ***ダメージの効果量 [#bf915b7d]\n+ ***ダメージの効果量 [#damegeAmount]\n- ***プロテクションの効果量 [#nfe191a6]\n+ ***プロテクションの効果量 [#protectionAmount]\n- *マップ [#k9cc9a7c]\n+ *マップ [#map]\n- *鉱石 [#g804931f]\n+ **鉱石 [#map-ore]\n- *バリエーション [#x0af0222]\n+ **バリエーション [#map-variation]\n- *攻略法 [#df02d142]\n+ *攻略法 [#guide]\n- **アタッカー / Attacker [#f0768e20]\n+ **アタッカー / Attacker [#attackerGuide]\n- **ラッシャー / Rusher [#hb434edb]\n+ **ラッシャー / Rusher [#rusherGuide]\n- **ディフェンダー / Defender [#l69dd25d]\n+ **ディフェンダー / Defender [#defenderGuide]\n- **サポーター / Supporter [#x8aa451c]\n+ **サポーター / Supporter [#supporterGuide]\n- *歴史 [#a8a5c3c9]\n+ *歴史 [#history]\n- *トリビア [#i3afe427]\n+ *トリビア [#trivia]\n- *コメント [#z1845872]\n+ *コメント [#comment]",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/ベッドウォーズ",
+    "_isComment": false
+  },
+  {
     "id": "996b59806c",
     "title": "ゲームモード/ベッドウォーズ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%99%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA",
