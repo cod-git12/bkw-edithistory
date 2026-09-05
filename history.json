@@ -1,5 +1,15 @@
 [
   {
+    "id": "a2804717a9",
+    "title": "コード/QandA、作成依頼/ドロップアイテム",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FQandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC%2F%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0",
+    "timestamp": "2026/9/5 11:36:33",
+    "diff": "- 主要編集者らがポイントを設定するのをお待ち下さい。\n- //&color(orange){&size(20){''このコードの作成には?ポイントが必要です。''};};\n- //[[こちら>コード/QandA、作成依頼#getPoint]]を参考に、ポイントを集めてください。\n+ //主要編集者らがポイントを設定するのをお待ち下さい。\n+ &color(orange){&size(20){''このコードの作成には20ポイントが必要です。''};};\n+ [[こちら>コード/QandA、作成依頼#getPoint]]を参考に、ポイントを集めてください。\n- &tag(コード依頼_ポイント設定待ち);\n- //&tag(コード依頼_ポイント付与待ち);\n+ //&tag(コード依頼_ポイント設定待ち);\n+ &tag(コード依頼_ポイント付与待ち);",
+    "isComment": false,
+    "_displayTitle": "コード/QandA、作成依頼/ドロップアイテム",
+    "_isComment": false
+  },
+  {
     "id": "4751fee37a",
     "title": "MenuBar",
     "url": "https://bloxd.wikiru.jp/?MenuBar",
