@@ -1,5 +1,15 @@
 [
   {
+    "id": "82d1fa5cc4",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/6 12:33:36",
+    "diff": "- エフェクトが表示される場所に&attachref(アイテム一覧/Diamond.png,20x20);「Feature Tester」と書かれたエフェクトが付与されている。\n+ エフェクトが表示される場所に&attachref(アイテム一覧/Diamond.png,20x20);Feature Testerと書かれたエフェクトが付与されている。",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "5a4c6ac7c1",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
