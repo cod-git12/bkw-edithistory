@@ -1,5 +1,15 @@
 [
   {
+    "id": "c40b5612e1",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/6 10:35:16",
+    "diff": "- プレイヤーは入室時に[[ダイヤモンド鉱石>アイテム/ダイヤモンド鉱石]]20個、[[石>アイテム/石]]20個、[[雪玉>アイテム/雪玉]]999個、[[メープルのはしご>アイテム/メープルのはしご]]999個、残弾数1の[[AK-47>アイテム/AK-47]]を獲得する\n+ プレイヤーは入室時に&attachref(アイテム一覧/Diamond Ore.png,20x20);[[ダイヤモンド鉱石>アイテム/ダイヤモンド鉱石]]20個、&attachref(アイテム一覧/Stone.png,20x20);[[石>アイテム/石]]20個、&attachref(アイテム一覧/Snowball.png,20x20);[[雪玉>アイテム/雪玉]]999個、&attachref(アイテム一覧/Maple Ladder.png,20x20);[[メープルのはしご>アイテム/メープルのはしご]]999個、残弾数1の&attachref(アイテム一覧/AK-47.png,20x20);[[AK-47>アイテム/AK-47]]を獲得する\n- エフェクトが表示される場所に[[ダイヤモンド>アイテム/ダイヤモンド]]と「Feature Tester」と書かれたエフェクトが付与されている。\n+ エフェクトが表示される場所に&attachref(アイテム一覧/Diamond.png,20x20);「Feature Tester」と書かれたエフェクトが付与されている。\n- |/throwable|向いてる方向に[[雪玉>アイテム/雪玉]]が発射される。|\n+ |/throwable|向いてる方向に&attachref(アイテム一覧/Snowball.png,20x20);[[雪玉>アイテム/雪玉]]が発射される。|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "ef139b5d66",
     "title": "Bloxd.io",
     "url": "https://bloxd.wikiru.jp/?Bloxd.io",
