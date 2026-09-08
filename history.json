@@ -1,5 +1,15 @@
 [
   {
+    "id": "304e9d0b7c",
+    "title": "ゲームモード/ナインティーナインナイツ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%8A%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%84",
+    "timestamp": "2026/9/8 21:15:35",
+    "diff": "- |&attachref();|墓地&br;🪦Graveyard|2個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n- |&attachref();|ゾンビの小屋&br;🧟Hut|3個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n- |&attachref();|長屋&br;🧟Longhouse|4個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n- |&attachref();|要塞&br;🧟fortress|14個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n- |&attachref();|高い家&br;Tall House|8個||\n- |&attachref();|小さい鉱山&br;⛏️Small Mine|&minus;|&minus;|\n- |&attachref();|大きい鉱山&br;⛏️Large Mine|3個|&minus;|\n- |&attachref();|櫓&br;🔭Watchtower|1個|-|\n- |&attachref();|ボロ小屋&br;🛖Shack|1個|-|\n- |&attachref();|小屋&br;🏚Cabin|2個|-|\n- |&attachref();|キャンプ&br;⛺️Camp|1個|-|\n+ |&attachref(./Graveyard.png,,200x);|墓地&br;🪦Graveyard|2個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n+ |&attachref(./Hut.png,,200x);|ゾンビの小屋&br;🧟Hut|3個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n+ |&attachref(./Longhouse.png,,200x);|長屋&br;🧟Longhouse|4個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n+ |&attachref(./Fortress.png,,200x);|要塞&br;🧟fortress|14個|[[ドラウグルゾンビ>モブ/Draugr Zombie]]&br;[[ドラウグルスケルトン>モブ/Draugr Skeleton]]|\n+ |&attachref(./Tall House.png,,200x);|高い家&br;Tall House|8個||\n+ |&attachref(./Small Mine.png,,200x);&br;&attachref(./Small Mine_better.png,,200x);|小さい鉱山&br;⛏️Small Mine|&minus;|&minus;|\n+ |&attachref(./Large Mine.png,,200x);|大きい鉱山&br;⛏️Large Mine|3個|&minus;|\n+ |&attachref(./Watch Tower.png,,200x);|櫓&br;🔭Watchtower|1個|-|\n+ |&attachref(./Shack.png,,200x);|ボロ小屋&br;🛖Shack|1個|-|\n+ |&attachref(./Cabin.png,,200x);|小屋&br;🏚Cabin|2個|-|\n+ |&attachref(./Camp.png,,200x);|キャンプ&br;⛺️Camp|1個|-|\n+ |&attachref(./Shrine.png,,200x);&br;&attachref(./Shrine_front.png,,200x);|Shrine|||\n+ |&attachref(./Lodge.png,,200x);|Lodge|||\n+ |&attachref(./Ruined Lodge.png,,200x);|Ruined Lodge|||\n+ |&attachref(./Hovel.png,,200x);|Hovel|||\n+ |&attachref(./Ruined Hovel.png,,200x);|Ruined Hovel|||\n+ |&attachref(./Frozen Lagoon.png,,200x);|Frozen Lagoon|||\n+ |&attachref(./Mount Doomrock.png,,200x);|Mount Doomrock|||\n+ |&attachref(./Wraith Lair.png,,200x);|Wraith Lair|||\n+ |&attachref(./Molten Gorge.png,,200x);|Molten Gorge|||\n+ また、名前が設定されていないが岩のような構造物もある。\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |&attachref(./Rock.png,,200x);|&attachref(./Snow Rock.png,,200x);|&attachref(./Ice Rock.png,,200x);|\n+ }}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/ナインティーナインナイツ",
+    "_isComment": false
+  },
+  {
     "id": "5eb2253a95",
     "title": "ゲームモード/グリーンビル",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%93%E3%83%AB",
