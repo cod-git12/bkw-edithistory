@@ -1,5 +1,15 @@
 [
   {
+    "id": "f6ee0fea08",
+    "title": "ゲームモード/グリーンビル",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%93%E3%83%AB",
+    "timestamp": "2026/9/9 18:09:19",
+    "diff": "- #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{{\n+ #null{{\n+ }}}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/グリーンビル",
+    "_isComment": false
+  },
+  {
     "id": "5c304880d4",
     "title": "ゲームモード/フィッシング",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%B3%E3%82%B0",
