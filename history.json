@@ -1,5 +1,15 @@
 [
   {
+    "id": "b2f1e0c081",
+    "title": "MenuBar",
+    "url": "https://bloxd.wikiru.jp/?MenuBar",
+    "timestamp": "2026/9/11 8:52:08",
+    "diff": "- - &attachref(ゲームモード/Plots.jpg,zoom,28x15); [[プロット>ゲームモード/プロット]]✕\n+ - &attachref(ゲームモード/Plots.jpg,zoom,28x15); [[プロット>ゲームモード/プロット]]",
+    "isComment": false,
+    "_displayTitle": "MenuBar",
+    "_isComment": false
+  },
+  {
     "id": "48eaa9ef61",
     "title": "ゲームモード/削除されたモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E5%89%8A%E9%99%A4%E3%81%95%E3%82%8C%E3%81%9F%E3%83%A2%E3%83%BC%E3%83%89",
