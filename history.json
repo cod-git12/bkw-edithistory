@@ -1,5 +1,15 @@
 [
   {
+    "id": "451eb6dee4",
+    "title": "コード/QandA、作成依頼/ShopItemのbadgeについて",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FQandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC%2FShopItem%E3%81%AEbadge%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+    "timestamp": "2026/9/11 17:46:25",
+    "diff": "+ *依頼 [#g5d18f5d]\n+ |RIGHT:100|700|c\n+ |項目|内容|h\n+ |~依頼者|Corn|\n+ |~依頼日|2026-09-11 (金) 17:46:25|\n+ |~期限|6か月|\n+ |~コードタイプ|コードブロック|\n+ |~タイトル|ShopItemのbadgeについて|\n+ |~概要|shopitemのbadge内のtypeについて|\n+ |~備考|よろしくお願いします!|\n+ #hr\n+ typeの変え方はShopItemBadgeTypeというtypeで帰れるっぽいんですが、その項目がないので質問しました。\n+ 知りたいだけです()\n+ &br;\n+ *状態 [#i014d372]\n+ [[こちら>コード/QandA、作成依頼#how]]を参照してください。\n+ 主要編集者らがポイントを設定するのをお待ち下さい。\n+ //&color(orange){&size(20){''このコードの作成には?ポイントが必要です。''};};\n+ //[[こちら>コード/QandA、作成依頼#getPoint]]を参考に、ポイントを集めてください。\n+ *依頼への質問 [#a6db8527]\n+ 回答者が依頼者に詳しい内容などを尋ねます。\n+ #comment\n+ &br;\n+ *コード回答 [#t450fe91]\n+ 題名入力の必要はありません。\n+ #article\n+ &br;\n+ *満足度調査 [#w4232045]\n+ アンケートにご協力ください。\n+ #raty(早さ)\n+ #raty(完成度)\n+ #raty(総合)\n+ コメント/意見がありましたら[[こちら>コード/QandA、作成依頼#QandAcomment]]へご記入ください。\n+ &tag(コード依頼_ポイント設定待ち);\n+ //&tag(コード依頼_ポイント付与待ち);\n+ //&tag(コード依頼_回答受付中);\n+ //&tag(コード依頼_回答終了);\n+ //&tag(コード依頼_回答拒否);",
+    "isComment": false,
+    "_displayTitle": "コード/QandA、作成依頼/ShopItemのbadgeについて",
+    "_isComment": false
+  },
+  {
     "id": "7a98e985de",
     "title": "メニューコメント！",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%81",
