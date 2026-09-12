@@ -1,5 +1,15 @@
 [
   {
+    "id": "7a4d8810a9",
+    "title": "構造物/ジャングル関連",
+    "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E9%96%A2%E9%80%A3",
+    "timestamp": "2026/9/12 15:30:18",
+    "diff": "- &attachref(構造物、自然物/dungeonMagmaLarge1.png,nolink,zoom,125x75);\n+ &attachref(構造物、自然物/rockJungleLarge2.png,nolink,zoom,125x75);\n- CENTER:&size(23){''地下遺跡''};\n+ CENTER:&size(23){''ジャングルの岩''};\n- 地下遺跡（英：dungeon）とは、&br;[[ジャングル>バイオーム/森林バイオーム/ジャングル]]に低確率で生成される[[構造物、自然物]]の1つである。\n+ ジャングルの岩（英：rockJungle）とは、&br;[[ジャングル>バイオーム/森林バイオーム/ジャングル]]に低確率で生成される[[構造物、自然物]]の1つである。",
+    "isComment": false,
+    "_displayTitle": "構造物/ジャングル関連",
+    "_isComment": false
+  },
+  {
     "id": "1450127adf",
     "title": "構造物/ジャングル関連",
     "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E9%96%A2%E9%80%A3",
