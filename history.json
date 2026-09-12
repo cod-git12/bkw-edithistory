@@ -1,5 +1,25 @@
 [
   {
+    "id": "543b64657b",
+    "title": "構造物/謎めいた遺跡",
+    "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E8%AC%8E%E3%82%81%E3%81%84%E3%81%9F%E9%81%BA%E8%B7%A1",
+    "timestamp": "2026/9/12 15:41:08",
+    "diff": "差分データなし（新規作成または変更なし）",
+    "isComment": false,
+    "_displayTitle": "構造物/謎めいた遺跡",
+    "_isComment": false
+  },
+  {
+    "id": "e79f2bccde",
+    "title": "構造物/地下遺跡",
+    "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E5%9C%B0%E4%B8%8B%E9%81%BA%E8%B7%A1",
+    "timestamp": "2026/9/12 15:41:52",
+    "diff": "- *コメント [#s0f36351]\n+ *コメント [#comments]",
+    "isComment": false,
+    "_displayTitle": "構造物/地下遺跡",
+    "_isComment": false
+  },
+  {
     "id": "aa6299b8a8",
     "title": "構造物/凍った荒地関連",
     "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E5%87%8D%E3%81%A3%E3%81%9F%E8%8D%92%E5%9C%B0%E9%96%A2%E9%80%A3",
