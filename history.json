@@ -1,5 +1,15 @@
 [
   {
+    "id": "4672ca9f80",
+    "title": "構造物/凍った荒地関連",
+    "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E5%87%8D%E3%81%A3%E3%81%9F%E8%8D%92%E5%9C%B0%E9%96%A2%E9%80%A3",
+    "timestamp": "2026/9/12 15:33:09",
+    "diff": "- このページでは凍った荒地関連の構造物、自然物について解説していく。\n+ >\n+ #cssbox(\"width:auto; padding:5px 20px 0px 20px; background-color:#ddeeff; border-radius:20px;\"){{{{\n+ #flex_container(space-around){{{\n+ #flex_box{{\n+ &attachref(構造物、自然物/ruinSnowLarge1.png,nolink,zoom,125x75);\n+ }}\n+ #flex_box(470){{\n+ CENTER:&size(23){''凍った荒地関連''};\n+ #hr\n+ 凍った荒地の岩、凍った荒地の遺跡（英：rockSnow、ruinSnow）とは、&br;[[ジャングル>バイオーム/雪原バイオーム/凍った荒地]]に低確率で生成される[[構造物、自然物]]の1つである。\n+ }}\n+ }}}\n+ }}}}\n+ <\n- #shadowheader(1,目次)\n- #contents\n- *概要 [#t4e4a321]",
+    "isComment": false,
+    "_displayTitle": "構造物/凍った荒地関連",
+    "_isComment": false
+  },
+  {
     "id": "7a4d8810a9",
     "title": "構造物/ジャングル関連",
     "url": "https://bloxd.wikiru.jp/?%E6%A7%8B%E9%80%A0%E7%89%A9%2F%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E9%96%A2%E9%80%A3",
