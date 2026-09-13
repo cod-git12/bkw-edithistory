@@ -1,5 +1,15 @@
 [
   {
+    "id": "e7d8bdc6ca",
+    "title": "記事テンプレート",
+    "url": "https://bloxd.wikiru.jp/?%E8%A8%98%E4%BA%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88",
+    "timestamp": "2026/9/13 20:12:20",
+    "diff": "+ **名前わかんない [#mfc305b2]\n+ プレビュー：\n+ >\n+ #cssbox(\"width:auto; padding:5px 20px 0px 20px; background-color:#ddeeff; border-radius:20px;\"){{{{\n+ #flex_container(space-around){{{\n+ #flex_box{{\n+ &fa(5x,color=#ffcc00){fas fa-zap};\n+ }}\n+ #flex_box(470){{\n+ CENTER:&size(23){''スーパーランク''};\n+ #hr\n+ CENTER:スーパーランク（英：Super Rank）とは、Bloxdの課金要素である。\n+ }}\n+ }}}\n+ }}}}\n+ <\n+ #fold(){{{{{{\n+ #code_x{{{{{\n+ >\n+ #cssbox(\"width:auto; padding:5px 20px 0px 20px; background-color:#ddeeff; border-radius:20px;\"){{{{\n+ #flex_container(space-around){{{\n+ #flex_box{{\n+ &fa(5x,color=#ffcc00){fas fa-zap};\n+ }}\n+ #flex_box(470){{\n+ CENTER:&size(23){''スーパーランク''};\n+ #hr\n+ CENTER:スーパーランク（英：Super Rank）とは、Bloxdの課金要素である。\n+ }}\n+ }}}\n+ }}}}\n+ <\n+ }}}}}\n+ }}}}}}",
+    "isComment": false,
+    "_displayTitle": "記事テンプレート",
+    "_isComment": false
+  },
+  {
     "id": "0e1b73dc08",
     "title": "コード/API関数一覧",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%E4%B8%80%E8%A6%A7",
