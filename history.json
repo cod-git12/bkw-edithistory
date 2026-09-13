@@ -1,5 +1,15 @@
 [
   {
+    "id": "1e8a290fa5",
+    "title": "記事テンプレート",
+    "url": "https://bloxd.wikiru.jp/?%E8%A8%98%E4%BA%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88",
+    "timestamp": "2026/9/13 18:09:55",
+    "diff": "+ プレビュー：\n+ #style(color: inherit;background-color: #DDEEFF;padding: .3em;border: 0px;margin: 0px 0px .5em 0px;display: block;font-size: 1.5em;margin-block-start: 0.83em;margin-block-end: 0.83em;margin-inline-start: 0px;margin-inline-end: 0px;font-weight: bold;unicode-bidi: isolate;){{{\n+ #style(width:fit-content;margin-block-start: -1em;margin-block-end: -1em;){{\n+ あいうえお\n+ }}\n+ }}}\n+ shadowheaderの場合：\n+ #shadowheader(1,あいうえお)\n+ コード：",
+    "isComment": false,
+    "_displayTitle": "記事テンプレート",
+    "_isComment": false
+  },
+  {
     "id": "44fecb9694",
     "title": "ロビーオーナー",
     "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%93%E3%83%BC%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC",
