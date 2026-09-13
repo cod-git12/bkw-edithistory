@@ -1,5 +1,15 @@
 [
   {
+    "id": "92977bbf21",
+    "title": "ロビーオーナー",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%93%E3%83%BC%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC",
+    "timestamp": "2026/9/13 20:19:44",
+    "diff": "- &fa(5x,color=#f5d142){fas fa-crown};\n+ //&fa(5x,color=#f5d142){fas fa-crown};\n+ &attachref(./crown-solid-full.png,nolink,80x80);",
+    "isComment": false,
+    "_displayTitle": "ロビーオーナー",
+    "_isComment": false
+  },
+  {
     "id": "a3fb7120c8",
     "title": "ロビーオーナー",
     "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%93%E3%83%BC%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC",
