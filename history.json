@@ -1,5 +1,15 @@
 [
   {
+    "id": "24e2cd0935",
+    "title": "ロビーオーナー",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%93%E3%83%BC%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC",
+    "timestamp": "2026/9/13 16:21:40",
+    "diff": "- ここのページでできることはすべてボタンに書いているので省略する。\n- |画像|内容|h\n- ||落下ダメージの有効化、無効化を切り替える|\n- ||TPリクエストの有効化、無効化を切り替える|\n- ||スポーン地点でのPvP、建築の可否の切り替え|\n- ||スポーン地点周辺を定期的にリセットするのを有効化、無効化を切り替える|\n- ||B shopで使用可能なSMPマーケットの有効化、無効化を切り替える|\n- ||サバイバルで銃がクラフト可能にするのを有効化、無効化を切り替える|\n- ||昼夜のサイクルを入れ、光の設定を有効化、無効化に切り替える|\n+ |画像|>|タイトル|内容|h\n+ |~|日本語|英語|~|h\n+ |&attachref(アイコン一覧/FallDamage.png,50x50);|落下ダメージを有効にする|Enable Fall Damage|落下ダメージを有効にする|\n+ |&attachref(アイコン一覧/Tp Request Icon.png,50x50);|TPリクエストを有効にする|Enable TP Requests|プレイヤーが/tprequestでリクエストを送信できるようにする|\n+ |&attachref(アイコン一覧/Damage Reduction.png,50x50);|スポーン時の無敵を有効にする|Enable Spawn Protection|スポーンエリアでのブロックの設置、PvPを無効化する|\n+ |&attachref(アイコン一覧/spawnReset.png,50x50);|スポーン周辺のリセットを有効にする|Enable Spawn Reset|定期的にスポーン付近のブロックがリセットされるようにする(0,0から198チャンクまで)|\n+ |&attachref(アイテム一覧/Gold Coin.png,50x50);|SMPマーケットを有効にする|Enable SMP Marketplace|プレイヤー間で売買できる[[マーケット>ゲームモード/ザブロックスドSMP]]を有効化する|\n+ |&attachref(アイテム一覧/M1911.png,50x50);|サバイバルで銃を有効にする|Enable Survival Guns|銃のクラフトレシピを追加してサバイバルで銃を使えるようにし、モブも銃を使うようにする|\n+ |&attachref(アイコン一覧/dayNight.png,50x50);|昼夜サイクルを有効にする|Enable Day & Night|昼夜サイクルを追加して光源の処理を有効化する|\n+ |&attachref(アイテム一覧/Chest.png,50x50);|インベントリのドロップ|Drop Inventory|プレイヤーがインベントリをドロップする条件を設定する&br;All deaths: 死ぬたびドロップ。In PvP: PvP中のみドロップ。Never: ドロップしない。|",
+    "isComment": false,
+    "_displayTitle": "ロビーオーナー",
+    "_isComment": false
+  },
+  {
     "id": "25ffd1f3c9",
     "title": "アイコン一覧",
     "url": "https://bloxd.wikiru.jp/?%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E4%B8%80%E8%A6%A7",
