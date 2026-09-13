@@ -1,5 +1,15 @@
 [
   {
+    "id": "30431d2de0",
+    "title": "MenuBar",
+    "url": "https://bloxd.wikiru.jp/?MenuBar",
+    "timestamp": "2026/9/13 20:53:46",
+    "diff": "- 詳細な更新履歴：https://bkw-history.vercel.app\n+ &size(20){''更新履歴を通知で受け取りたい？''};\n+ &size(20){''[[ここをクリック>https://bkw-history.vercel.app]]''};",
+    "isComment": false,
+    "_displayTitle": "MenuBar",
+    "_isComment": false
+  },
+  {
     "id": "ffab66798a",
     "title": "バイオーム",
     "url": "https://bloxd.wikiru.jp/?%E3%83%90%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%A0",
