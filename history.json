@@ -1,5 +1,15 @@
 [
   {
+    "id": "d704b84e28",
+    "title": "コード/API関数一覧",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%E4%B8%80%E8%A6%A7",
+    "timestamp": "2026/9/16 15:49:00",
+    "diff": "- |api.setPosition(playerId, x, y, z)|プレイヤーの位置をを指定座標に設定||\n+ |api.setPosition(playerId, x, y, z)|プレイヤーの位置を指定座標に設定||",
+    "isComment": false,
+    "_displayTitle": "コード/API関数一覧",
+    "_isComment": false
+  },
+  {
     "id": "3045c3f5c0",
     "title": "コード/API関数一覧",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%E4%B8%80%E8%A6%A7",
