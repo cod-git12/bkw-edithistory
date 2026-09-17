@@ -1,5 +1,15 @@
 [
   {
+    "id": "8a1896ccd3",
+    "title": "ゲームモード/フロントライン",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%B3",
+    "timestamp": "2026/9/17 16:32:12",
+    "diff": "- |~|~|&attachref(アイテム一覧/Medkit.png,,50x50);|復活&br;Comeback&br;体力が90以上だった時に25以下になると即座に体力が20回復し、再生が3秒付与される|~|~|\n+ |~|~|&attachref(アイテム一覧/Medkit.png,,50x50);|復活&br;Comeback&br;体力が75以上だった後に25以下になると即座に20回復し、再生が3秒付与される|~|~|\n+ |~|~|&attachref(アイテム一覧/Mining Grenade.png,,50x50);|[[採掘用爆弾&br;Mining Grenade>アイテム/採掘用爆弾]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Mining Grenade.png,,50x50);|再供給&br;Mining Resupply&br;15秒ごとに3個まで[[採掘用爆弾>アイテム/採掘用爆弾]]が手に入る|~|~|\n- |~|~|&attachref(アイテム一覧/Speed Potion.png,,50x50);|熱狂&br;Frenzy&br;敵を倒すごとに効果が1ずつ上がる(最大3)俊足が12秒間付与される|~|~|\n+ |~|~|&attachref(アイテム一覧/Speed Potion.png,,50x50);|熱狂&br;Frenzy&br;敵を倒すごとに効果が1ずつ上がる(最大3)俊足が8秒間付与される|~|~|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/フロントライン",
+    "_isComment": false
+  },
+  {
     "id": "d3b076214c",
     "title": "コード/QandA、作成依頼/本を配布するコードが欲しい",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FQandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC%2F%E6%9C%AC%E3%82%92%E9%85%8D%E5%B8%83%E3%81%99%E3%82%8B%E3%82%B3%E3%83%BC%E3%83%89%E3%81%8C%E6%AC%B2%E3%81%97%E3%81%84",
