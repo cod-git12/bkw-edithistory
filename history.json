@@ -1,5 +1,15 @@
 [
   {
+    "id": "044c2a4d2d",
+    "title": "ランク",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A9%E3%83%B3%E3%82%AF",
+    "timestamp": "2026/9/20 8:49:36",
+    "diff": "- *スーパーランク [#h8ac6c15]\n+ *スーパーランク [#super]\n- **概要 [#n51ea0f7]\n+ **概要 [#super-ov]\n- **購入特典 [#tba494db]\n+ **購入特典 [#super-perk]\n- *ユーチューバーランク [#r3a18ee3]\n+ *クリエイターランク [#r3a18ee3]\n+ &fa(5x,color=red){fab fa-sparkle};\n+ }}\n+ #flex_box(470){{\n+ CENTER:&size(23){''クリエイターランク''};\n+ #hr\n+ CENTER:クリエイターランク（英：Creator Rank）とは、&br;Bloxdでカスタムゲームを公開しているプレイヤーが一定の条件を達すると付与されるランクである\n+ }}\n+ }}}\n+ }}}}\n+ <\n+ **概要 [#n51ea0f7]\n+ クリエイターランクは、以下の条件で付与される、クリエイター向けのランクである。\n+ クリエイターランクには、紫、赤、オレンジの３段階ある。\n+ それぞれ、各プレイヤーの最も成績の良いカスタムゲームの\n+ 一日あたりのプレイ時間（plays/day）\n+ セッション時間（session length）\n+ プレイヤー1人あたりのセッション数（sessions/player）\n+ によって決まる。\n+ **特典 [#tba494db]\n+ クリエイターランクを付与されると、特典を得ることができる。\n+ クリエイターデザインケープの使用\n+ クリエイターランクのネームタグ\n+ *ユーチューバーランク [#youtube]\n+ >\n+ #cssbox(\"width:auto; padding:5px 20px 0px 20px; background-color:#ddeeff; border-radius:20px;\"){{{{\n+ #flex_container(space-around){{{\n+ #flex_box{{\n- **概要 [#n51ea0f7]\n+ **概要 [#youtube-ov]\n- **特典 [#tba494db]\n+ **特典 [#youtube-perk]\n+ 新機能の先行公開\n- *デベロッパーランク [#ce63b01c]\n+ *デベロッパーランク [#dev]\n- **概要 [#n51ea0f7]\n+ **概要 [#dev-ov]\n- **特典 [#tba494db]\n+ **特典 [#dev-perk]\n- *コメント [#dd7ac208]\n+ *コメント [#comment]",
+    "isComment": false,
+    "_displayTitle": "ランク",
+    "_isComment": false
+  },
+  {
     "id": "e0625d0a59",
     "title": "アップデートログ2026",
     "url": "https://bloxd.wikiru.jp/?%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%83%AD%E3%82%B02026",
