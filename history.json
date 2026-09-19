@@ -1,5 +1,15 @@
 [
   {
+    "id": "366a241d76",
+    "title": "コード/QandA、作成依頼/入室時物を渡すandキル数カウント(gメニュー)",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FQandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC%2F%E5%85%A5%E5%AE%A4%E6%99%82%E7%89%A9%E3%82%92%E6%B8%A1%E3%81%99and%E3%82%AD%E3%83%AB%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88(g%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC)",
+    "timestamp": "2026/9/19 18:19:04",
+    "diff": "- できた~\n+ #code_x{{\n+ const customLobbyLeaderboardInfo = {\n+ name: {\n+ displayName: \"Name\",\n+ sortPriority: 0,\n+ },\n+ killcount: {\n+ displayName: \"Kills\",\n+ sortPriority: 1,\n+ }\n+ }\n+ onPlayerJoin = (pId) => {\n+ if (!api.getPlayerDbValue(pId,\"joined\")) {\n+ [\"Helmet\", \"Chestplate\", \"Gauntlets\", \"Leggings\", \"Boots\"].forEach((part,i) => {\n+ api.setItemSlot(pId,46+i, `Diamond ${part}`, 1, { customAttributes: { enchantments: { \"Protection\": 3, \"Health Regen\": 2 },enchantmentTier:\"Tier 5\"} });\n+ })\n+ api.giveItem(pId, \"Diamond Sword\", 1, { customAttributes: { enchantments: { \"Attack Speed\": 3, \"Damage\": 2 },enchantmentTier:\"Tier 5\"} });\n+ }\n+ api.setPlayerDbValue(pId,\"joined\", \"joined\");\n+ api.setClientOption(pId, \"lobbyLeaderboardInfo\", customLobbyLeaderboardInfo);\n+ onPlayerKilledOtherPlayer(pId,pId,0,\"Air\");\n+ }\n+ onPlayerKilledOtherPlayer = (attacker, damager, damage, item) => {\n+ const killcounts = (api.getPlayerDbValue(attacker, \"killcounts\") ?? 0) + (attacker == damager ? 0 : 1);\n+ api.setPlayerDbValue(attacker, \"killcounts\",killcounts);\n+ api.setTargetedPlayerSettingForEveryone(attacker, \"lobbyLeaderboardValues\", { killcount: killcounts });\n+ }\n+ }}",
+    "isComment": false,
+    "_displayTitle": "コード/QandA、作成依頼/入室時物を渡すandキル数カウント(gメニュー)",
+    "_isComment": false
+  },
+  {
     "id": "e1f4d9b512",
     "title": "コード/QandA、作成依頼/入室時物を渡すandキル数カウント(gメニュー)",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FQandA%E3%80%81%E4%BD%9C%E6%88%90%E4%BE%9D%E9%A0%BC%2F%E5%85%A5%E5%AE%A4%E6%99%82%E7%89%A9%E3%82%92%E6%B8%A1%E3%81%99and%E3%82%AD%E3%83%AB%E6%95%B0%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88(g%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC)",
