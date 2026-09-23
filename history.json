@@ -1,5 +1,15 @@
 [
   {
+    "id": "2c356a08ac",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/23 14:34:49",
+    "diff": "- プレイヤーは入室時に&attachref(アイテム一覧/Diamond Ore.png,20x20);[[ダイヤモンド鉱石>アイテム/ダイヤモンド鉱石]]20個、&attachref(アイテム一覧/Stone.png,20x20);[[石>アイテム/石]]20個、&attachref(アイテム一覧/Snowball.png,20x20);[[雪玉>アイテム/雪玉]]999個、&attachref(アイテム一覧/Maple Ladder.png,20x20);[[メープルのはしご>アイテム/メープルのはしご]]999個、残弾数1の&attachref(アイテム一覧/AK-47.png,20x20);[[AK-47>アイテム/AK-47]]を獲得する\n+ プレイヤーは入室時に&attachref(アイテム一覧/Diamond Ore.png,20x20);[[ダイヤモンド鉱石/Diamond Ore>アイテム/ダイヤモンド鉱石]]20個、&attachref(アイテム一覧/Stone.png,20x20);[[石/Stone>アイテム/石]]20個、&attachref(アイテム一覧/Snowball.png,20x20);[[雪玉/Snowball>アイテム/雪玉]]999個、&attachref(アイテム一覧/Maple Ladder.png,20x20);[[メープルのはしご/Maple Ladder>アイテム/メープルのはしご]]999個、残弾数1の&attachref(アイテム一覧/AK-47.png,20x20);[[AK-47/AK-47>アイテム/AK-47]]を獲得する\n- |/throwable|向いてる方向に&attachref(アイテム一覧/Snowball.png,20x20);[[雪玉>アイテム/雪玉]]が発射される。|\n+ |/throwable|向いてる方向に&attachref(アイテム一覧/Snowball.png,20x20);[[雪玉/Snowball>アイテム/雪玉]]が発射される。|\n- 「Cookie 1」((Cookieは 1から18まである))や、「Pickaxe」や「Wool」と書かれた10コインを消費ものや、「Reset Map」、「Test input」((テキストを入力する形式))など無料のものもある。\n- また、これらは押しても効果がない。\n+ 以下が道具 / Toolで売っている物の全てである。\n+ だが、すべてに効果はない。\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |タイトル|イメージ|説明|値段|h\n+ |&tooltip(Cookie){1から18};|fa-cookie|おいしい / yum|10|\n+ |Pickaxe|fa-chess-rook|めちゃくちゃワルいヤツ。うん、ほんとにそう。 / A big bad boy Oh yes he is|10|\n+ |Reset Map|fa-cookie|ワールドを初期状態にリセット / Resets the world to its default state.|無料 / Free|\n+ |&tooltip(Test input){ユーザー入力};|fa-chess-rook|めちゃくちゃワルいヤツ。うん、ほんとにそう。 / A big bad boy Oh yes he is|無料 / Free|\n+ |Wool|Question Mark|おいしい / yum|10|\n+ }}\n+ Woolの説明には「yum」と書いてある。\n+ ワールドコードでapi.setPlayerGamemodeは使用できない。",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "20b6d4fff0",
     "title": "管理人へ",
     "url": "https://bloxd.wikiru.jp/?%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8",
