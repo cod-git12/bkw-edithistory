@@ -1,5 +1,15 @@
 [
   {
+    "id": "ef23522fcc",
+    "title": "豆知識まとめ",
+    "url": "https://bloxd.wikiru.jp/?%E8%B1%86%E7%9F%A5%E8%AD%98%E3%81%BE%E3%81%A8%E3%82%81",
+    "timestamp": "2026/9/23 14:49:10",
+    "diff": "+ アップデート時など「Error loading player」から来たフレンドリクエストを拒否するとフレンドリクエストの数が3人分減るがすぐに復活する。",
+    "isComment": false,
+    "_displayTitle": "豆知識まとめ",
+    "_isComment": false
+  },
+  {
     "id": "c256f75718",
     "title": "エラーコード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89",
