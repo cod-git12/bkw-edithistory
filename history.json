@@ -1,5 +1,25 @@
 [
   {
+    "id": "29357f1b1b",
+    "title": "コメント/bloxd攻略 Wiki",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2Fbloxd%E6%94%BB%E7%95%A5+Wiki",
+    "timestamp": "2026/9/23 15:25:10",
+    "diff": "+ なんかBloxdプレイできないんやけど -- red_blue[WQrZp.NafKQ] &new{2026-09-23 (水) 15:25:07};",
+    "isComment": true,
+    "_displayTitle": "コメント/bloxd攻略 Wiki",
+    "_isComment": true
+  },
+  {
+    "id": "24279fac79",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/23 15:25:23",
+    "diff": "+ #style(width:fit-content;align-items: center;display:flex;justify-content:center;margin: 0 auto;gap:20px;background-color:orange;padding:0px 20px;border-radius:10px;){{{\n+ #style(){{\n+ &fa(3x,color=red){circle-exclamation};\n+ }}\n+ #style(){{\n+ &size(15){この記事は[[https://bloxd.io]]では存在がしていない、&br;[[https://preprod.bloxd.io]]でのみ存在しているゲームモードです。};\n+ }}\n+ }}}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "d78492d30d",
     "title": "アップデートログ2026",
     "url": "https://bloxd.wikiru.jp/?%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%83%AD%E3%82%B02026",
