@@ -1,5 +1,15 @@
 [
   {
+    "id": "cfd3f0b87c",
+    "title": "エラーコード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/23 15:31:05",
+    "diff": "- |Kicked: A lobby moderator kicked all players.|キック：ロビーのモデレーターがすべてのプレイヤーをキックしました。|>|×||モデレーターがオールキックする|\n+ |Kicked: A lobby moderator kicked all players.|キック:ロビーのモデレーターがすべてのプレイヤーをキックしました。|>|×|モデレーターがオールキックする|-|",
+    "isComment": false,
+    "_displayTitle": "エラーコード",
+    "_isComment": false
+  },
+  {
     "id": "6ac9a39c66",
     "title": "ランク",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A9%E3%83%B3%E3%82%AF",
