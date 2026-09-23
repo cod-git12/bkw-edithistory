@@ -1,5 +1,15 @@
 [
   {
+    "id": "84b38773db",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/23 12:54:27",
+    "diff": "- チェストの中に&attachref(アイテム一覧/Gold Bar.png,20x20);[[金のインゴット>金のインゴット]]が5個入っている。\n- 全ての情報は入室時にリセットされる。\n+ 全ては入室時にリセットされる。\n- チャットしたら、名前の左にタグが表示される (例: &color(lightblue){&size(13){''[Preprod] BloxdIO: HI''};};)\n- エフェクトが表示される場所に&attachref(アイテム一覧/Diamond.png,20x20);Feature Testerと書かれたエフェクトが付与されている。\n+ チャットしたら、名前の左にタグが表示される。",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "f1022020ca",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
