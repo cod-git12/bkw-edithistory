@@ -1,5 +1,15 @@
 [
   {
+    "id": "c00c5842c3",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/23 13:03:07",
+    "diff": "- **コマンド [#s04305b8]\n+ **コマンド [#bb0d6a7b]\n+ ***専用コマンド一覧 [#s04305b8]\n- これら以外にもOwnerhelp、自分がオーナーの場合、TPコマンド、Kick Banコマンドや可視性変更コマンドや説明コマンドが使える。\n- また入室時にコマンドが表示されるが一部表示されていない。\n- |コマンド|内容|h\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |コマンド名|内容|h\n+ }}\n+ //***通常コマンド一覧\n+ //#cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ //|||||||||\n+ //}}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "e2f2b47cfc",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
