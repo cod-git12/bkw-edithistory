@@ -1,5 +1,15 @@
 [
   {
+    "id": "99f8ced55c",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/24 17:37:44",
+    "diff": "- &color(mediumspringgreen){&color(,#999999){''[Example]''};};&color(,#999999){ };&color(#ccffff){&color(,#999999){PlayerName: Hello!};};\n+ &color(mediumspringgreen){&color(,#999999){''[Example]''};};&color(,#999999){ };&color(#ccffff){&color(,#999999){PlayerName: Hello!};};",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "9e6f2e5cdc",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
