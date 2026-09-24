@@ -1,5 +1,15 @@
 [
   {
+    "id": "a7e7bd7346",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/24 18:42:59",
+    "diff": "- |/arrow|Spawnと書かれたDirectionArrowが追加される。|\n- |/ping|「pong 」と表示される。|\n+ |/arrow|Spawnと書かれたDirectionArrowがスポーンから少しずれた位置に追加される。|\n+ |/ping [文]|「pong [文]」と表示される。(([文]はもともと/helpで紹介されていない))|\n- |/mob [タイプ]|モブが自分の位置に召喚される((Draugr Knightなど名前に空白があるモブは出せない))|\n+ |/mob [タイプ]|モブが自分の位置に召喚される((Draugr Knightなど名前に空白があるモブは出せない))&br;また、エラーが起きた際などは豚が召喚される|\n- /mob [タイプ] で /mob だけ打つと豚がわくようになっている。\n- /arrow はスポーン地点の場所の少しずれた場所に表示される。\n- /pong a 等打つと 「pong a」と表示される。\n+ MeshEntityで作られたブロックのほうは、チェストの向きや、水の色がおかしくなっている。",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "92851ac1a4",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
