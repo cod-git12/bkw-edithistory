@@ -1,5 +1,15 @@
 [
   {
+    "id": "fbfe3ce7bd",
+    "title": "ゲームモード/テストモード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
+    "timestamp": "2026/9/24 18:33:21",
+    "diff": "- This mode is a living test suite for the engine: every marker along\n- the platform exercises one feature so regressions caught at a glance\n- Turn around to see a copied schematic chunk, and type /help for the\n- interactive feature commands.((これは実際の説明ではないがゲーム内での説明である))\n- このモードは、エンジンの生きたテストサイトです。プラットフォーム上の\n- 各マーカーがそれぞれ1つの機能をテストしており、回帰が一目で分かるようになっています。\n- 振り返ると、コピーされた回路図の一部があり、/help と入力するとインタラクティブ機能の\n- コマンドを確認できます。\n+ **テストサイトガイドによる説明 [#fbce8bd1]\n+ #fold(英){{{\n+ This mode is a living test suite for the engine:\n+ every marker along the platform exercises\n+ one feature so regressions caught at a glance\n+ Turn around to see a copied schematic chunk,\n+ and type /help for the interactive feature commands.\n+ }}}\n+ #fold(訳){{{\n+ このモードは、エンジンの生きたテストサイトです。\n+ プラットフォーム上の各マーカーがそれぞれ1つの\n+ 機能をテストしており、回帰が一目で分かるようになっています。\n+ 振り返ると、コピーされた回路図の一部があり、/help と入力すると\n+ インタラクティブ機能のコマンドを確認できます。\n+ }}}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストモード",
+    "_isComment": false
+  },
+  {
     "id": "53e210a18b",
     "title": "ゲームモード/テストモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%83%A2%E3%83%BC%E3%83%89",
