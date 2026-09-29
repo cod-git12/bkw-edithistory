@@ -1,5 +1,15 @@
 [
   {
+    "id": "aee7d980e2",
+    "title": "MenuBar",
+    "url": "https://bloxd.wikiru.jp/?MenuBar",
+    "timestamp": "2026/9/29 20:25:26",
+    "diff": "- - &attachref(,zoom,28x15); [[ラッキーベッドウォーズ>ゲームモード/ラッキーベッドウォーズ]]\n- - &attachref(,zoom,28x15); [[スカイブロック>ゲームモード/スカイブロック]]\n+ - &attachref(ゲームモード/Lucky Bedwars.jpg,zoom,28x15); [[ラッキーベッドウォーズ>ゲームモード/ラッキーベッドウォーズ]]\n+ - &attachref(ゲームモード/Sky Block.jpg,zoom,28x15); [[スカイブロック>ゲームモード/スカイブロック]]",
+    "isComment": false,
+    "_displayTitle": "MenuBar",
+    "_isComment": false
+  },
+  {
     "id": "2d3e354e7b",
     "title": "ゲームモード/グリーンビル",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%93%E3%83%AB",
