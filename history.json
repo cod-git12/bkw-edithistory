@@ -1,5 +1,15 @@
 [
   {
+    "id": "e7096f0bcf",
+    "title": "MenuBar",
+    "url": "https://bloxd.wikiru.jp/?MenuBar",
+    "timestamp": "2026/9/30 16:33:45",
+    "diff": "- - &attachref(,zoom,28x15); [[パルクールプレイス>ゲームモード/パルクールプレイス]]×\n+ - &attachref(ゲームモード/Parkour Place.jpg,zoom,28x15); [[パルクールプレイス>ゲームモード/パルクールプレイス]]×\n- - &attachref(,zoom,28x15); [[ザダーク>ゲームモード/ザダーク]]\n+ - &attachref(ゲームモード/The Dark.jpg,zoom,28x15); [[ザダーク>ゲームモード/ザダーク]]\n- - &attachref(,zoom,28x15); [[ホラーホテル>ゲームモード/ホラーホテル]]\n+ - &attachref(ゲームモード/Horror Hotel.jpg,zoom,28x15); [[ホラーホテル>ゲームモード/ホラーホテル]]",
+    "isComment": false,
+    "_displayTitle": "MenuBar",
+    "_isComment": false
+  },
+  {
     "id": "253a823116",
     "title": "ゲームモード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89",
