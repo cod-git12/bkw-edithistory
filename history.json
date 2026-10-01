@@ -1,5 +1,15 @@
 [
   {
+    "id": "45222d1c70",
+    "title": "コード/api関数使用例-試作ページ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2Fapi%E9%96%A2%E6%95%B0%E4%BD%BF%E7%94%A8%E4%BE%8B-%E8%A9%A6%E4%BD%9C%E3%83%9A%E3%83%BC%E3%82%B8",
+    "timestamp": "2026/10/1 22:45:46",
+    "diff": "+ #style(width:fit-content;align-items: center;display:flex;justify-content:center;margin: 0 auto;gap:20px;background-color:yellow;padding:0px 20px;border-radius:10px;){{{\n+ #style(){{\n+ &fa(3x,color=red){circle-exclamation};\n+ }}\n+ #style(){{\n+ &size(15){このページは試作ページです。このページはいじらないでください。このページの情報は正しくない場合があります。};\n+ }}\n+ }}}\n+ &br;\n+ #cssbox(width:fit-content;align-items: center;display:flex;justify-content:center;margin:0 auto;gap:20px;background-color:#44444420;padding:0px 20p;border-radius:30px;){{{{\n+ #flex(center){{{\n+ CENTER:api関数一覧はこちら\n+ #card(1){{\n+ [[コード/API関数一覧]]\n+ }}\n+ }}}\n+ }}}}\n+ *目次 [#ueff354e]\n+ #contents\n+ *api関数 [#g7af78a4]",
+    "isComment": false,
+    "_displayTitle": "コード/api関数使用例-試作ページ",
+    "_isComment": false
+  },
+  {
     "id": "cf6513ce3b",
     "title": "ゲームモード/ホラーホテル",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%9B%E3%83%A9%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB",
