@@ -1,5 +1,15 @@
 [
   {
+    "id": "78b6ceb43b",
+    "title": "ゲームモード/ホラーホテル",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%9B%E3%83%A9%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB",
+    "timestamp": "2026/10/3 8:54:08",
+    "diff": "+ *移動 [#hdc3c0e0]\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |画像|操作名|効果|\n+ |&attachref(アイテム一覧/Snowdash.png,nolink,50x50);|Visit player|選択したプレイヤーの部屋の前にテレポートする|\n+ |&attachref(アイテム一覧/Snowdash.png,nolink,50x50);|Home|自分の部屋の前にテレポートする|\n+ }}\n- ||PvP|自分の部屋でのPvPを許可するかしないかの設定|\n- ||Visitors|自分の部屋に入れるようにするかしないかの設定|\n- ||Host Party|サーバーにいる人に招待状を送る|\n- ||Editors|指定したプレイヤーの部屋の操作を許可する|\n- ||Remove プレイヤー名|書かれているプレイヤー名の部屋の操作権限を剥奪する|\n+ |&attachref(アイテム一覧/Diamond Sword.png,nolink,50x50);|PvP|自分の部屋でのPvPを許可するかしないかの設定|\n+ |&attachref(アイテム一覧/Book.png,nolink,50x50);|Visitors|自分の部屋に入れるようにするかしないかの設定|\n+ |&attachref(アイテム一覧/White Ceramic.png,nolink,50x50);|Host Party|サーバーにいる人に招待状を送る|\n+ |&attachref(アイテム一覧/Diamond Pickaxe.png,nolink,50x50);|Editors|指定したプレイヤーの部屋の操作を許可する|\n+ |&attachref(アイテム一覧/Diamond Pickaxe.png,nolink,50x50);|Remove プレイヤー名|書かれているプレイヤー名の部屋の操作権限を剥奪する|\n- ||白色|初期設定|\n- ||青色|魚を100匹釣る|\n- ||赤色|プレイヤーを100回キルする|\n- ||ピンク|連続で100体のモブを倒す|\n- ||緑色|100部屋見つける|\n- ||黄緑色|100人のプレイヤーの部屋に訪れる|\n- ||黄色|部屋のレベルが10に到達する|\n- ||オレンジ|部屋のレベルが20に到達する|\n- ||黒色|死の部屋(Death Room)に行く|\n- ||シアン|隠し部屋(Secret Room)に行く|\n- ||マゼンタ|部屋の人気度が1000になる|\n- ||紫色|部屋の人気度が10000になる|\n+ |&attachref(アイテム一覧/White Concrete.png,nolink,50x50);|白色|初期設定|\n+ |&attachref(アイテム一覧/Blue Concrete.png,nolink,50x50);|青色|魚を100匹釣る|\n+ |&attachref(アイテム一覧/Red Concrete.png,nolink,50x50);|赤色|プレイヤーを100回キルする|\n+ |&attachref(アイテム一覧/Pink Concrete.png,nolink,50x50);|ピンク|連続で100体のモブを倒す|\n+ |&attachref(アイテム一覧/Green Concrete.png,nolink,50x50);|緑色|100部屋見つける|\n+ |&attachref(アイテム一覧/Lime Concrete.png,nolink,50x50);|黄緑色|100人のプレイヤーの部屋に訪れる|\n+ |&attachref(アイテム一覧/Yellow Concrete.png,nolink,50x50);|黄色|部屋のレベルが10に到達する|\n+ |&attachref(アイテム一覧/Orange Concrete.png,nolink,50x50);|オレンジ|部屋のレベルが20に到達する|\n+ |&attachref(アイテム一覧/Black Concrete.png,nolink,50x50);|黒色|死の部屋(Death Room)に行く|\n+ |&attachref(アイテム一覧/Cyan Concrete.png,nolink,50x50);|シアン|隠し部屋(Secret Room)に行く|\n+ |&attachref(アイテム一覧/Magenta Concrete.png,nolink,50x50);|マゼンタ|部屋の人気度が1000になる|\n+ |&attachref(アイテム一覧/Purple Concrete.png,nolink,50x50);|紫色|部屋の人気度が10000になる|\n- ||テレポーテーションポーション&br;Teleportation Potion|ランダムなプレイヤーにテレポートする|\n+ |&attachref(アイテム一覧/Chaos Potion.png,nolink,50x50);|テレポーテーションポーション&br;Teleportation Potion|ランダムなプレイヤーにテレポートする|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/ホラーホテル",
+    "_isComment": false
+  },
+  {
     "id": "0f6dda34c2",
     "title": "バイオーム",
     "url": "https://bloxd.wikiru.jp/?%E3%83%90%E3%82%A4%E3%82%AA%E3%83%BC%E3%83%A0",
