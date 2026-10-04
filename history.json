@@ -1,5 +1,15 @@
 [
   {
+    "id": "86bb5b2176",
+    "title": "ロード画面",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
+    "timestamp": "2026/10/4 17:42:41",
+    "diff": "- pin,175,40,[[Back to Game(ゲームに戻る)>#ae7ade93]],クリックでHOME画面に戻れる,pinid=backToGame\n- pin,170,370,[[広告>#ad_]],用意された広告が表示される,pinid=ad\n- pin,865,630,[[進捗とロゴ>#loadState_]],百分率でロードの進行状況を確認できる,pinid=loadState\n- pin,865,780,[[進捗状況>#loadState_]],現在ロードしている内容を確認できる,pinid=loadState\n- pin,865,840,[[ロードメッセージ>#loadMsgs_]],ロードを待つ間に読める,pinid=loadMsgs\n+ pin,175,40,[[Back to Game(ゲームに戻る)>ロード画面#backToGame_]],クリックでHOME画面に戻れる,pinid=backToGame\n+ pin,170,370,[[広告>ロード画面#ad_]],用意された広告が表示される,pinid=ad\n+ pin,865,630,[[進捗とロゴ>ロード画面#loadState_]],百分率でロードの進行状況を確認できる,pinid=loadState\n+ pin,865,780,[[進捗状況>ロード画面#loadState_]],現在ロードしている内容を確認できる,pinid=loadState\n+ pin,865,840,[[ロードメッセージ>ロード画面#loadMsgs_]],ロードを待つ間に読める,pinid=loadMsgs\n- *ゲームに戻る(Back to Game) [#backToGameDesc]\n+ *ゲームに戻る(Back to Game) [#backToGame_]\n- *広告 [#adDesc]\n+ *広告 [#ad_]\n- *進捗 [#loadStateDesc]\n+ *進捗 [#loadState_]\n- *ロードメッセージ [#loadMsgsDesc]\n+ *ロードメッセージ [#loadMsgs_]",
+    "isComment": false,
+    "_displayTitle": "ロード画面",
+    "_isComment": false
+  },
+  {
     "id": "710e36c8e2",
     "title": "ロード画面",
     "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
