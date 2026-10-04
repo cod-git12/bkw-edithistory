@@ -1,5 +1,15 @@
 [
   {
+    "id": "d1fd8e744f",
+    "title": "ロード画面",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
+    "timestamp": "2026/10/4 17:37:10",
+    "diff": "- &fa(5x,color=#ffcc00){fas spinner};\n+ &fa(5x,color=white){fas fa-spinner};\n+ 赤色のピンをクリックして詳細を表示。\n+ #interactivemap(loadingSampleImg.png,800,680){{\n+ pin,175,40,[[Back to Game(ゲームに戻る)>#backToGame_]],クリックでHOME画面に戻れる,pinid=backToGame\n+ pin,170,370,[[広告>#ad_]],用意された広告が表示される,pinid=ad\n+ pin,865,630,[[進捗とロゴ>#loadState_]],百分率でロードの進行状況を確認できる,pinid=loadState\n+ pin,865,780,[[進捗状況>#loadState_]],現在ロードしている内容を確認できる,pinid=loadState\n+ pin,865,840,[[ロードメッセージ>#loadMsgs_]],ロードを待つプレイヤーが読む、運営が配置したコンテンツ,pinid=loadMsgs\n+ }}\n+ *Back to Game / ゲームに戻る [#backToGame_]\n+ *広告 [#ad_]\n+ *進捗 [#loadState_]\n+ *ロードメッセージ [#loadMsgs_]",
+    "isComment": false,
+    "_displayTitle": "ロード画面",
+    "_isComment": false
+  },
+  {
     "id": "c468b74f6e",
     "title": "ロード画面",
     "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
