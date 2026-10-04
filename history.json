@@ -1,5 +1,15 @@
 [
   {
+    "id": "c468b74f6e",
+    "title": "ロード画面",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
+    "timestamp": "2026/10/4 17:20:46",
+    "diff": "+ >\n+ #cssbox(\"width:auto; padding:5px 20px 0px 20px; background-color:#ddeeff; border-radius:20px;\"){{{{\n+ #flex_container(space-around){{{\n+ #flex_box{{\n+ &fa(5x,color=#ffcc00){fas spinner};\n+ }}\n+ #flex_box(470){{\n+ CENTER:&size(23){''ロード画面''};\n+ #hr\n+ CENTER:ロード画面とは、ゲームロビーに参加の待機中の画面のことである。\n+ }}\n+ }}}\n+ }}}}\n+ <\n+ ここでは、ロード画面を3つに分けて解説する。",
+    "isComment": false,
+    "_displayTitle": "ロード画面",
+    "_isComment": false
+  },
+  {
     "id": "69b03d9236",
     "title": "ゲームモード/ホラーホテル",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%9B%E3%83%A9%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB",
