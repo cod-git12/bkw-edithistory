@@ -1,5 +1,15 @@
 [
   {
+    "id": "3b47a8acfd",
+    "title": "ロード画面",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
+    "timestamp": "2026/10/4 17:40:13",
+    "diff": "- #interactivemap(loadingSampleImg.png,800,680){{\n+ #interactivemap(loadingSampleImg.png,600,550){{\n- pin,865,840,[[ロードメッセージ>#loadMsgs_]],ロードを待つプレイヤーが読む、運営が配置したコンテンツ,pinid=loadMsgs\n+ pin,865,840,[[ロードメッセージ>#loadMsgs_]],ロードを待つ間に読める,pinid=loadMsgs\n+ #hr\n+ &br;\n- *Back to Game / ゲームに戻る [#backToGame_]\n+ *ゲームに戻る(Back to Game) [#backToGame_]",
+    "isComment": false,
+    "_displayTitle": "ロード画面",
+    "_isComment": false
+  },
+  {
     "id": "d1fd8e744f",
     "title": "ロード画面",
     "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
