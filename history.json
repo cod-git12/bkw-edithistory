@@ -1,5 +1,25 @@
 [
   {
+    "id": "7ed0d45185",
+    "title": "ゲームモード/ベッドウォーズ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%99%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA",
+    "timestamp": "2026/10/4 17:53:18",
+    "diff": "- ||>|りんご&br;Apple|&attachref(アイテム一覧/Iron Bar.png,50x50);|鉄インゴット|4|りんごを1つゲットする|食べて得られる回復量は20HP。|\n+ |&attachref(アイテム一覧/Apple.png,50x50);|>|りんご&br;Apple|&attachref(アイテム一覧/Iron Bar.png,50x50);|鉄インゴット|4|りんごを1つゲットする|食べて得られる回復量は20HP。|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/ベッドウォーズ",
+    "_isComment": false
+  },
+  {
+    "id": "f69ef391c9",
+    "title": "モブ",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A2%E3%83%96",
+    "timestamp": "2026/10/4 17:53:37",
+    "diff": "+ |2026/9/3|トレジャーガーディアンの見た目の変更|\n+ |2026/9/23|[[ラクダ>モブ/ラクダ]]の追加|",
+    "isComment": false,
+    "_displayTitle": "モブ",
+    "_isComment": false
+  },
+  {
     "id": "44f1327f11",
     "title": "ゲームモード/ベッドウォーズ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%99%E3%83%83%E3%83%89%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BA",
