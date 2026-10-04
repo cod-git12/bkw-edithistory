@@ -1,5 +1,15 @@
 [
   {
+    "id": "588f29538c",
+    "title": "ロード画面",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
+    "timestamp": "2026/10/4 18:21:20",
+    "diff": "+ &br;\n+ #style(width:fit-content;align-items: center;display:flex;justify-content:center;margin: 0 auto;gap:20px;background-color:lightblue;padding:0px 20px;border-radius:10px;){{{\n+ #style(){{\n+ &fa(3x,color=orange){comment};\n+ }}\n+ #style(){{\n+ &size(15){記事にないロード状況、ロードメッセージを発見した場合は&br;[[こちらのページ>管理人へ]]へ報告をお願いします。};\n+ }}\n+ }}}",
+    "isComment": false,
+    "_displayTitle": "ロード画面",
+    "_isComment": false
+  },
+  {
     "id": "7394cfe2f0",
     "title": "ロード画面",
     "url": "https://bloxd.wikiru.jp/?%E3%83%AD%E3%83%BC%E3%83%89%E7%94%BB%E9%9D%A2",
