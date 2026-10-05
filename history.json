@@ -1,5 +1,15 @@
 [
   {
+    "id": "55aa137891",
+    "title": "銃/gunStats",
+    "url": "https://bloxd.wikiru.jp/?%E9%8A%83%2FgunStats",
+    "timestamp": "2026/10/5 21:04:31",
+    "diff": "- >3点バースト銃（burstCount: 3）。反動が少なく非常に正確。\n+ >3点バースト銃（burstCount: 3）。反動が少なく非常に正確だが火力が低い。",
+    "isComment": false,
+    "_displayTitle": "銃/gunStats",
+    "_isComment": false
+  },
+  {
     "id": "0f302e1d75",
     "title": "銃/gunStats",
     "url": "https://bloxd.wikiru.jp/?%E9%8A%83%2FgunStats",
