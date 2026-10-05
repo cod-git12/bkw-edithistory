@@ -1,5 +1,15 @@
 [
   {
+    "id": "0f302e1d75",
+    "title": "銃/gunStats",
+    "url": "https://bloxd.wikiru.jp/?%E9%8A%83%2FgunStats",
+    "timestamp": "2026/10/5 21:03:32",
+    "diff": "- >散弾10発、1発ずつ込める特殊リロードを持つショットガン。\n+ >散弾10発、装填2発で\n+ 近距離で強いショットガン。",
+    "isComment": false,
+    "_displayTitle": "銃/gunStats",
+    "_isComment": false
+  },
+  {
     "id": "4535eeb5cd",
     "title": "銃/gunStats",
     "url": "https://bloxd.wikiru.jp/?%E9%8A%83%2FgunStats",
