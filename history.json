@@ -1,5 +1,15 @@
 [
   {
+    "id": "452676bc4e",
+    "title": "コード/api関数使用例-試作ページ",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2Fapi%E9%96%A2%E6%95%B0%E4%BD%BF%E7%94%A8%E4%BE%8B-%E8%A9%A6%E4%BD%9C%E3%83%9A%E3%83%BC%E3%82%B8",
+    "timestamp": "2026/10/11 8:47:47",
+    "diff": "- |引数名|形|詳細|h\n- |message|string|送信するメッセージを入力します。テキストを装飾することもできます。|\n- |~|CustomTextStyling|~|\n- |style|fontWeight?: number &#124; string|メッセージの装飾を設定します。|\n- |~|color?: string|~|\n- |~|colour?: string|~|\n+ |引数名|形|指定|詳細|h\n+ |message|string|必須|送信するメッセージを入力します。&br;テキストを装飾することもできます。|\n+ |~|CustomTextStyling|~|~|\n+ |style|object|任意|メッセージの装飾を設定します。|\n+ |style.fontWeight|number &#124; string|~|フォントの太さを設定します。|\n+ |style.color|string|~|フォントの色を設定します。|\n+ |style.colour|string|~|フォントの色を設定します。|",
+    "isComment": false,
+    "_displayTitle": "コード/api関数使用例-試作ページ",
+    "_isComment": false
+  },
+  {
     "id": "e9401c3e9a",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
