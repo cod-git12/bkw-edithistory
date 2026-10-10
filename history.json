@@ -1,5 +1,15 @@
 [
   {
+    "id": "e9401c3e9a",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/10/11 8:07:40",
+    "diff": "- |&attachref(アイテム一覧/Wood Sword.png,,50x50);|ルビーの石炭用ツルハシ&br;Ruby's Coal Pickaxe|[[&attachref(アイテム一覧/Coal Ore.png,nolink,15x15);石炭鉱石>アイテム/石炭鉱石]]の採掘速度が20%上昇する|採掘のマスターのルビーに話しかける|\n+ |&attachref(アイテム一覧/Wood Pickaxe.png,,50x50);|ルビーの石炭用ツルハシ&br;Ruby's Coal Pickaxe|[[&attachref(アイテム一覧/Coal Ore.png,nolink,15x15);石炭鉱石>アイテム/石炭鉱石]]の採掘速度が20%上昇する|採掘のマスターのルビーに話しかける|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "c67cc17e02",
     "title": "アイテム",
     "url": "https://bloxd.wikiru.jp/?%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0",
