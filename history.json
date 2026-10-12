@@ -1,5 +1,15 @@
 [
   {
+    "id": "64747d3bf1",
+    "title": "bloxd攻略 Wiki",
+    "url": "https://bloxd.wikiru.jp/?bloxd%E6%94%BB%E7%95%A5+Wiki",
+    "timestamp": "2026/10/12 20:45:48",
+    "diff": "+ #style(width:100%;){{{\n+ *&fa(color=red){circle-exclamation}; 稼働状態 [#status]\n+ #style(margin-top:-10px;display:flex;flex-wrap:nowrap;gap:20px;padding: 5px 0 5px 10px;background-color:#4ec9b080;width: fit-content;margin-left:5%;border-radius:30px;){{\n+ &size(20){''正常稼働中''};\n+ }}\n+ }}}",
+    "isComment": false,
+    "_displayTitle": "bloxd攻略 Wiki",
+    "_isComment": false
+  },
+  {
     "id": "61e578c743",
     "title": "ゲームモード/ホラーホテル",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%9B%E3%83%A9%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB",
