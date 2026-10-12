@@ -1,5 +1,25 @@
 [
   {
+    "id": "35465bb138",
+    "title": "エラーコード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/10/12 14:31:42",
+    "diff": "- #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n- |エラー文|訳|>|&tooltip(選択肢){エラー下部に表示される黄色と赤のボタン};|エラーの原因|備考|h\n- |>|>|>|CENTER:||CENTER:|c\n- |You have disconnected from the server.&br;The server is restarting or there are problems with your internet.|サーバーとの接続が切断されました。&br;サーバーが再起動中か、インターネット接続に問題がある可能性があります。|選択肢1|Reconnect|サーバー再起動時に入室しようとする|-|\n- |Can't connect to Bloxd!&br;&br;This might be the server restarting.&br;&br;If this happens repeatedly, please report on Discord what steps you took to get this error message.|Bloxdに接続できません！&br;&br;サーバーが再起動している可能性があります。&br;&br;この現象が繰り返し発生する場合は、このエラーメッセージが表示されるまでの操作手順をDiscordで報告してください。|選択肢1|Reload Page|アップデート時|-|\n- |You have disconnected from the server.&br;Malformed packet.&br;This is a bug, please report on discord.|サーバーから切断されました。&br;パケットの形式が不正です。&br;これはバグですので、Discordで報告してください。|>|×|不明|-|\n- |Kicked: banned from lobby.|キック:あなたはこのサーバーからバンされました。|>|×|サーバーからバンされた後に、&br;サーバーに入室しようとする|-|\n- |Kicked: A moderator kicked you.|キック:モデレーターによってキックされました|>|×|サーバーからキックされる|-|\n- |Kicked: A lobby moderator kicked all players.|キック:ロビーのモデレーターがすべてのプレイヤーをキックしました。|>|×|モデレーターがオールキックする|-|\n+ #style(width:1200px;overflow-x:auto;){{{{\n+ #style(width:1750px;){{{\n+ |エラー文|訳|>|&tooltip(選択肢){エラー下部に表示される黄色と赤のボタン};|エラーの原因|h\n+ |>|>|>|CENTER:||c\n+ |You have disconnected from the server.&br;The server is restarting or there are problems with your internet.|サーバーとの接続が切断されました。&br;サーバーが再起動中か、インターネット接続に問題がある可能性があります。|選択肢1|Reconnect|サーバー再起動時に入室しようとする|\n+ |Can't connect to Bloxd!&br;&br;This might be the server restarting.&br;&br;If this happens repeatedly, please report on Discord what steps you took to get this error message.|Bloxdに接続できません！&br;&br;サーバーが再起動している可能性があります。&br;&br;この現象が繰り返し発生する場合は、このエラーメッセージが表示されるまでの操作手順をDiscordで報告してください。|選択肢1|Reload Page|アップデート時|\n+ |You have disconnected from the server.&br;Malformed packet.&br;This is a bug, please report on discord.|サーバーとの接続が切断されました。&br;パケットの形式が不正です。&br;これはバグですので、Discordで報告してください。|>|×|不明|\n+ |Kicked: Banned from lobby.|キック:あなたはこのサーバーからバンされました。|>|×|サーバーからバンされた後に、&br;サーバーに入室しようとする|\n+ |Kicked: A moderator kicked you.|キック:モデレーターによってキックされました|>|×|サーバーからキックされる|\n+ |Kicked: A lobby moderator kicked all players.|キック:ロビーのモデレーターがすべてのプレイヤーをキックしました。|>|×|モデレーターがオールキックする|\n+ |You have disconnected from the server.&br;Lobby has run out of memory.|サーバーとの接続が切断されました。&br;ロビーのメモリが不足しました。|選択肢1|Reconnect|サーバーのメモリが不足する((例：重いコードを長期間動作させる))|\n- }}\n+ }}}\n+ }}}}\n- #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ #style(width:1000px;overflow-x:auto;){{{{\n+ #style(width:1900px;){{{\n- }}\n+ }}}\n+ }}}}\n- #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n- |エラー文|訳|>|&tooltip(選択肢){エラー下部に表示される黄色と赤のボタン};|エラーの原因|備考|h\n- |>|>|>|CENTER:||CENTER:|c\n- |BadHttpCodeError: 400|HTTPコード400のエラー|選択肢1|Try Again|クライアントが送信したリクエストをサーバーが正常に処理できない|-|\n- |~|~|選択肢2|Cancel|~|~|\n- |Could not find a server to join for this gamemode.|このゲームモードに参加できるサーバーが見つかりませんでした。|選択肢1|Try Again|参加しようとしているロビーが接続しているサーバー内に見つからなかった((例：bloxd.ioから[[テストモード>ゲームモード/テストモード]]に参加しようとする))|-|\n- |~|~|選択肢2|Cancel|~|~|\n- }}\n+ #style(width:1000px;overflow-x:auto;){{{{\n+ #style(width:1900px;){{{\n+ |エラー文|訳|>|&tooltip(選択肢){エラー下部に表示される黄色と赤のボタン};|エラーの原因|h\n+ |>|>|>|CENTER:||c\n+ |BadHttpCodeError: 400|HTTPコード400のエラー|選択肢1|Try Again|クライアントが送信したリクエストをサーバーが正常に処理できない|\n+ |~|~|選択肢2|Cancel|~|\n+ |Could not find a server to join for this gamemode.|このゲームモードに参加できるサーバーが見つかりませんでした。|選択肢1|Try Again|参加しようとしているロビーが接続しているサーバー内に見つからなかった((例：bloxd.ioから[[テストモード>ゲームモード/テストモード]]に参加しようとする))|\n+ |~|~|選択肢2|Cancel|~|\n+ }}}\n+ }}}}",
+    "isComment": false,
+    "_displayTitle": "エラーコード",
+    "_isComment": false
+  },
+  {
+    "id": "90365bc41e",
+    "title": "メニューコメント！",
+    "url": "https://bloxd.wikiru.jp/?%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%81",
+    "timestamp": "2026/10/12 14:31:58",
+    "diff": "+ 参加できるようになりました -- 牛丼[U07YJ9awBg.] &new{2026-10-12 (月) 14:31:58};",
+    "isComment": true,
+    "_displayTitle": "メニューコメント！",
+    "_isComment": true
+  },
+  {
     "id": "0160e79d48",
     "title": "コメント/bloxd攻略 Wiki",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2Fbloxd%E6%94%BB%E7%95%A5+Wiki",
