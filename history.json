@@ -1,5 +1,25 @@
 [
   {
+    "id": "38d9c8b5e0",
+    "title": "エラーコード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/10/12 14:09:55",
+    "diff": "- |エラー文|訳|>|選択肢の有無|エラーの原因|備考|h\n+ |エラー文|訳|>|&tooltip(選択肢){エラー下部に表示される黄色と赤のボタン};|エラーの原因|備考|h\n- |You have disconnected from the server.&br;The server is restarting or there are problems with your internet.|サーバーとの接続が切断されました。&br;サーバーが再起動中か、インターネット接続に問題がある可能性があります。|選択肢1|Reconnect|不明|-|\n- |Can't connect to Bloxd!&br;&br;This might be the server restarting.&br;&br;If this happens repeatedly, please report on Discord what steps you took to get this error message.|Bloxdに接続できません！&br;&br;サーバーが再起動している可能性があります。&br;&br;この現象が繰り返し発生する場合は、このエラーメッセージが表示されるまでの操作手順をDiscordで報告してください。|選択肢1|Reload Page|不明|-|\n+ |You have disconnected from the server.&br;The server is restarting or there are problems with your internet.|サーバーとの接続が切断されました。&br;サーバーが再起動中か、インターネット接続に問題がある可能性があります。|選択肢1|Reconnect|サーバー再起動時に入室しようとする|-|\n+ |Can't connect to Bloxd!&br;&br;This might be the server restarting.&br;&br;If this happens repeatedly, please report on Discord what steps you took to get this error message.|Bloxdに接続できません！&br;&br;サーバーが再起動している可能性があります。&br;&br;この現象が繰り返し発生する場合は、このエラーメッセージが表示されるまでの操作手順をDiscordで報告してください。|選択肢1|Reload Page|アップデート時|-|\n- |エラー文|訳|>|選択肢の有無|エラーの原因|備考|h\n- |BatHttpCodeError: 400|HTTPコード400のエラー|選択肢1|Try Again|クライアントが送信したリクエストをサーバーが正常に処理できない|-|\n+ |エラー文|訳|>|&tooltip(選択肢){エラー下部に表示される黄色と赤のボタン};|エラーの原因|備考|h\n+ |>|>|>|CENTER:||CENTER:|c\n+ |BadHttpCodeError: 400|HTTPコード400のエラー|選択肢1|Try Again|クライアントが送信したリクエストをサーバーが正常に処理できない|-|\n+ |Could not find a server to join for this gamemode.|このゲームモードに参加できるサーバーが見つかりませんでした。|選択肢1|Try Again|参加しようとしているロビーが接続しているサーバー内に見つからなかった((例：bloxd.ioから[[テストモード>ゲームモード/テストモード]]に参加しようとする))|-|\n+ |~|~|選択肢2|Cancel|~|~|",
+    "isComment": false,
+    "_displayTitle": "エラーコード",
+    "_isComment": false
+  },
+  {
+    "id": "d5831d791e",
+    "title": "アップデートログ2026",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%83%AD%E3%82%B02026",
+    "timestamp": "2026/10/12 14:10:01",
+    "diff": "+ ゲーム内での名前何 -- とまと &new{2026-10-12 (月) 14:10:01};",
+    "isComment": true,
+    "_displayTitle": "アップデートログ2026",
+    "_isComment": true
+  },
+  {
     "id": "4d75344ef0",
     "title": "アップデートログ2026",
     "url": "https://bloxd.wikiru.jp/?%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%83%AD%E3%82%B02026",
