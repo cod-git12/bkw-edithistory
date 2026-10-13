@@ -1,5 +1,15 @@
 [
   {
+    "id": "731bbbb5c4",
+    "title": "開発者",
+    "url": "https://bloxd.wikiru.jp/?%E9%96%8B%E7%99%BA%E8%80%85",
+    "timestamp": "2026/10/13 12:44:59",
+    "diff": "- |画像|名前|説明|h\n- |&attachref(./arthurPFP.jpg,zoom,50x50);|Arthur||\n- |&attachref(./oliverPFP.jpg,zoom,50x50);|Oliver||\n- |&attachref(./slushiePFP.png,zoom,50x50);|Slushie||\n- |&attachref(./starduePFP.jpg,zoom,50x50);|Stardue||\n- |&attachref(./MattzapPFP.webp,zoom,50x50);|mattzap||\n- |&attachref(./dfsPFP.jpg,zoom,50x50);|DirtyFleaSack||\n- |&attachref(./tomPFP.jpg,zoom,50x50);|Tom||\n- |&attachref(./harryPFP.jpg,zoom,50x50);|Harry||\n- |&attachref(./pixelbakerPFP.jpg,zoom,50x50);|pixelbaker||\n- |&attachref(./jasninusPFP.jpg,zoom,50x50);|jasninus||\n- |&attachref(./pegasysPFP.jpg,zoom,50x50);|pegasys||\n- |&attachref(elliePFP.png,zoom,50x50);|whoisEllie||\n- |-|AnxietreeDev||\n- |-|JBL||\n+ |画像|名前|説明|役割|h\n+ |&attachref(./arthurPFP.jpg,zoom,50x50);|Arthur||取締役|\n+ |&attachref(./oliverPFP.jpg,zoom,50x50);|Oliver||開発者|\n+ |&attachref(./slushiePFP.png,zoom,50x50);|Slushie||開発者/マップ製作者|\n+ |&attachref(./starduePFP.jpg,zoom,50x50);|Stardue||元開発者|\n+ |&attachref(./MattzapPFP.webp,zoom,50x50);|mattzap||&tooltip(元開発者){mattzapは既に退職している。};|\n+ |&attachref(./dfsPFP.jpg,zoom,50x50);|DirtyFleaSack||開発者|\n+ |&attachref(./tomPFP.jpg,zoom,50x50);|Tom||開発者|\n+ |&attachref(./harryPFP.jpg,zoom,50x50);|Harry||グラフィックデザイナー|\n+ |&attachref(./pixelbakerPFP.jpg,zoom,50x50);|pixelbaker||元プロダクトリード|\n+ |&attachref(./jasninusPFP.jpg,zoom,50x50);|jasninus||元開発者|\n+ |&attachref(./pegasysPFP.jpg,zoom,50x50);|pegasys||開発者|\n+ |&attachref(elliePFP.png,zoom,50x50);|whoisEllie||開発者|\n+ |-|lucky_bloxd||開発者|\n+ |-|Xander Reade||ソーシャルメディアマネージャー|\n+ |-|Stan||開発者|\n+ |-|AnxietreeDev||不明|\n+ |-|JBL||不明|",
+    "isComment": false,
+    "_displayTitle": "開発者",
+    "_isComment": false
+  },
+  {
     "id": "768e0a31df",
     "title": "ゲームモード/パルクールプレイス",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%91%E3%83%AB%E3%82%AF%E3%83%BC%E3%83%AB%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9",
