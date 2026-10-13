@@ -1,5 +1,15 @@
 [
   {
+    "id": "51f550f881",
+    "title": "コメント/コード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2F%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/10/13 11:04:19",
+    "diff": "+ export function func(){}で公開、import { func } from \"パス\";で読み込みだね -- けんたき[05GJ8Izl5n.] &new{2026-10-13 (火) 11:04:19};",
+    "isComment": true,
+    "_displayTitle": "コメント/コード",
+    "_isComment": true
+  },
+  {
     "id": "ed1e6c064e",
     "title": "ゲームモード/ホラーホテル",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%9B%E3%83%A9%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB",
