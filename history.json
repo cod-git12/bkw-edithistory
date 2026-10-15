@@ -1,5 +1,25 @@
 [
   {
+    "id": "f8cb5bdaf2",
+    "title": "ゲームモード/サンドボックス サバイバル",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9+%E3%82%B5%E3%83%90%E3%82%A4%E3%83%90%E3%83%AB",
+    "timestamp": "2026/10/15 19:22:43",
+    "diff": "- &tag(ゲームモード,ADVENTURE);\n+ &tag(ゲームモード,MODDED SURVIVAL);",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/サンドボックス サバイバル",
+    "_isComment": false
+  },
+  {
+    "id": "f87b9e6285",
+    "title": "ゲームモード/サンドボックス ピースフル",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9+%E3%83%94%E3%83%BC%E3%82%B9%E3%83%95%E3%83%AB",
+    "timestamp": "2026/10/15 19:23:00",
+    "diff": "- &tag(ゲームモード,ADVENTURE);\n+ &tag(ゲームモード,MODDED SURVIVAL);",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/サンドボックス ピースフル",
+    "_isComment": false
+  },
+  {
     "id": "750463808c",
     "title": "ゲームモード/ラッキーブロックバトルグラウンド",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%90%E3%83%88%E3%83%AB%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89",
