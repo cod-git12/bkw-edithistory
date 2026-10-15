@@ -1,5 +1,15 @@
 [
   {
+    "id": "750463808c",
+    "title": "ゲームモード/ラッキーブロックバトルグラウンド",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%A9%E3%83%83%E3%82%AD%E3%83%BC%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%90%E3%83%88%E3%83%AB%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89",
+    "timestamp": "2026/10/15 19:21:06",
+    "diff": "- &tag(ゲームモード,BATTLE,POPULAR);\n+ &tag(ゲームモード,LUCKY BLOCK);",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/ラッキーブロックバトルグラウンド",
+    "_isComment": false
+  },
+  {
     "id": "a1991ab3ca",
     "title": "ゲームモード/エスケープザフォレスト",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E3%82%B6%E3%83%95%E3%82%A9%E3%83%AC%E3%82%B9%E3%83%88",
