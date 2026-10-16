@@ -313,19 +313,11 @@
   <script>
     const BASE_HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/";
     let currentLastTimestamp = null;
+    let cachedTotalPages = null;
 
-    // 指定されたページ番号の JSON を取得
-    async function fetchHistoryLogs(page = 1) {
-      const fileName = page === 1 ? "history.json" : `history_${page}.json`;
-      const url = `${BASE_HISTORY_URL}${fileName}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
-      
-      const res = await fetch(url, { cache: "no-store" });
-      if (!res.ok) throw new Error("データの取得に失敗しました");
-      return await res.json();
-    }
-
-    // 総ページ数を検出する関数
+    // 存在する最大のファイル番号（最新ページ数）を検出する関数
     async function detectTotalPages() {
+      if (cachedTotalPages !== null) return cachedTotalPages;
       let total = 1;
       while (true) {
         try {
@@ -341,7 +333,31 @@
           break;
         }
       }
+      cachedTotalPages = total;
       return total;
+    }
+
+    // 表示ページ番号 (page=1, 2, 3...) に応じた実際のファイル名を取得する関数
+    async function getFileNameForPage(displayPage) {
+      const totalPages = await detectTotalPages();
+      // 表示ページ1 ➔ 最大番号ファイル（例: history_3.json）
+      // 表示ページ2 ➔ history_2.json
+      // 表示ページ3 ➔ history.json
+      const targetIndex = totalPages - displayPage + 1;
+
+      if (targetIndex <= 0) throw new Error("ページが存在しません");
+      if (targetIndex === 1) return "history.json";
+      return `history_${targetIndex}.json`;
+    }
+
+    // 指定された表示ページ番号の JSON を取得
+    async function fetchHistoryLogs(displayPage = 1) {
+      const fileName = await getFileNameForPage(displayPage);
+      const url = `${BASE_HISTORY_URL}${fileName}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+      
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error("データの取得に失敗しました");
+      return await res.json();
     }
 
     async function init() {
@@ -367,7 +383,8 @@
 
           // 1ページ目で見つからなければ、他のページも順に探索
           if (!item && currentPage === 1) {
-            for (let p = 2; p <= 5; p++) {
+            const totalPages = await detectTotalPages();
+            for (let p = 2; p <= totalPages; p++) {
               try {
                 const pageLogs = await fetchHistoryLogs(p);
                 item = pageLogs.find(l => l.id === editId);
