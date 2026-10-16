@@ -1,5 +1,15 @@
 [
   {
+    "id": "cdad183a8c",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/16 23:26:36",
+    "diff": "- |&attachref(アイテム一覧/Crystal.png,,50x50);|[[クリスタル&br;Crystal>アイテム/クリスタル]]||\n+ |&attachref(アイテム一覧/Crystal.png,,50x50);|[[Crystal>アイテム/Crystal]]||\n+ |&attachref(アイテム一覧/Growing Mushroom.png,,50x50);|[[Growing Mushroom>アイテム/Growing Mushroom]]||",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "d27b46e01c",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
