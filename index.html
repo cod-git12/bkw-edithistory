@@ -3,32 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ</title>
+  <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.1</title>
 
-  <link rel="icon" type="image/png" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
-  <link rel="apple-touch-icon" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
-  <!-- OneSignal SDK の読み込み -->
+  <link rel="icon" type="image/png" href="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
+  <link rel="apple-touch-icon" href="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- OneSignal SDK -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
     window.OneSignalDeferred = window.OneSignalDeferred || [];
-    OneSignalDeferred.push(async function(OneSignal) {
-      await OneSignal.init({
-        appId: "08f7ca6d-71ce-4c64-babe-16b7f3ccabec",
-        safari_web_id: "",
-        notifyButton: {
-          enable: false,
-        },
-      });
+    OneSignalDeferred.push(async function (OneSignal) {
+      try {
+        await OneSignal.init({
+          appId: "08f7ca6d-71ce-4c64-babe-16b7f3ccabec",
+          safari_web_id: "",
+          notifyButton: { enable: false }
+        });
 
-      OneSignal.User.PushSubscription.addEventListener("change", updateNotifyButtonState);
-      updateNotifyButtonState();
-      loadNotificationSettings();
+        OneSignal.User.PushSubscription.addEventListener("change", updateNotifyButtonState);
+        updateNotifyButtonState();
+        loadNotificationSettings();
+      } catch (error) {
+        console.error("OneSignal の初期化に失敗しました:", error);
+      }
     });
 
     async function requestNotificationPermission() {
-      if (window.OneSignal) {
+      if (!window.OneSignal) return;
+      try {
         await OneSignal.Notifications.requestPermission();
         updateNotifyButtonState();
+      } catch (error) {
+        console.error("通知権限の要求に失敗しました:", error);
       }
     }
 
@@ -37,7 +46,7 @@
       if (!btn || !window.OneSignal) return;
 
       const isSubscribed = OneSignal.User.PushSubscription.optedIn;
-      const permission = Notification.permission;
+      const permission = "Notification" in window ? Notification.permission : "default";
 
       if (permission === "granted" && isSubscribed) {
         btn.innerText = "🔔 通知ON";
@@ -55,30 +64,38 @@
     }
 
     async function loadNotificationSettings() {
-      if (window.OneSignal) {
+      if (!window.OneSignal) return;
+      try {
         const tags = await OneSignal.User.getTags();
         const isCommentEnabled = tags && tags.receive_comments === "true";
         const toggle = document.getElementById("commentNotifyToggle");
         if (toggle) toggle.checked = isCommentEnabled;
+      } catch (error) {
+        console.error("通知設定の読み込みに失敗しました:", error);
       }
     }
 
     async function toggleCommentNotification(enabled) {
       if (!window.OneSignal) return;
 
-      const permission = Notification.permission;
+      const permission = "Notification" in window ? Notification.permission : "default";
       if (permission !== "granted") {
         alert("先に「通知をオンにする」ボタンから通知権限を許可してください。");
-        document.getElementById("commentNotifyToggle").checked = false;
+        const toggle = document.getElementById("commentNotifyToggle");
+        if (toggle) toggle.checked = false;
         return;
       }
 
-      if (enabled) {
-        await OneSignal.User.addTag("receive_comments", "true");
-        console.log("💬 コメント通知: ON に設定しました");
-      } else {
-        await OneSignal.User.removeTag("receive_comments");
-        console.log("💬 コメント通知: OFF に設定しました");
+      try {
+        if (enabled) {
+          await OneSignal.User.addTag("receive_comments", "true");
+          console.log("コメント通知: ON に設定しました");
+        } else {
+          await OneSignal.User.removeTag("receive_comments");
+          console.log("コメント通知: OFF に設定しました");
+        }
+      } catch (error) {
+        console.error("コメント通知の設定に失敗しました:", error);
       }
     }
   </script>
@@ -91,6 +108,9 @@
       --accent-color: #57c4ff;
       --border-color: #e1e4e8;
     }
+
+    * { box-sizing: border-box; }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       background-color: var(--bg-color);
@@ -98,10 +118,9 @@
       margin: 0;
       padding: 20px;
     }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
+
+    .container { max-width: 800px; margin: 0 auto; }
+
     header {
       margin-bottom: 24px;
       display: flex;
@@ -110,32 +129,30 @@
       flex-wrap: wrap;
       gap: 12px;
     }
-    .header-title-area {
-      flex: 1;
-    }
-    h1 {
-      margin: 0 0 8px 0;
-      font-size: 1.5rem;
-    }
+
+    .header-title-area { flex: 1; min-width: 220px; }
+
+    h1 { margin: 0 0 8px; font-size: 1.5rem; }
+
     .title-icon {
       width: 1.8rem;
       height: auto;
       vertical-align: middle;
       margin-right: 8px;
     }
-    .sub {
-      color: #666;
-      font-size: 0.9rem;
-    }
+
+    .sub { color: #666; font-size: 0.9rem; }
+
     .notify-area {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
       gap: 8px;
     }
+
     .notify-btn {
       background-color: #57c4ff;
-      color: #ffffff;
+      color: #fff;
       border: none;
       padding: 8px 16px;
       border-radius: 20px;
@@ -147,13 +164,10 @@
       align-items: center;
       gap: 6px;
     }
-    .notify-btn:hover {
-      background-color: #3ab4f2;
-    }
-    .notify-btn:disabled {
-      background-color: #ccc;
-      cursor: not-allowed;
-    }
+
+    .notify-btn:hover { background-color: #3ab4f2; }
+    .notify-btn:disabled { background-color: #ccc; cursor: not-allowed; }
+
     .notify-option {
       font-size: 0.8rem;
       color: #555;
@@ -163,11 +177,9 @@
       gap: 4px;
       user-select: none;
     }
-    .log-list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
+
+    .log-list { display: flex; flex-direction: column; gap: 12px; }
+
     .log-item {
       background: var(--card-bg);
       border: 1px solid var(--border-color);
@@ -179,39 +191,36 @@
       align-items: center;
       gap: 16px;
     }
-    .log-item.comment-item {
-      border-left-color: #ffa500;
-    }
+
+    .log-item.comment-item { border-left-color: #ffa500; }
+
     .log-title {
       font-weight: bold;
       color: #0066cc;
       text-decoration: none;
       word-break: break-all;
     }
-    .log-title:hover {
-      text-decoration: underline;
-    }
+
+    .log-title:hover { text-decoration: underline; }
+
     .log-right {
       display: flex;
       align-items: center;
       gap: 12px;
       white-space: nowrap;
     }
-    .log-time {
-      font-size: 0.85rem;
-      color: #777;
-    }
+
+    .log-time { font-size: 0.85rem; color: #777; }
+
     .detail-link {
       font-size: 0.85rem;
       color: #00bfff;
       text-decoration: none;
       font-weight: bold;
     }
-    .detail-link:hover {
-      text-decoration: underline;
-    }
 
-    /* ページネーション用スタイル (< 前のページ 1 2 3 次のページ >) */
+    .detail-link:hover { text-decoration: underline; }
+
     .pagination {
       display: flex;
       justify-content: center;
@@ -220,9 +229,10 @@
       margin-top: 28px;
       flex-wrap: wrap;
     }
+
     .page-link {
       padding: 6px 12px;
-      background-color: #ffffff;
+      background-color: #fff;
       border: 1px solid var(--border-color);
       border-radius: 4px;
       color: #0066cc;
@@ -231,26 +241,13 @@
       font-size: 0.9rem;
       transition: background-color 0.2s;
     }
-    .page-link:hover {
-      background-color: #e6f2ff;
-    }
-    .page-link.active {
-      background-color: #0066cc;
-      color: #ffffff;
-      border-color: #0066cc;
-      cursor: default;
-    }
-    .page-link.disabled {
-      color: #ccc;
-      pointer-events: none;
-      background-color: #fafafa;
-    }
 
-    #loading {
-      text-align: center;
-      padding: 40px;
-      color: #666;
-    }
+    .page-link:hover { background-color: #e6f2ff; }
+    .page-link.active { background-color: #0066cc; color: #fff; border-color: #0066cc; cursor: default; }
+    .page-link.disabled { color: #ccc; pointer-events: none; background-color: #fafafa; }
+
+    #loading { text-align: center; padding: 40px; color: #666; }
+
     .diff-box {
       background: #1e1e1e;
       color: #d4d4d4;
@@ -261,6 +258,7 @@
       word-break: break-all;
       overflow-x: auto;
     }
+
     .back-btn {
       display: inline-block;
       margin-bottom: 16px;
@@ -268,6 +266,7 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     #update-banner {
       display: none;
       position: fixed;
@@ -280,8 +279,132 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.2);
       z-index: 9999;
     }
+
+    /* アプリ自体の更新情報パネル */
+    .app-update-area { position: relative; flex-shrink: 0; }
+
+    .app-update-btn {
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--border-color);
+      border-radius: 50%;
+      background: #fff;
+      color: #0066cc;
+      font-size: 19px;
+      cursor: pointer;
+    }
+
+    .app-update-btn:hover { background: #e6f2ff; }
+
+    .app-update-badge {
+      position: absolute;
+      top: 3px;
+      right: 3px;
+      width: 9px;
+      height: 9px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      background: #ff4d4f;
+    }
+
+    .app-update-badge[hidden], .app-update-panel[hidden] { display: none; }
+
+    .app-update-panel {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      z-index: 10000;
+      width: min(370px, calc(100vw - 32px));
+      max-height: min(520px, calc(100vh - 100px));
+      overflow-y: auto;
+      padding: 18px;
+      color: #333;
+      background: #fff;
+      border: 1px solid #e1e4e8;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .app-update-heading {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #e1e4e8;
+    }
+
+    .app-update-heading h2 { margin: 0; font-size: 1.1rem; }
+    .app-update-heading p { margin: 6px 0 0; color: #777; font-size: 0.82rem; }
+
+    .app-update-close {
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: #555;
+      font-size: 19px;
+      cursor: pointer;
+    }
+
+    .app-update-close:hover { background: #f0f2f5; }
+
+    .app-update-entry { padding: 16px 0; border-bottom: 1px solid #eee; }
+    .app-update-entry:last-child { border-bottom: 0; }
+
+    .app-update-entry-top { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .app-update-entry h3 { margin: 8px 0; color: #0066cc; font-size: 0.98rem; }
+    .app-update-date { color: #777; font-size: 0.8rem; }
+
+    .app-update-tag {
+      display: inline-block;
+      padding: 3px 7px;
+      border-radius: 4px;
+      background: #e8f3ff;
+      color: #0066cc;
+      font-size: 0.72rem;
+    }
+
+    .app-update-description {
+      margin: 0;
+      padding-left: 20px;
+      color: #555;
+      font-size: 0.88rem;
+      line-height: 1.8;
+    }
+
+    .app-update-error { color: #b42318; font-size: 0.88rem; line-height: 1.7; }
+
+    .app-update-retry {
+      margin-top: 8px;
+      padding: 7px 12px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 14px; }
+      .log-item { align-items: flex-start; flex-direction: column; gap: 8px; }
+      .log-right { white-space: normal; }
+      .app-update-panel {
+        position: fixed;
+        top: 12px;
+        right: 12px;
+        width: calc(100vw - 24px);
+        max-height: calc(100vh - 24px);
+      }
+    }
   </style>
 </head>
+
 <body>
   <div id="update-banner">
     <span>📝 Wikiの最新更新があります！</span>
@@ -291,9 +414,36 @@
   <div class="container">
     <header id="header">
       <div class="header-title-area">
-        <h1><img src="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png" alt="アイコン" class="title-icon">Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.5</h1>
+        <h1>
+          <img src="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png" alt="アイコン" class="title-icon">
+          Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.1
+        </h1>
         <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
       </div>
+
+      <!-- アプリ自体の更新情報 -->
+      <div class="app-update-area">
+        <button id="appUpdateBtn" class="app-update-btn" type="button"
+                aria-label="アプリの更新情報" aria-expanded="false" aria-controls="appUpdatePanel"
+                title="アプリの更新情報">
+          <i class="fa-regular fa-bell" aria-hidden="true"></i>
+          <span id="appUpdateBadge" class="app-update-badge" hidden></span>
+        </button>
+
+        <section id="appUpdatePanel" class="app-update-panel" aria-label="アプリの更新情報" hidden>
+          <div class="app-update-heading">
+            <div>
+              <h2>アプリの更新情報</h2>
+              <p id="appUpdateVersion">バージョン情報を読み込み中...</p>
+            </div>
+            <button id="appUpdateClose" class="app-update-close" type="button" aria-label="閉じる">
+              <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div id="appUpdateContent" aria-live="polite">更新情報を読み込んでいます...</div>
+        </section>
+      </div>
+
       <div class="notify-area">
         <button id="notifyBtn" class="notify-btn" onclick="requestNotificationPermission()">
           🔔 通知をオンにする
@@ -311,38 +461,42 @@
   </div>
 
   <script>
-    const BASE_HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/";
+    const BASE_HISTORY_URL =
+      "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/";
+
     let currentLastTimestamp = null;
     let cachedTotalPages = null;
 
-    // 存在する最大のファイル番号（最新ページ数）を検出する関数
     async function detectTotalPages() {
       if (cachedTotalPages !== null) return cachedTotalPages;
+
       let total = 1;
+
       while (true) {
         try {
           const nextPage = total + 1;
           const fileName = `history_${nextPage}.json`;
-          const res = await fetch(`${BASE_HISTORY_URL}${fileName}?t=${Date.now()}`, { method: "HEAD" });
+          const res = await fetch(
+            `${BASE_HISTORY_URL}${fileName}?t=${Date.now()}`,
+            { method: "HEAD", cache: "no-store" }
+          );
+
           if (res.ok) {
             total = nextPage;
           } else {
             break;
           }
-        } catch (e) {
+        } catch (error) {
           break;
         }
       }
+
       cachedTotalPages = total;
       return total;
     }
 
-    // 表示ページ番号 (page=1, 2, 3...) に応じた実際のファイル名を取得する関数
     async function getFileNameForPage(displayPage) {
       const totalPages = await detectTotalPages();
-      // 表示ページ1 ➔ 最大番号ファイル（例: history_3.json）
-      // 表示ページ2 ➔ history_2.json
-      // 表示ページ3 ➔ history.json
       const targetIndex = totalPages - displayPage + 1;
 
       if (targetIndex <= 0) throw new Error("ページが存在しません");
@@ -350,11 +504,11 @@
       return `history_${targetIndex}.json`;
     }
 
-    // 指定された表示ページ番号の JSON を取得
     async function fetchHistoryLogs(displayPage = 1) {
       const fileName = await getFileNameForPage(displayPage);
-      const url = `${BASE_HISTORY_URL}${fileName}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
-      
+      const url =
+        `${BASE_HISTORY_URL}${fileName}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+
       const res = await fetch(url, { cache: "no-store" });
       if (!res.ok) throw new Error("データの取得に失敗しました");
       return await res.json();
@@ -367,147 +521,378 @@
 
       const urlParams = new URLSearchParams(window.location.search);
       const editId = urlParams.get("editid");
-      const currentPage = parseInt(urlParams.get("page") || "1", 10);
+      const currentPageRaw = parseInt(urlParams.get("page") || "1", 10);
+      const currentPage = Number.isFinite(currentPageRaw) && currentPageRaw >= 1
+        ? currentPageRaw
+        : 1;
 
       try {
-        let logs = await fetchHistoryLogs(currentPage);
+        const logs = await fetchHistoryLogs(currentPage);
         loadingEl.style.display = "none";
 
         if (currentPage === 1 && logs.length > 0 && currentLastTimestamp === null) {
           currentLastTimestamp = logs[0].timestamp;
         }
 
-        // editid が指定されている【詳細・差分画面】
         if (editId) {
-          let item = logs.find(l => l.id === editId);
+          let item = logs.find(log => String(log.id) === editId);
 
-          // 1ページ目で見つからなければ、他のページも順に探索
           if (!item && currentPage === 1) {
             const totalPages = await detectTotalPages();
-            for (let p = 2; p <= totalPages; p++) {
+
+            for (let page = 2; page <= totalPages; page++) {
               try {
-                const pageLogs = await fetchHistoryLogs(p);
-                item = pageLogs.find(l => l.id === editId);
+                const pageLogs = await fetchHistoryLogs(page);
+                item = pageLogs.find(log => String(log.id) === editId);
                 if (item) break;
-              } catch (e) {
+              } catch (error) {
+                console.error("差分ページの検索に失敗しました:", error);
                 break;
               }
             }
           }
 
           if (!item && !urlParams.has("retry")) {
-            contentEl.innerHTML = '<div>⏳ 最新の更新データを読み込み中... (自動で再試行します)</div>';
+            contentEl.textContent =
+              "⏳ 最新の更新データを読み込み中です...（自動で再試行します）";
+
             setTimeout(() => {
-              window.location.href = window.location.href + "&retry=1";
+              const retryUrl = new URL(window.location.href);
+              retryUrl.searchParams.set("retry", "1");
+              window.location.href = retryUrl.toString();
             }, 2500);
             return;
           }
 
           if (!item) {
-            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込むか、トップに戻って該当する更新履歴が出てくるまでお待ちください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            contentEl.innerHTML =
+              '<div>❌ 該当する更新データが見つかりませんでした。しばらくしてから再読み込みしてください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
             return;
           }
 
           document.title = `${item.title} の更新詳細 - Wiki履歴`;
-          contentEl.innerHTML = `
-            <a href="./" class="back-btn">← 一覧に戻る</a>
-            <h2>${item.title} の全差分詳細</h2>
-            <p><strong>更新時間:</strong> ${item.timestamp} | <strong>対象:</strong> <a href="${item.url}" target="_blank">${item.title}</a></p>
-            <h3>📝 差分データ (Diff)</h3>
-            <div class="diff-box">${formatDiffHtml(item.diff)}</div>
-          `;
+
+          const detailLink = document.createElement("a");
+          detailLink.href = "./";
+          detailLink.className = "back-btn";
+          detailLink.textContent = "← 一覧に戻る";
+
+          const heading = document.createElement("h2");
+          heading.textContent = `${item.title} の全差分詳細`;
+
+          const info = document.createElement("p");
+          info.append(
+            document.createTextNode("更新時間: " + (item.timestamp || "") + " | 対象: ")
+          );
+
+          const targetLink = document.createElement("a");
+          targetLink.href = item.url || "#";
+          targetLink.target = "_blank";
+          targetLink.rel = "noopener noreferrer";
+          targetLink.textContent = item.title || "対象ページ";
+          info.appendChild(targetLink);
+
+          const diffHeading = document.createElement("h3");
+          diffHeading.textContent = "📝 差分データ (Diff)";
+
+          const diffBox = document.createElement("div");
+          diffBox.className = "diff-box";
+          diffBox.innerHTML = formatDiffHtml(item.diff);
+
+          contentEl.replaceChildren(detailLink, heading, info, diffHeading, diffBox);
           return;
         }
 
-        // 通常の一覧画面
-        if (logs.length === 0) {
-          contentEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
+        if (!logs.length) {
+          contentEl.innerHTML =
+            '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
           return;
         }
 
-        contentEl.innerHTML = `<div class="log-list">` + logs.map(item => {
-          const isComment = item.isComment || (item.title && item.title.startsWith("コメント/"));
-          const itemClass = isComment ? "log-item comment-item" : "log-item";
+        const list = document.createElement("div");
+        list.className = "log-list";
 
-          return `
-            <div class="${itemClass}">
-              <a href="${item.url}" class="log-title" target="_blank" rel="noopener noreferrer">
-                ${isComment ? "💬 " : ""}${item.title}
-              </a>
-              <div class="log-right">
-                <span class="log-time">${item.timestamp}</span>
-                ${item.id ? `<a href="?editid=${item.id}" class="detail-link">[詳細]</a>` : ''}
-              </div>
-            </div>
-          `;
-        }).join("") + `</div>`;
+        logs.forEach(item => {
+          const isComment =
+            item.isComment || (item.title && item.title.startsWith("コメント/"));
 
-        // ページネーション（< 前のページ 1 2 3 次のページ >）の生成
+          const row = document.createElement("div");
+          row.className = isComment ? "log-item comment-item" : "log-item";
+
+          const titleLink = document.createElement("a");
+          titleLink.href = item.url || "#";
+          titleLink.className = "log-title";
+          titleLink.target = "_blank";
+          titleLink.rel = "noopener noreferrer";
+          titleLink.textContent = `${isComment ? "💬 " : ""}${item.title || "無題"}`;
+
+          const right = document.createElement("div");
+          right.className = "log-right";
+
+          const time = document.createElement("span");
+          time.className = "log-time";
+          time.textContent = item.timestamp || "";
+          right.appendChild(time);
+
+          if (item.id) {
+            const detail = document.createElement("a");
+            detail.href = `?editid=${encodeURIComponent(item.id)}`;
+            detail.className = "detail-link";
+            detail.textContent = "[詳細]";
+            right.appendChild(detail);
+          }
+
+          row.append(titleLink, right);
+          list.appendChild(row);
+        });
+
+        contentEl.replaceChildren(list);
+
         const totalPages = await detectTotalPages();
+
         if (totalPages > 1) {
           let navHtml = "";
 
-          // 前のページボタン
-          if (currentPage > 1) {
-            navHtml += `<a href="?page=${currentPage - 1}" class="page-link">&lt; 前のページ</a>`;
-          } else {
-            navHtml += `<span class="page-link disabled">&lt; 前のページ</span>`;
+          navHtml += currentPage > 1
+            ? `<a href="?page=${currentPage - 1}" class="page-link">&lt; 前のページ</a>`
+            : '<span class="page-link disabled">&lt; 前のページ</span>';
+
+          for (let page = 1; page <= totalPages; page++) {
+            navHtml += page === currentPage
+              ? `<span class="page-link active">${page}</span>`
+              : `<a href="?page=${page}" class="page-link">${page}</a>`;
           }
 
-          // ページ番号ボタン（1, 2, 3...）
-          for (let p = 1; p <= totalPages; p++) {
-            if (p === currentPage) {
-              navHtml += `<span class="page-link active">${p}</span>`;
-            } else {
-              navHtml += `<a href="?page=${p}" class="page-link">${p}</a>`;
-            }
-          }
-
-          // 次のページボタン
-          if (currentPage < totalPages) {
-            navHtml += `<a href="?page=${currentPage + 1}" class="page-link">次のページ &gt;</a>`;
-          } else {
-            navHtml += `<span class="page-link disabled">次のページ &gt;</span>`;
-          }
+          navHtml += currentPage < totalPages
+            ? `<a href="?page=${currentPage + 1}" class="page-link">次のページ &gt;</a>`
+            : '<span class="page-link disabled">次のページ &gt;</span>';
 
           navEl.innerHTML = navHtml;
         }
-
-      } catch (err) {
+      } catch (error) {
         loadingEl.innerText = "❌ データの読み込みに失敗しました。";
-        console.error(err);
+        console.error(error);
       }
     }
 
     function escapeHtml(str) {
-      return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
     }
 
     async function checkLatestHistory() {
       try {
         const data = await fetchHistoryLogs(1);
-        if (data.length > 0 && currentLastTimestamp !== null && currentLastTimestamp !== data[0].timestamp) {
+
+        if (
+          data.length > 0 &&
+          currentLastTimestamp !== null &&
+          currentLastTimestamp !== data[0].timestamp
+        ) {
           document.getElementById("update-banner").style.display = "block";
         }
-      } catch (e) {}
+      } catch (error) {
+        // ネットワークエラー時は次回のチェックに任せる
+      }
     }
 
     function formatDiffHtml(diffText) {
       if (!diffText) return "差分情報はありません。";
-      const cleanText = diffText.replace(/```diff\n?|\n?```/g, "").trim();
+
+      const cleanText = String(diffText)
+        .replace(/```diff\n?|\n?```/g, "")
+        .trim();
+
       if (!cleanText) return "差分情報はありません。";
 
       return cleanText.split("\n").map(line => {
         const escaped = escapeHtml(line);
+
         if (line.startsWith("+")) {
-          return `<span style="color: #4ec9b0; font-weight: bold;">${escaped}</span>`;
-        } else if (line.startsWith("-")) {
-          return `<span style="color: #f14c4c; font-weight: bold;">${escaped}</span>`;
+          return `<span style="color:#4ec9b0;font-weight:bold;">${escaped}</span>`;
         }
+
+        if (line.startsWith("-")) {
+          return `<span style="color:#f14c4c;font-weight:bold;">${escaped}</span>`;
+        }
+
         return escaped;
       }).join("\n");
     }
 
+    // ========================================
+    // アプリ自体の更新情報
+    // GitHub の app-updates.json から取得
+    // ========================================
+
+    const APP_UPDATES_URL =
+      "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/app-updates.json";
+
+    const APP_LAST_SEEN_KEY = "bkw_app_last_seen_version";
+
+    const appUpdateBtn = document.getElementById("appUpdateBtn");
+    const appUpdatePanel = document.getElementById("appUpdatePanel");
+    const appUpdateClose = document.getElementById("appUpdateClose");
+    const appUpdateBadge = document.getElementById("appUpdateBadge");
+    const appUpdateVersion = document.getElementById("appUpdateVersion");
+    const appUpdateContent = document.getElementById("appUpdateContent");
+
+    let appUpdatesData = null;
+    let appUpdatesLoading = false;
+
+    function createUpdateElement(tag, className, text) {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    }
+
+    function updateAppBadge() {
+      if (!appUpdatesData) return;
+
+      const lastSeenVersion = localStorage.getItem(APP_LAST_SEEN_KEY);
+      appUpdateBadge.hidden = lastSeenVersion === appUpdatesData.latestVersion;
+    }
+
+    function renderAppUpdates(data) {
+      appUpdateVersion.textContent = "最新バージョン v" + data.latestVersion;
+      appUpdateContent.replaceChildren();
+
+      if (data.updates.length === 0) {
+        appUpdateContent.appendChild(
+          createUpdateElement("p", "", "更新情報はまだありません。")
+        );
+        return;
+      }
+
+      data.updates.forEach(update => {
+        const entry = createUpdateElement("article", "app-update-entry");
+        const top = createUpdateElement("div", "app-update-entry-top");
+
+        top.append(
+          createUpdateElement("span", "app-update-tag", "v" + (update.version || "?")),
+          createUpdateElement("span", "app-update-date", update.date || "")
+        );
+
+        entry.append(
+          top,
+          createUpdateElement("h3", "", update.title || "アップデート")
+        );
+
+        if (Array.isArray(update.description)) {
+          const list = createUpdateElement("ul", "app-update-description");
+
+          update.description.forEach(description => {
+            list.appendChild(createUpdateElement("li", "", String(description)));
+          });
+
+          entry.appendChild(list);
+        } else if (typeof update.description === "string" && update.description) {
+          entry.appendChild(
+            createUpdateElement("p", "app-update-description", update.description)
+          );
+        }
+
+        appUpdateContent.appendChild(entry);
+      });
+    }
+
+    async function loadAppUpdates(force = false) {
+      if (appUpdatesLoading) return;
+      appUpdatesLoading = true;
+
+      if (force || !appUpdatesData) {
+        appUpdateContent.textContent = "更新情報を読み込んでいます...";
+      }
+
+      try {
+        const response = await fetch(
+          APP_UPDATES_URL + "?t=" + Date.now(),
+          { cache: "no-store" }
+        );
+
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        if (
+          !data ||
+          typeof data.latestVersion !== "string" ||
+          !Array.isArray(data.updates)
+        ) {
+          throw new Error("JSON の形式が正しくありません");
+        }
+
+        appUpdatesData = data;
+        renderAppUpdates(data);
+        updateAppBadge();
+      } catch (error) {
+        console.error("アプリ更新情報の取得に失敗しました:", error);
+
+        if (!appUpdatesData) {
+          appUpdateVersion.textContent = "バージョン情報を取得できません";
+          appUpdateContent.replaceChildren();
+
+          appUpdateContent.appendChild(
+            createUpdateElement(
+              "p",
+              "app-update-error",
+              "更新情報を読み込めませんでした。通信状況と GitHub の app-updates.json を確認してください。"
+            )
+          );
+
+          const retryButton = createUpdateElement(
+            "button",
+            "app-update-retry",
+            "再読み込み"
+          );
+
+          retryButton.type = "button";
+          retryButton.addEventListener("click", () => loadAppUpdates(true));
+          appUpdateContent.appendChild(retryButton);
+        }
+      } finally {
+        appUpdatesLoading = false;
+      }
+    }
+
+    appUpdateBtn.addEventListener("click", async () => {
+      const willOpen = appUpdatePanel.hidden;
+
+      appUpdatePanel.hidden = !willOpen;
+      appUpdateBtn.setAttribute("aria-expanded", String(willOpen));
+
+      if (!willOpen) return;
+
+      await loadAppUpdates();
+
+      if (appUpdatesData) {
+        localStorage.setItem(APP_LAST_SEEN_KEY, appUpdatesData.latestVersion);
+        updateAppBadge();
+      }
+    });
+
+    appUpdateClose.addEventListener("click", () => {
+      appUpdatePanel.hidden = true;
+      appUpdateBtn.setAttribute("aria-expanded", "false");
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !appUpdatePanel.hidden) {
+        appUpdatePanel.hidden = true;
+        appUpdateBtn.setAttribute("aria-expanded", "false");
+        appUpdateBtn.focus();
+      }
+    });
+
+    // 起動時に新着バッジを判定
+    loadAppUpdates();
+
+    // 既存の Wiki 更新履歴機能
     init();
     setInterval(checkLatestHistory, 30 * 1000);
   </script>
