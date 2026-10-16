@@ -1,12 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ</title>
-
-  <link rel="icon" type="image/png" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
-  <link rel="apple-touch-icon" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
 
   <!-- OneSignal SDK の読み込み -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -23,7 +21,7 @@
 
       OneSignal.User.PushSubscription.addEventListener("change", updateNotifyButtonState);
       updateNotifyButtonState();
-      loadNotificationSettings(); // 設定状態の読み込みを追加
+      loadNotificationSettings();
     });
 
     async function requestNotificationPermission() {
@@ -55,7 +53,6 @@
       }
     }
 
-    // 💬 コメント通知設定の読み込み
     async function loadNotificationSettings() {
       if (window.OneSignal) {
         const tags = await OneSignal.User.getTags();
@@ -65,7 +62,6 @@
       }
     }
 
-    // 💬 コメント通知設定の切り替え
     async function toggleCommentNotification(enabled) {
       if (!window.OneSignal) return;
 
@@ -120,12 +116,6 @@
       margin: 0 0 8px 0;
       font-size: 1.5rem;
     }
-    .title-icon {
-      width: 1.8rem;
-      height: auto;
-      vertical-align: middle;
-      margin-right: 8px;
-    }
     .sub {
       color: #666;
       font-size: 0.9rem;
@@ -174,7 +164,7 @@
     .log-item {
       background: var(--card-bg);
       border: 1px solid var(--border-color);
-      border-left: 4px solid var(--accent-color); /* 水色 */
+      border-left: 4px solid var(--accent-color);
       border-radius: 6px;
       padding: 12px 16px;
       display: flex;
@@ -212,6 +202,27 @@
     }
     .detail-link:hover {
       text-decoration: underline;
+    }
+    /* ページネーション用スタイル */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .page-btn {
+      padding: 8px 16px;
+      background-color: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    .page-btn:hover {
+      background-color: #f0f4f8;
     }
     #loading {
       text-align: center;
@@ -258,7 +269,7 @@
   <div class="container">
     <header id="header">
       <div class="header-title-area">
-        <h1><img src="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png" alt="アイコン" class="title-icon">Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.5</h1>
+        <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.3</h1>
         <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
       </div>
       <div class="notify-area">
@@ -274,16 +285,19 @@
 
     <div id="loading">データを読み込み中...</div>
     <div id="mainContent"></div>
+    <div id="paginationNav" class="pagination"></div>
   </div>
 
   <script>
-    const HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/history.json";
+    const BASE_HISTORY_URL = "https://raw.githubusercontent.com/cod-git12/bkw-edithistory/main/";
     let currentLastTimestamp = null;
 
-    async function fetchHistoryLogs() {
-      const res = await fetch(`${HISTORY_URL}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`, {
-        cache: "no-store"
-      });
+    // 指定されたページ番号の JSON を取得
+    async function fetchHistoryLogs(page = 1) {
+      const fileName = page === 1 ? "history.json" : `history_${page}.json`;
+      const url = `${BASE_HISTORY_URL}${fileName}?t=${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+      
+      const res = await fetch(url, { cache: "no-store" });
       if (!res.ok) throw new Error("データの取得に失敗しました");
       return await res.json();
     }
@@ -291,20 +305,31 @@
     async function init() {
       const loadingEl = document.getElementById("loading");
       const contentEl = document.getElementById("mainContent");
+      const navEl = document.getElementById("paginationNav");
 
       const urlParams = new URLSearchParams(window.location.search);
       const editId = urlParams.get("editid");
+      const currentPage = parseInt(urlParams.get("page") || "1", 10);
 
       try {
-        let logs = await fetchHistoryLogs();
+        let logs = await fetchHistoryLogs(currentPage);
         loadingEl.style.display = "none";
 
-        if (logs.length > 0 && currentLastTimestamp === null) {
+        if (currentPage === 1 && logs.length > 0 && currentLastTimestamp === null) {
           currentLastTimestamp = logs[0].timestamp;
         }
 
+        // editid が指定されている【詳細・差分画面】
         if (editId) {
           let item = logs.find(l => l.id === editId);
+
+          // 1ページ目で見つからなければ、2ページ目も探してみる
+          if (!item && currentPage === 1) {
+            try {
+              const page2Logs = await fetchHistoryLogs(2);
+              item = page2Logs.find(l => l.id === editId);
+            } catch (e) {}
+          }
 
           if (!item && !urlParams.has("retry")) {
             contentEl.innerHTML = '<div>⏳ 最新の更新データを読み込み中... (自動で再試行します)</div>';
@@ -315,7 +340,7 @@
           }
 
           if (!item) {
-            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込むか、トップに戻って該当する更新履歴が出てくるまでお待ちください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
             return;
           }
 
@@ -330,6 +355,7 @@
           return;
         }
 
+        // 通常の一覧画面
         if (logs.length === 0) {
           contentEl.innerHTML = '<div style="text-align:center; padding:20px; color:#888;">ログはまだありません</div>';
           return;
@@ -346,11 +372,24 @@
               </a>
               <div class="log-right">
                 <span class="log-time">${item.timestamp}</span>
-                ${item.id ? `<a href="?editid=${item.id}" class="detail-link">[詳細]</a>` : ''}
+                ${item.id ? `<a href="?editid=\${item.id}" class="detail-link">[詳細]</a>` : ''}
               </div>
             </div>
           `;
         }).join("") + `</div>`;
+
+        // ページネーションリンクの生成
+        let navHtml = "";
+        if (currentPage > 1) {
+          navHtml += `<a href="?page=${currentPage - 1}" class="page-btn">← 前のページ (${currentPage - 1})</a>`;
+        }
+        // 次のページが存在するか簡易的に確認
+        try {
+          await fetchHistoryLogs(currentPage + 1);
+          navHtml += `<a href="?page=${currentPage + 1}" class="page-btn">次のページ (${currentPage + 1}) →</a>`;
+        } catch (e) {}
+
+        navEl.innerHTML = navHtml;
 
       } catch (err) {
         loadingEl.innerText = "❌ データの読み込みに失敗しました。";
@@ -364,7 +403,7 @@
 
     async function checkLatestHistory() {
       try {
-        const data = await fetchHistoryLogs();
+        const data = await fetchHistoryLogs(1);
         if (data.length > 0 && currentLastTimestamp !== null && currentLastTimestamp !== data[0].timestamp) {
           document.getElementById("update-banner").style.display = "block";
         }
