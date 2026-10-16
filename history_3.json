@@ -1,5 +1,15 @@
 [
   {
+    "id": "360d8ae38e",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/16 23:20:40",
+    "diff": "- ||&attachref(アイテム一覧/Diamond Ore.png,,50x50);|[[ダイヤモンド鉱石&br;Diamond Ore>アイテム/ダイヤモンド鉱石]]|\n+ |&attachref(アイテム一覧/Diamond Ore.png,,50x50);|[[ダイヤモンド鉱石&br;Diamond Ore>アイテム/ダイヤモンド鉱石]]|\n+ |&attachref(アイテム一覧/Moonstone Ore.png,,50x50);|[[ムーンストーン鉱石&br;Moonstone Ore>アイテム/ムーンストーン鉱石]]|",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "acd38afb8c",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
