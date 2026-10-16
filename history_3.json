@@ -1,5 +1,15 @@
 [
   {
+    "id": "82f5b45ca9",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/16 23:09:44",
+    "diff": "- |&attachref(アイテム一覧/Granite.png,,50x50);|[[花崗岩&br;Granite>アイテム/花崗岩]]|\n+ |&attachref(アイテム一覧/Granite.png,,50x50);|[[花崗岩&br;Granite>アイテム/花崗岩]]||\n+ |&attachref(アイテム一覧/Andesite.png,,50x50);|[[安山岩%br;Andesaite>アイテム/安山岩]]||",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "318a9a61be",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
