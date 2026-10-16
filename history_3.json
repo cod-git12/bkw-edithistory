@@ -1,5 +1,15 @@
 [
   {
+    "id": "acd38afb8c",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/16 23:19:35",
+    "diff": "- |&attachref(アイテム一覧/Coal Ore,,50x50);|[[石炭鉱石&br;Coal ore>アイテム/石炭鉱石]]||\n- ||&attachref(アイテム一覧/Iron Ore,,50x50);|[[鉄鉱石&br;Iron Ore>アイテム/鉄鉱石]]||\n- |\n+ |&attachref(アイテム一覧/Coal Ore.png,,50x50);|[[石炭鉱石&br;Coal ore>アイテム/石炭鉱石]]||\n+ |&attachref(アイテム一覧/Iron Ore.png,,50x50);|[[鉄鉱石&br;Iron Ore>アイテム/鉄鉱石]]||\n+ |&attachref(アイテム一覧/Gold Ore.png,,50x50);|[[金鉱石&br;Gold Ore>アイテム/金鉱石]]||\n+ ||&attachref(アイテム一覧/Diamond Ore.png,,50x50);|[[ダイヤモンド鉱石&br;Diamond Ore>アイテム/ダイヤモンド鉱石]]|",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "cd87bd3e92",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
