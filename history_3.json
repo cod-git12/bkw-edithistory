@@ -1,5 +1,15 @@
 [
   {
+    "id": "c5589ac294",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/16 23:12:43",
+    "diff": "- |&attachref(アイテム一覧/Coal Ore,,50x50);|[[石炭の鉱石&br;Coal Ore>アイテム/石炭の鉱石]]|\n+ |&attachref(アイテム一覧/Coal ore,,50x50);|[[石炭の鉱石&br;Coal ore>アイテム/石炭の鉱石]]||",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "dd2031caf7",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
