@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -6,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bloxd 攻略 Wiki 全更新履歴アーカイブ</title>
 
-  <link rel="icon" type="image/png" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
-  <link rel="apple-touch-icon" href="/Bloxd攻略Wiki全更新履歴アーカイブ favicon.png">
   <!-- OneSignal SDK の読み込み -->
   <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
   <script>
@@ -118,12 +115,6 @@
       margin: 0 0 8px 0;
       font-size: 1.5rem;
     }
-    .title-icon {
-      width: 1.8rem;
-      height: auto;
-      vertical-align: middle;
-      margin-right: 8px;
-    }
     .sub {
       color: #666;
       font-size: 0.9rem;
@@ -211,27 +202,42 @@
     .detail-link:hover {
       text-decoration: underline;
     }
-    /* ページネーション用スタイル */
+
+    /* ページネーション用スタイル (< 前のページ 1 2 3 次のページ >) */
     .pagination {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 16px;
-      margin-top: 24px;
+      gap: 8px;
+      margin-top: 28px;
+      flex-wrap: wrap;
     }
-    .page-btn {
-      padding: 8px 16px;
+    .page-link {
+      padding: 6px 12px;
       background-color: #ffffff;
       border: 1px solid var(--border-color);
-      border-radius: 6px;
+      border-radius: 4px;
       color: #0066cc;
       text-decoration: none;
       font-weight: bold;
       font-size: 0.9rem;
+      transition: background-color 0.2s;
     }
-    .page-btn:hover {
-      background-color: #f0f4f8;
+    .page-link:hover {
+      background-color: #e6f2ff;
     }
+    .page-link.active {
+      background-color: #0066cc;
+      color: #ffffff;
+      border-color: #0066cc;
+      cursor: default;
+    }
+    .page-link.disabled {
+      color: #ccc;
+      pointer-events: none;
+      background-color: #fafafa;
+    }
+
     #loading {
       text-align: center;
       padding: 40px;
@@ -277,7 +283,7 @@
   <div class="container">
     <header id="header">
       <div class="header-title-area">
-        <h1><img src="./Bloxd攻略Wiki全更新履歴アーカイブ favicon.png" alt="アイコン" class="title-icon">Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.5</h1>
+        <h1>Bloxd 攻略 Wiki 全更新履歴アーカイブ v1.3</h1>
         <div class="sub">Bloxd攻略Wikiの過去の更新ログ全件</div>
       </div>
       <div class="notify-area">
@@ -310,6 +316,26 @@
       return await res.json();
     }
 
+    // 総ページ数を検出する関数
+    async function detectTotalPages() {
+      let total = 1;
+      while (true) {
+        try {
+          const nextPage = total + 1;
+          const fileName = `history_${nextPage}.json`;
+          const res = await fetch(`${BASE_HISTORY_URL}${fileName}?t=${Date.now()}`, { method: "HEAD" });
+          if (res.ok) {
+            total = nextPage;
+          } else {
+            break;
+          }
+        } catch (e) {
+          break;
+        }
+      }
+      return total;
+    }
+
     async function init() {
       const loadingEl = document.getElementById("loading");
       const contentEl = document.getElementById("mainContent");
@@ -331,12 +357,17 @@
         if (editId) {
           let item = logs.find(l => l.id === editId);
 
-          // 1ページ目で見つからなければ、2ページ目も探してみる
+          // 1ページ目で見つからなければ、他のページも順に探索
           if (!item && currentPage === 1) {
-            try {
-              const page2Logs = await fetchHistoryLogs(2);
-              item = page2Logs.find(l => l.id === editId);
-            } catch (e) {}
+            for (let p = 2; p <= 5; p++) {
+              try {
+                const pageLogs = await fetchHistoryLogs(p);
+                item = pageLogs.find(l => l.id === editId);
+                if (item) break;
+              } catch (e) {
+                break;
+              }
+            }
           }
 
           if (!item && !urlParams.has("retry")) {
@@ -348,7 +379,7 @@
           }
 
           if (!item) {
-            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。しばらく経ってから読み込むか、トップに戻って該当する更新履歴が出てくるまでお待ちください。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
+            contentEl.innerHTML = '<div>❌ 該当する更新データが見つかりませんでした。<br><a href="./" class="back-btn">← 一覧に戻る</a></div>';
             return;
           }
 
@@ -386,18 +417,36 @@
           `;
         }).join("") + `</div>`;
 
-        // ページネーションリンクの生成
-        let navHtml = "";
-        if (currentPage > 1) {
-          navHtml += `<a href="?page=${currentPage - 1}" class="page-btn">← 前のページ (${currentPage - 1})</a>`;
-        }
-        // 次のページが存在するか簡易的に確認
-        try {
-          await fetchHistoryLogs(currentPage + 1);
-          navHtml += `<a href="?page=${currentPage + 1}" class="page-btn">次のページ (${currentPage + 1}) →</a>`;
-        } catch (e) {}
+        // ページネーション（< 前のページ 1 2 3 次のページ >）の生成
+        const totalPages = await detectTotalPages();
+        if (totalPages > 1) {
+          let navHtml = "";
 
-        navEl.innerHTML = navHtml;
+          // 前のページボタン
+          if (currentPage > 1) {
+            navHtml += `<a href="?page=${currentPage - 1}" class="page-link">&lt; 前のページ</a>`;
+          } else {
+            navHtml += `<span class="page-link disabled">&lt; 前のページ</span>`;
+          }
+
+          // ページ番号ボタン（1, 2, 3...）
+          for (let p = 1; p <= totalPages; p++) {
+            if (p === currentPage) {
+              navHtml += `<span class="page-link active">${p}</span>`;
+            } else {
+              navHtml += `<a href="?page=${p}" class="page-link">${p}</a>`;
+            }
+          }
+
+          // 次のページボタン
+          if (currentPage < totalPages) {
+            navHtml += `<a href="?page=${currentPage + 1}" class="page-link">次のページ &gt;</a>`;
+          } else {
+            navHtml += `<span class="page-link disabled">次のページ &gt;</span>`;
+          }
+
+          navEl.innerHTML = navHtml;
+        }
 
       } catch (err) {
         loadingEl.innerText = "❌ データの読み込みに失敗しました。";
