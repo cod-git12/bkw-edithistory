@@ -1,5 +1,25 @@
 [
   {
+    "id": "645fcecf52",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/10/17 9:55:54",
+    "diff": "- |&attachref(アイテム一覧/Iron Pickaxe.png,,50x50);|鉱脈探知のツルハシ&br;Vein Chaser Pickaxe|最大7個の[[&attachref(アイテム一覧/Stone.png,nolink,15x15);石>アイテム/石]]を同時に掘ることができる|プレッシャーの下でをクリアする|\n+ |&attachref(アイテム一覧/Iron Pickaxe.png,,50x50);|鉱脈探知のツルハシ&br;Vein Chaser Pickaxe|ハブ島で最大7個の[[&attachref(アイテム一覧/Stone.png,nolink,15x15);石>アイテム/石]]を同時に掘ることができる|プレッシャーの下でをクリアする|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
+    "id": "b64d3bae33",
+    "title": "エラーコード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/10/17 9:56:00",
+    "diff": "+ ※以下の翻訳は公式訳ではない。\n- |You have disconnected from the server.&br;The server is restarting or there are problems with your internet.|サーバーとの接続が切断されました。&br;サーバーが再起動中か、インターネット接続に問題がある可能性があります。|選択肢1|Reconnect|サーバー再起動時に入室しようとする|\n+ |You have disconnected from the server.&br;The server is restarting or there are problems with your internet.|サーバーとの接続が切断されました。&br;サーバーが再起動中か、インターネット接続に問題がある可能性があります。|選択肢1|Reconnect|サーバー再起動時に入室しようとした|\n- |Kicked: Banned from lobby.|キック:あなたはこのサーバーからバンされました。|>|×|サーバーからバンされた後に、&br;サーバーに入室しようとする|\n- |Kicked: A moderator kicked you.|キック:モデレーターによってキックされました|>|×|サーバーからキックされる|\n- |Kicked: A lobby moderator kicked all players.|キック:ロビーのモデレーターがすべてのプレイヤーをキックしました。|>|×|モデレーターがオールキックする|\n- |You have disconnected from the server.&br;Lobby has run out of memory.|サーバーとの接続が切断されました。&br;ロビーのメモリが不足しました。|選択肢1|Reconnect|サーバーのメモリが不足する((例：重いコードを長期間動作させる))|\n+ |Kicked: Banned from lobby.|キック:あなたはこのサーバーからバンされました。|>|×|サーバーからバンされた後に、&br;サーバーに入室しようとした|\n+ |Kicked: A moderator kicked you.|キック:モデレーターによってキックされました|>|×|サーバーからキックされた|\n+ |Kicked: A lobby moderator kicked all players.|キック:ロビーのモデレーターがすべてのプレイヤーをキックしました。|>|×|モデレーターがオールキックした|\n+ |Kicked: Your account joined the game in another tab or from computer|キック:別のタブまたは別のパソコンから、このアカウントがゲームに参加しました|>|×|ロビーに参加している際に、&br;別のタブまたは端末からの参加が検出された|\n+ |You have disconnected from the server.&br;Lobby has run out of memory.|サーバーとの接続が切断されました。&br;ロビーのメモリが不足しました。|選択肢1|Reconnect|サーバーのメモリが不足した((例：重いコードを長期間動作させる))|\n- #style(width:1900px;){{{\n+ #style(width:1750px;){{{",
+    "isComment": false,
+    "_displayTitle": "エラーコード",
+    "_isComment": false
+  },
+  {
     "id": "98c7648818",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
