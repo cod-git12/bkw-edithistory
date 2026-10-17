@@ -1,5 +1,15 @@
 [
   {
+    "id": "d003f2098c",
+    "title": "コード/API関数/すり抜け設定",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
+    "timestamp": "2026/10/17 21:14:19",
+    "diff": "+ #style(width:800px;align-items: center;display:flex;margin:0 auto;justify-content:center;gap:20px;background-color:orange;padding:0px 20px;border-radius:10px;){{{\n+ #style(width:250px;text-align:center;){{\n+ &size(15){&aname(setWalkThroughRect){''setWalkThroughRect''};};\n+ 範囲内のブロックのすり抜けを設定\n+ &br;&fa(color=arrow-right,2x){user}; &fa(color=arrow-right,2x){arrow-right}; &fa(color=arrow-right,2x){cube};\n+ }}\n+ #style(width:500px;){{\n+ &tag(API_出力,API_すり抜け設定,API_プレイヤー対象);\n+ Type: &fa(color=#38A169,lg){arrow-right-from-bracket};&color(#2F855A){''出力''};\n+ Copy: &clipboard(){&size(10){&color(,white){api.setWalkThroughRect(playerId, pos1, pos2, updateType);};};};\n+ }}\n+ }}}",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/すり抜け設定",
+    "_isComment": false
+  },
+  {
     "id": "e3ee33051c",
     "title": "記事テンプレート",
     "url": "https://bloxd.wikiru.jp/?%E8%A8%98%E4%BA%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88",
