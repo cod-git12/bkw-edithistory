@@ -1,5 +1,15 @@
 [
   {
+    "id": "2d28a4ab86",
+    "title": "コード/API関数/すり抜け設定",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
+    "timestamp": "2026/10/18 11:42:57",
+    "diff": "- * @param playerId 設定対象のプレイヤー\n- * @param pos1 範囲の始点\n- * @param pos2 範囲の終点\n- * @param updateType 更新の種類(通り抜けの不可を指定)\n+ * @param playerId - 設定対象のプレイヤー\n+ * @param pos1 - 範囲の始点\n+ * @param pos2 - 範囲の終点\n+ * @param updateType - 更新の種類(通り抜けの不可を指定)\n- api.setWalkThroughRect(myId,[9,15,9],[-10,-15,-10],1)\n+ api.setWalkThroughRect(myId,[-10,-15,-10],[10,15,10],1)\n- 初期地点[0,0,0]周辺をすり抜け可能にする。\n+ 初期地点の範囲([-10,-15,-10]から[10,15,10])をすり抜け可能にする。",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/すり抜け設定",
+    "_isComment": false
+  },
+  {
     "id": "0a9837dabc",
     "title": "コード/API関数/すり抜け設定",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
