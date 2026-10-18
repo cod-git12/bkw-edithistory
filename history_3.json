@@ -1,5 +1,15 @@
 [
   {
+    "id": "0102cc8812",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/18 14:29:24",
+    "diff": "- |&attachref(モブ/Frost Zombie.png,,50x);|フロストゾンビ&br;Frost Zombie|冷たい森の洞窟のみにスポーンする|\n+ |&attachref(モブ/Frost Zombie.png,,50x);|フロストゾンビ&br;Frost Zombie|凍った荒地の森の洞窟のみにスポーンする|\n- |&attachref(モブ/Frost Golem.png,,50x);|フロストゴーレム&br;Frost Golem|冷たい森の洞窟のみにスポーンする|\n+ |&attachref(モブ/Frost Golem.png,,50x);|フロストゴーレム&br;Frost Golem|凍った荒地の森の洞窟のみにスポーンする|",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "393d4088cf",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
