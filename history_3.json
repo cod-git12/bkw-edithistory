@@ -1,5 +1,15 @@
 [
   {
+    "id": "55cc2d977e",
+    "title": "コード/API関数/setPosition",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
+    "timestamp": "2026/10/18 17:29:17",
+    "diff": "- &size(15){&aname(getPosition){''getPosition''};};&br;エンティティの位置を設定\n+ &size(15){&aname(setPosition){''setPosition''};};&br;エンティティの位置を設定",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setPosition",
+    "_isComment": false
+  },
+  {
     "id": "24c14e2469",
     "title": "コード/API関数/setPosition",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
