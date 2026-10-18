@@ -1,5 +1,15 @@
 [
   {
+    "id": "43b1a32f16",
+    "title": "コード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/10/18 11:29:56",
+    "diff": "- **看板 [#t2eeb94e]\n+ **看板 [#board]\n- **コードブロック [#u1f88cc3]\n- コードブロックは、コードを記入する専用のブロックである\n+ **コードブロック [#codeBlock]\n+ コードブロックは、コードを記入する専用のブロックである。\n+ **ワールドコード [#worldCode]\n+ ワールドコードは、ロビーに設定できるコードである。\n+ [[コールバック>コード/コールバック]]を使用して特定のタイミングで実行できる。",
+    "isComment": false,
+    "_displayTitle": "コード",
+    "_isComment": false
+  },
+  {
     "id": "bf81b94776",
     "title": "コード/型",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
