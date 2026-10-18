@@ -1,5 +1,25 @@
 [
   {
+    "id": "a6155a77fd",
+    "title": "コード/API関数/setWalkThroughRect",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
+    "timestamp": "2026/10/18 16:54:58",
+    "diff": "- Copy: &clipboard(){&size(10){&color(,white){api.setWalkThroughRect(playerId, pos1, pos2, updateType);};};};\n+ Copy: &clipboard{&size(10){&color(,white){api.setWalkThroughRect(playerId, pos1, pos2, updateType);};};};",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughRect",
+    "_isComment": false
+  },
+  {
+    "id": "aa172a526a",
+    "title": "コード/API関数/setWalkThroughType",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughType",
+    "timestamp": "2026/10/18 16:55:14",
+    "diff": "- Copy: &clipboard(){&size(10){&color(,white){api.setWalkThroughType(playerId, blockName, disable?);};};};\n+ Copy: &clipboard{&size(10){&color(,white){api.setWalkThroughType(playerId, blockName, disable?);};};};",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughType",
+    "_isComment": false
+  },
+  {
     "id": "a8c7653573",
     "title": "コード/API関数/setWalkThroughRect",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
