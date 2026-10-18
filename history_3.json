@@ -1,5 +1,15 @@
 [
   {
+    "id": "3c19142443",
+    "title": "コード/API関数/setWalkThroughRect",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
+    "timestamp": "2026/10/18 14:05:37",
+    "diff": "- 通り抜けられないブロック(このAPIで指定したものも含む)の中にいて、かつ上にスペースがある場合、そのブロックの上に押し上げられる。&br;この設定を解除して再び通り抜け不可になって押し上げられることを防ぐには、設定解除前にブロックの破壊を。\n+ 通り抜けられないブロック(このAPIで指定したものも含む)の中にいて、かつ上にスペースがある場合、そのブロックの上に押し上げられる。&br;この設定を解除(通り抜け不可に)して押し上げられることを防ぐには、設定解除前にブロックの破壊を。\n- * この設定を解除して再び通り抜け不可になって押し上げられることを防ぐには、設定解除前にブロックの破壊を。\n+ * この設定を解除(通り抜け不可に)して押し上げられることを防ぐには、設定解除前にブロックの破壊を。",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughRect",
+    "_isComment": false
+  },
+  {
     "id": "88c3f55057",
     "title": "コード/API関数/setWalkThroughRect",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
