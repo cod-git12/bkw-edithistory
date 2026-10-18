@@ -1,5 +1,15 @@
 [
   {
+    "id": "d5b4a33eaa",
+    "title": "コード/型",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
+    "timestamp": "2026/10/18 17:01:09",
+    "diff": "+ : &aname(MobId){MobId}; | =LifeformId=EntityId=string&br;モブのID\n+ : &aname(LifeformId){LifeformId}; | プレイヤーとモブのこと、生命体\n+ : &aname(EntityId){EntityId}; | 全てのエンティティ",
+    "isComment": false,
+    "_displayTitle": "コード/型",
+    "_isComment": false
+  },
+  {
     "id": "a6155a77fd",
     "title": "コード/API関数/setWalkThroughRect",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
