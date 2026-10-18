@@ -1,5 +1,15 @@
 [
   {
+    "id": "c52d35f425",
+    "title": "コード/型",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
+    "timestamp": "2026/10/18 13:44:54",
+    "diff": "+ Bloxd専用\n+ JS共通\n+ : &aname(boolean){boolean}; | 真偽値&br;true=正しい か false=違う",
+    "isComment": false,
+    "_displayTitle": "コード/型",
+    "_isComment": false
+  },
+  {
     "id": "4bd1308e73",
     "title": "RecentDeleted",
     "url": "https://bloxd.wikiru.jp/?RecentDeleted",
