@@ -1,5 +1,15 @@
 [
   {
+    "id": "393d4088cf",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/18 14:28:12",
+    "diff": "- |&attachref(モブ/Draugr Zombie.png,,50x);|ドラウグルゾンビ&br;Draugr Zombi||\n+ |&attachref(モブ/Draugr Zombie.png,,50x);|ドラウグルゾンビ&br;Draugr Zombie||\n+ |&attachref(モブ/Frost Zombie.png,,50x);|フロストゾンビ&br;Frost Zombie|冷たい森の洞窟のみにスポーンする|\n+ |&attachref(モブ/Frost Golem.png,,50x);|フロストゴーレム&br;Frost Golem|冷たい森の洞窟のみにスポーンする|",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "e0e4f53a51",
     "title": "コード/API関数/setWalkThroughType",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughType",
