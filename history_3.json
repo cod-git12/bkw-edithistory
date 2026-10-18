@@ -1,5 +1,15 @@
 [
   {
+    "id": "459f2420ec",
+    "title": "コード/型",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
+    "timestamp": "2026/10/18 10:32:07",
+    "diff": "- : PlayerId | プレイヤーのID&br;コードブロックではmyIdを使用することで、実行プレイヤーのIDを参照できる。\n+ : &aname(PlayerId){PlayerId}; | プレイヤーのID&br;コードブロックではmyIdを使用することで、実行プレイヤーのIDを参照できる。",
+    "isComment": false,
+    "_displayTitle": "コード/型",
+    "_isComment": false
+  },
+  {
     "id": "89a8fb42bb",
     "title": "コード/型",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
