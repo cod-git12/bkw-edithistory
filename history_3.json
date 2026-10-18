@@ -1,5 +1,15 @@
 [
   {
+    "id": "de005adb62",
+    "title": "コード/API関数/すり抜け設定",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
+    "timestamp": "2026/10/18 12:11:07",
+    "diff": "+ &aname(ex1){Example:};\n+ > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ #code_x{{{\n+ api.setWalkThroughRect(myId,thisPos,thisPos,1)\n+ }}}\n+ 実行したコードブロックをすり抜け可能にする。\n+ &aname(ex2){Example2:};\n+ > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用 / [[ワールドコード>コード#worldCode]]対応\n+ #code_x{{{\n+ api.setWalkThroughRect(myId,[-10,-15,-10],[10,15,10],1)\n+ }}}\n+ 初期地点の範囲([-10,-15,-10]から[10,15,10])をすり抜け可能にする。\n- &aname(ex1){Example:};\n- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n- #code_x{{{\n- api.setWalkThroughRect(myId,thisPos,thisPos,1)\n- }}}\n- 実行したコードブロックをすり抜け可能にする。\n- &aname(ex2){Example2:};\n- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用 / [[ワールドコード>コード#worldCode]]対応\n- #code_x{{{\n- api.setWalkThroughRect(myId,[-10,-15,-10],[10,15,10],1)\n- }}}\n- 初期地点の範囲([-10,-15,-10]から[10,15,10])をすり抜け可能にする。",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/すり抜け設定",
+    "_isComment": false
+  },
+  {
     "id": "bb4bd88e3a",
     "title": "コード/API関数/すり抜け設定",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
