@@ -1,5 +1,15 @@
 [
   {
+    "id": "8aa72083a0",
+    "title": "コード/API関数/getPosition",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetPosition",
+    "timestamp": "2026/10/18 17:06:16",
+    "diff": "- export interface GameApi {\n+ export interface GameApi { //=api",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/getPosition",
+    "_isComment": false
+  },
+  {
     "id": "d5b4a33eaa",
     "title": "コード/型",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
