@@ -1,5 +1,15 @@
 [
   {
+    "id": "ac4fe67531",
+    "title": "コード/API関数/すり抜け設定",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
+    "timestamp": "2026/10/18 12:08:22",
+    "diff": "+ * @example\n+ * // 指定した初期地点の範囲をすり抜け可能にする\n+ * api.setWalkThroughRect(myId, [-10, -15, -10], [10, 15, 10], 1)",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/すり抜け設定",
+    "_isComment": false
+  },
+  {
     "id": "2d28a4ab86",
     "title": "コード/API関数/すり抜け設定",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
