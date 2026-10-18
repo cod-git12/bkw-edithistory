@@ -1,5 +1,15 @@
 [
   {
+    "id": "63df6dc2dc",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/18 12:36:57",
+    "diff": "+ *スポーンする敵対mob [#c8dc9dfc]\n+ #style(style=width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |画像|mob名|備考|h\n+ |&attachref(mob一覧/ドラウグルゾンビ.png,,50x50);|ドラウグルゾンビ||\n+ ||ドラウグルスケルトン||\n+ ||洞窟ゴーレム||\n+ ||ドラウグルハントレス||\n+ }}",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "22dc8dbb45",
     "title": "コード/API関数/すり抜け設定",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2F%E3%81%99%E3%82%8A%E6%8A%9C%E3%81%91%E8%A8%AD%E5%AE%9A",
