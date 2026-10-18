@@ -1,5 +1,15 @@
 [
   {
+    "id": "24c14e2469",
+    "title": "コード/API関数/setPosition",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
+    "timestamp": "2026/10/18 17:28:13",
+    "diff": "+ #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DBEAFE;padding:0px 20px;border-radius:10px;){{{\n+ #style(width:250px;text-align:center;){{\n+ &size(15){&aname(getPosition){''getPosition''};};&br;エンティティの位置を設定\n+ &fa(lg){cat}; &fa(lg){user}; &fa(lg){thumbtack};\n+ }}\n+ #style(width:500px;){{\n+ Type: &fa(color=#38A169,lg){arrow-right-from-bracket};&color(#2F855A){''出力''}; ・ &fa(color=#DC3545,lg){x};返り値なし\n+ Copy: &clipboard{&size(10){&color(,white){api.setPosition(entityId);};};};\n+ &tag(API_出力,API_座標,API_エンティティ);\n+ }}\n+ }}}\n+ &aname(desc){Desc:};\n+ プレイヤー, エンティティの位置を設定。\n+ &aname(args){Args:};\n+ > '''公式文章においてxはnumber[]でも可能とされていますが、これには型Posの方が適します。そのため、このページではこの編集を行っています。'''\n+ |必須|引数名|説明|>|型|h\n+ |◯|entityId|設定対象のエンティティ|[[EntityId>コード/型#EntityId]]|エンティティのID|\n+ |◯|x|設定先のX座標&br;または[x,y,z]で座標(この場合y,zは渡さない。)|number &#124; Pos|数値 &#124; 座標|\n+ |◯|y?|設定先のY座標|number|数値|\n+ |◯|z?|設定先のZ座標|number|数値|\n+ &aname(ex1){Example:};\n+ > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ #code_x{{{\n+ api.setPosition(myId,100,10,100);\n+ }}}\n+ コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。\n+ &aname(ex2){Example2:};\n+ > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ #code_x{{{\n+ api.setPosition(myId,[100,10,100]);\n+ }}}\n+ コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。配列での指定。\n+ &aname(ts){Ts:};\n+ > '''自動補完やAI学習に使えます。'''\n+ #fold(日本語版 ここをクリックして表示,open){{{{\n+ #code_x{{{\n+ export interface GameApi { //=api\n+ /**\n+ * プレイヤー, エンティティの位置を設定\n+ * @param entityId - 設定対象のエンティティ\n+ * @param x - Pos[x,y,z]にもできる、その場合y,zは渡さない\n+ * @param y\n+ * @param z\n+ * @example\n+ * // コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。\n+ * api.setPosition(myId,[100,10,100]);\n+ */\n+ setPosition(entityId: EntityId, x: number | Pos, y?: number, z?: number): void\n+ }\n+ export type EntityId = string\n+ /**\n+ * 座標[x,y,z]\n+ */\n+ export type Pos = [number, number, number]\n+ }}}\n+ }}}}\n+ #fold(原文 ここをクリックして表示){{{{\n+ #code_x{{{\n+ export interface GameApi {\n+ /**\n+ * Set position of a player / entity.\n+ * @param entityId\n+ * @param x Can also be an array, in which case y and z shouldn't be passed\n+ * @param y\n+ * @param z\n+ */\n+ setPosition(entityId: EntityId, x: number | number[], y?: number, z?: number): void\n+ }\n+ export type EntityId = string\n+ }}}\n+ }}}}",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setPosition",
+    "_isComment": false
+  },
+  {
     "id": "766ff8fa16",
     "title": "コード/API関数/setWalkThroughType",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughType",
