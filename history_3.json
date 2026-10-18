@@ -1,5 +1,15 @@
 [
   {
+    "id": "76d4fdf84e",
+    "title": "コード/API関数/setWalkThroughRect",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
+    "timestamp": "2026/10/18 17:29:39",
+    "diff": "- api.setWalkThroughRect(myId,thisPos,thisPos,1)\n+ api.setWalkThroughRect(myId,thisPos,thisPos,1);\n- api.setWalkThroughRect(myId,[-10,-15,-10],[10,15,10],1)\n+ api.setWalkThroughRect(myId,[-10,-15,-10],[10,15,10],1);\n- * api.setWalkThroughRect(myId, [-10, -15, -10], [10, 15, 10], 1)\n+ * api.setWalkThroughRect(myId, [-10, -15, -10], [10, 15, 10], 1);",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughRect",
+    "_isComment": false
+  },
+  {
     "id": "55cc2d977e",
     "title": "コード/API関数/setPosition",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
