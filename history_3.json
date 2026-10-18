@@ -1,5 +1,25 @@
 [
   {
+    "id": "a8c7653573",
+    "title": "コード/API関数/setWalkThroughRect",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
+    "timestamp": "2026/10/18 16:52:40",
+    "diff": "- #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DDEEFF;padding:0px 20px;border-radius:10px;){{{\n+ #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DCFCE7;padding:0px 20px;border-radius:10px;){{{",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughRect",
+    "_isComment": false
+  },
+  {
+    "id": "c7639e41da",
+    "title": "コード/API関数/setWalkThroughType",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughType",
+    "timestamp": "2026/10/18 16:52:47",
+    "diff": "- #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DDEEFF;padding:0px 20px;border-radius:10px;){{{\n+ #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DCFCE7;padding:0px 20px;border-radius:10px;){{{",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughType",
+    "_isComment": false
+  },
+  {
     "id": "7ed00a5b78",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
