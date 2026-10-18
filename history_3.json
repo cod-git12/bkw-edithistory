@@ -1,5 +1,15 @@
 [
   {
+    "id": "bf81b94776",
+    "title": "コード/型",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2F%E5%9E%8B",
+    "timestamp": "2026/10/18 10:56:45",
+    "diff": "- : &aname(PlayerId){PlayerId}; | プレイヤーのID&br;コードブロックではmyIdを使用することで、実行プレイヤーのIDを参照できる。\n+ : &aname(PlayerId){PlayerId}; | =LifeformId=EntityId=string&br;プレイヤーのID&br;コードブロックではmyIdを使用することで、実行プレイヤーのIDを参照できる。\n+ : &aname(Pos){Pos}; | =[number,number,number]&br;座標[x,y,z]",
+    "isComment": false,
+    "_displayTitle": "コード/型",
+    "_isComment": false
+  },
+  {
     "id": "f16862535e",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
