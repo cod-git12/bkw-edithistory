@@ -1,5 +1,15 @@
 [
   {
+    "id": "97799dfb43",
+    "title": "自然物/洞窟",
+    "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
+    "timestamp": "2026/10/18 13:08:13",
+    "diff": "- |&attachref(モブ/Draugr Zombi.png,,50x);|ドラウグルゾンビ&br;Draugr Zombi||\n- |Draugr Skerton|ドラウグルスケルトン||\n+ |&attachref(モブ/Draugr Zombie.png,,50x);|ドラウグルゾンビ&br;Draugr Zombi||\n+ |&attachref(モブ/Draugr Skerton.png,,50x);|ドラウグルスケルトン||",
+    "isComment": false,
+    "_displayTitle": "自然物/洞窟",
+    "_isComment": false
+  },
+  {
     "id": "d71b2020c9",
     "title": "自然物/洞窟",
     "url": "https://bloxd.wikiru.jp/?%E8%87%AA%E7%84%B6%E7%89%A9%2F%E6%B4%9E%E7%AA%9F",
