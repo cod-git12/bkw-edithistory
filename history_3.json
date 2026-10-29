@@ -1,5 +1,15 @@
 [
   {
+    "id": "e3424eae6a",
+    "title": "エンチャント",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%A8%E3%83%B3%E3%83%81%E3%83%A3%E3%83%B3%E3%83%88",
+    "timestamp": "2026/10/29 17:39:59",
+    "diff": "- ||飛行速度&br;Glinding Speed|最高速度が上昇する&br;Increase top gliding speed|~|1|最高速度|+10%|\n+ ||飛行速度&br;Glinding Speed|最高速度が上昇する。&br;Increase top gliding speed|~|1|最高速度|+10%|",
+    "isComment": false,
+    "_displayTitle": "エンチャント",
+    "_isComment": false
+  },
+  {
     "id": "1ad73c090b",
     "title": "ランク",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A9%E3%83%B3%E3%82%AF",
