@@ -1,5 +1,15 @@
 [
   {
+    "id": "7b1c0160b6",
+    "title": "ゲームモード/フロントライン",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%B3",
+    "timestamp": "2026/10/30 20:03:32",
+    "diff": "+ 自然回復はダメージを最後に受けてから5秒後に開始し回復間隔は3秒で体力が8ずつ回復する。",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/フロントライン",
+    "_isComment": false
+  },
+  {
     "id": "8fba21ff11",
     "title": "ランク",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A9%E3%83%B3%E3%82%AF",
