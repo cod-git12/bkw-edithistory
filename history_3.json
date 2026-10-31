@@ -1,5 +1,15 @@
 [
   {
+    "id": "b83da99baf",
+    "title": "ゲームモード/フロントライン",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%83%A9%E3%82%A4%E3%83%B3",
+    "timestamp": "2026/10/31 18:09:52",
+    "diff": "- |~|~|&attachref(アイテム一覧/Military Chestplate.png,,50x50);|[[軍用チェストプレート>アイテム/軍用チェストプレート]]|~|~|\n- |~|~|&attachref(アイテム一覧/Military Boots.png,,50x50);|[[軍用ブーツ>アイテム/軍用ブーツ]]|~|~|\n- |~|~|&attachref(アイテム一覧/Frag Grenade.png,,50x50);|[[破片手榴弾>アイテム/破片手榴弾]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Military Chestplate.png,,50x50);|[[軍用チェストプレート&br;Military Chestplate>アイテム/軍用チェストプレート]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Military Boots.png,,50x50);|[[軍用ブーツ&br;Military Boots>アイテム/軍用ブーツ]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Frag Grenade.png,,50x50);|[[破片手榴弾&br;Frag Grenade>アイテム/破片手榴弾]]|~|~|\n- |~|~|&attachref(アイテム一覧/Military Helmet.png,,50x50);|[[軍用ヘルメット>アイテム/軍用ヘルメット]]|~|~|\n- |~|~|&attachref(アイテム一覧/Military Chestplate.png,,50x50);|[[軍用チェストプレート>アイテム/軍用チェストプレート]]|~|~|\n- |~|~|&attachref(アイテム一覧/Smoke Grenade.png,,50x50);|[[発煙手榴弾>アイテム/発煙手榴弾]]|~|~|\n- |~|~|&attachref(アイテム一覧/Gold Coin.png,,50x50);|敵が乗っているまたは乗っていた乗り物を破壊すると体力が20回復し、コインが40枚もらえる|~|~|\n+ |~|~|&attachref(アイテム一覧/Military Helmet.png,,50x50);|[[軍用ヘルメットMilitary Helmet>アイテム/軍用ヘルメット]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Military Chestplate.png,,50x50);|[[軍用チェストプレート&br;Military Chestplate>アイテム/軍用チェストプレート]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Smoke Grenade.png,,50x50);|[[発煙手榴弾&br;Smoke Grenade>アイテム/発煙手榴弾]]|~|~|\n+ |~|~|&attachref(アイテム一覧/Gold Coin.png,,50x50);|解体&br;Salvage&br;敵が乗っているまたは乗っていた乗り物を破壊すると体力が20回復し、コインが40枚もらえる|~|~|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/フロントライン",
+    "_isComment": false
+  },
+  {
     "id": "b718167ad8",
     "title": "開発者",
     "url": "https://bloxd.wikiru.jp/?%E9%96%8B%E7%99%BA%E8%80%85",
