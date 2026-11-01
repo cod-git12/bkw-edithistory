@@ -1,5 +1,15 @@
 [
   {
+    "id": "f2d7aadf2f",
+    "title": "ゲームモード/トリックオアトリート",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%82%AA%E3%82%A2%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88",
+    "timestamp": "2026/11/1 16:23:05",
+    "diff": "- |&attachref(アイテム一覧/Jack o'Lantern.png,,50x50);|[[ジャックオランタン>アイテム/ジャックオランタン]]|55%|\n- |&attachref(アイテム一覧/Unlucky Bomb.png,,50x50);|&tooltip(妨害アイテム){アイテム名はTrickで見た目は[[アンラッキーボム>アイテム/アンラッキーボム]]};|20%|\n- |CENTER:&attachref(モブ/Crone.png,,x50);|[[老婆>モブ/老婆]]|25%|\n+ |&attachref(アイテム一覧/Jack o'Lantern.png,,50x50);|[[ジャックオランタン&br;Jack o'Lantern>アイテム/ジャックオランタン]]|55%|\n+ |&attachref(アイテム一覧/Unlucky Bomb.png,,50x50);|&tooltip(妨害アイテム){アイテム名はTrickで見た目は[[アンラッキーボム>アイテム/アンラッキーボム]]};&br;Trick|20%|\n+ |CENTER:&attachref(モブ/Crone.png,,x50);|[[老婆&br;Crone>モブ/老婆]]|25%|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/トリックオアトリート",
+    "_isComment": false
+  },
+  {
     "id": "341bab7617",
     "title": "ゲームモード/トリックオアトリート",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%82%AA%E3%82%A2%E3%83%88%E3%83%AA%E3%83%BC%E3%83%88",
