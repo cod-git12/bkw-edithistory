@@ -1,5 +1,15 @@
 [
   {
+    "id": "ebf75394b3",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/4 0:51:07",
+    "diff": "- |画像|名称|効果|入手方法|h\n- |&attachref(アイテム一覧/Wood Sword.png,,50x50);|ロレンゾの練習用の剣&br;Lorenzo's Practice Sword|モブに与えるダメージが10%上昇する|戦闘のマスターのロレンゾに話しかける|\n- |&attachref(アイテム一覧/Stone Sword.png,,50x50);|ロレンゾの決闘用の剣&br;Lorenzo's Duelling Sword|11発目の攻撃のダメージが2倍になる|決闘の第一歩をクリアする|\n- |&attachref(アイテム一覧/Iron Chestplate.png,,50x50);|繁栄のチェストプレート&br;Flourish Plate|&attachref(アイコン一覧/Knockback Resist Enchantment.png,nolink,15x15);ノックバック軽減2の[[エンチャント]]が付与されている|装備の入手をクリアする|\n- |&attachref(アイテム一覧/Magmasteel Helmet.png,,50x50);|マグマウォードのヘルメット||長老のための骨をクリアする|\n- |&attachref(アイテム一覧/Magmasteel Chestplate.png,,50x50);|マグマウォードのチェストプレート||ドゥームタワーをクリアする|\n- |&attachref(アイテム一覧/Magmasteel Gauntlets.png,,50x50);|マグマウォードのガントレット||サソリの巣穴をクリアする|\n- |&attachref(アイテム一覧/Magmasteel Leggings.png,,50x50);|マグマウォードのレギンス||射的をクリアする|\n- |&attachref(アイテム一覧/Magmasteel Boots.png,,50x50);|マグマウォードのブーツ||シャッフル地下墓地をクリアする|\n+ |画像|名称|>|効果|入手方法|h\n+ |&attachref(アイテム一覧/Wood Sword.png,,50x50);|ロレンゾの練習用の剣&br;Lorenzo's Practice Sword|>|モブに与えるダメージが10%上昇する|戦闘のマスターのロレンゾに話しかける|\n+ |&attachref(アイテム一覧/Stone Sword.png,,50x50);|ロレンゾの決闘用の剣&br;Lorenzo's Duelling Sword|>|11発目の攻撃のダメージが2倍になる|決闘の第一歩をクリアする|\n+ |&attachref(アイテム一覧/Iron Chestplate.png,,50x50);|繁栄のチェストプレート&br;Flourish Plate|>|&attachref(アイコン一覧/Knockback Resist Enchantment.png,nolink,15x15);ノックバック軽減2の[[エンチャント]]が付与されている|装備の入手をクリアする|\n+ |&attachref(アイテム一覧/Magmasteel Helmet.png,,50x50);|マグマウォードのヘルメット|体力増加1の[[エンチャント]]が付与されている|フル装備効果&br;ランタンを1個消費して&br;[[マグマ>アイテム/マグマ]]のダメージを&br;防ぐことができるようになる|長老のための骨をクリアする|\n+ |&attachref(アイテム一覧/Magmasteel Chestplate.png,,50x50);|マグマウォードのチェストプレート|防護1の[[エンチャント]]が付与されている|~|ドゥームタワーをクリアする|\n+ |&attachref(アイテム一覧/Magmasteel Gauntlets.png,,50x50);|マグマウォードのガントレット|再生1の[[エンチャント]]が付与されている|~|サソリの巣穴をクリアする|\n+ |&attachref(アイテム一覧/Magmasteel Leggings.png,,50x50);|マグマウォードのレギンス|体力増加1の[[エンチャント]]が付与されている|~|射的をクリアする|\n+ |&attachref(アイテム一覧/Magmasteel Boots.png,,50x50);|マグマウォードのブーツ|防護1の[[エンチャント]]が付与されている|~|シャッフル地下墓地をクリアする|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "ee9f021c46",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
