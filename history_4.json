@@ -1,5 +1,15 @@
 [
   {
+    "id": "98227c1e0b",
+    "title": "ゲームモード/テストジム",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%82%B8%E3%83%A0",
+    "timestamp": "2026/11/4 16:15:36",
+    "diff": "- 様々なモブが混在している。\n+ 全てのモブが召喚される。\n- 地面のみが石ではなく、自然の地形で、様々なモブが混在している。\n+ 地面のみが石ではなく、自然の地形で、様々なモブが混在している。\n+ **Imported Mobs [#r6ef31cc]\n+ Vulcanite、Evil Tome、Magma Toadが3体ずつ召喚されている。\n+ **Schematic [#v7647232]",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストジム",
+    "_isComment": false
+  },
+  {
     "id": "c7cf30bc9a",
     "title": "ゲームモード/テストジム",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%82%B8%E3%83%A0",
