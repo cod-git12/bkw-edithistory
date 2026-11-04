@@ -1,5 +1,15 @@
 [
   {
+    "id": "fa4c970514",
+    "title": "ゲームモード/カスタムゲーム",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0",
+    "timestamp": "2026/11/4 17:19:10",
+    "diff": "- |BGCOLOR(#40404020):サムネ|BGCOLOR(#40404020):名前|\n- |&attachref(ゲームモード/Steal a Pet.jpg,nolink,zoom,200x150,Steal a Pet);|[[Steal a Pet>ゲームモード/カスタムゲーム/Steal a Pet]]|\n- |&attachref(ゲームモード/Dungeons.jpg,nolink,zoom,200x150,Dungeons);|[[Dungeons>ゲームモード/カスタムゲーム/Dungeons]]((現在は削除されている。))|\n- |&attachref(ゲームモード/Grow & Farm.jpg,nolink,zoom,200x150,Grow and Farm);|[[🌾Grow & Farm>ゲームモード/カスタムゲーム/Grow and Farm]]|\n- | - |[[The-Dark>ゲームモード/カスタムゲーム/ザ・ダーク]]|\n+ |BGCOLOR(#40404020):サムネ|BGCOLOR(#40404020):名前|製作者|\n+ |&attachref(ゲームモード/Steal a Pet.jpg,nolink,zoom,200x150,Steal a Pet);|[[Steal a Pet>ゲームモード/カスタムゲーム/Steal a Pet]]|__Lord|\n+ |&attachref(ゲームモード/Dungeons.jpg,nolink,zoom,200x150,Dungeons);|[[Dungeons>ゲームモード/カスタムゲーム/Dungeons]]((現在は削除されている。))|__Lord|\n+ |&attachref(ゲームモード/Grow & Farm.jpg,nolink,zoom,200x150,Grow and Farm);|[[🌾Grow & Farm>ゲームモード/カスタムゲーム/Grow and Farm]]|S0MPENDER|\n+ | - |[[The-Dark>ゲームモード/カスタムゲーム/ザ・ダーク]]|Sigrue11|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/カスタムゲーム",
+    "_isComment": false
+  },
+  {
     "id": "ef79cba624",
     "title": "RecentDeleted",
     "url": "https://bloxd.wikiru.jp/?RecentDeleted",
