@@ -1,5 +1,15 @@
 [
   {
+    "id": "a678344afd",
+    "title": "ゲームモード/テストジム",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%82%B8%E3%83%A0",
+    "timestamp": "2026/11/4 16:40:23",
+    "diff": "+ またワールドの場合、コードが可能である。\n- [[謎めいた遺跡>構造物/謎めいた遺跡]]のruinStoneSmall1のみ設置されている。\n+ [[謎めいた遺跡のruinStoneSmall1>構造物/謎めいた遺跡#ruinStoneSmall1]]のみ設置されている。\n+ **Fragment Shader [#h1326df7]\n+ エラー4216が表示される\n+ **Item Drops [#a8ccb52a]\n+ 2048個のティア5とアタックダメージ1が付いた剣が落ちる。\n+ **Bot Armour [#o1abec5d]\n+ 不明\n+ **Void [#r3246005]\n+ ガラスが3個L字に伸びているそれ以外はない。\n+ **Busy [#ie1c795f]\n+ スポーン地点にどのサーバーでも雪原バイオームの一部がある。\n+ NPCが湧くがNPCは、プレイヤーのように扱われており、Lobby(Gキー)を見ると、召喚されたNPCの名前が載っている。また、装備を持っているNPCもいる。\n+ NPCの名前は実際に存在するプレイヤーだと思われている。NPCは一定の高さでしか動けないためすり抜けたりすることがある。\n+ その他モブは、サバイバルで湧くモブのみで構成されている。\n+ また、アイテムが落ちている。\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |画像|アイテム名|h\n+ |||\n+ |||\n+ |||\n+ |||\n+ |||\n+ }}\n+ ** [#k84d3072]",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/テストジム",
+    "_isComment": false
+  },
+  {
     "id": "6688569921",
     "title": "ゲームモード/テストジム",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%86%E3%82%B9%E3%83%88%E3%82%B8%E3%83%A0",
