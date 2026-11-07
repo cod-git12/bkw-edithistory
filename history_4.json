@@ -1,5 +1,15 @@
 [
   {
+    "id": "2cd4528533",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/8 8:19:19",
+    "diff": "- |咲き、育てる&br;Bloom and Grow|[[&attachref(アイテム一覧/Red Tulip.png,nolink,15x15);赤のチューリップ>アイテム/赤のチューリップ]]を4個マイナーファームで手に入れる||~|\n+ |咲き、育てる&br;Bloom and Grow|[[&attachref(アイテム一覧/Red Tulip.png,nolink,15x15);赤のチューリップ>アイテム/赤のチューリップ]]を4個マイナーファームで手に入れる|&attachref(アイテム一覧/Gold Coin.png,nolink,15x15);200コイン|~|\n- |~||~|~|\n+ |~|3種類以上の花を合計12個植える|~|~|\n+ |青のアクセント&br;A Splash of Blue|ハブ島から[[&attachref(アイテム一覧/Water.png,nolink,15x15);水>アイテム/水]]を汲んで[[&attachref(アイテム一覧/Water Bucket.png,nolink,15x15);水バケツ>アイテム/水バケツ]]を4個集める|&attachref(アイテム一覧/Gold Coin.png,nolink,15x15);200コイン|~|\n+ |~|[[&attachref(アイテム一覧/Water.png,nolink,15x15);水>アイテム/水]]を地面に4個並べる|~|~|\n+ |~|自分の島で釣りをする|~|~|\n+ |果樹園&br;The Orchard|[[&attachref(アイテム一覧/Palm Sapling.png,nolink,15x15);ココナッツの苗木>アイテム/ココナッツの苗木]]をハブ島で手に入れる|250コイン|~|\n+ |~|[[&attachref(アイテム一覧/Pear Sapling.png,nolink,15x15);ナシの苗木>アイテム/ナシの苗木]]を2個マイナーファームで手に入れる|~|~|\n+ |~|ココナッツの木を育てる|~|~|\n+ |~|ナシの木を2本育てる|~|~|\n+ |2つの春&br;Twin Spring|[[&attachref(アイテム一覧/Messy Stone.png,nolink,15x15);丸石>アイテム/丸石]]か[[&attachref(アイテム一覧/Stone.png,nolink,15x15);石>アイテム/石]]を64個集める|250コイン|~|\n+ |~|[[&attachref(アイテム一覧/Coal.png,nolink,15x15);石炭>アイテム/石炭]]を16個集める|~|~|\n+ |~|[[&attachref(アイテム一覧/Messy Stone.png,nolink,15x15);丸石>アイテム/丸石]]か[[&attachref(アイテム一覧/Stone.png,nolink,15x15);石>アイテム/石]]をポータル前にいるスペンサーに渡す|~|~|\n+ |~|[[&attachref(アイテム一覧/Coal.png,nolink,15x15);石炭>アイテム/石炭]]をポータル前にいるスペンサーに渡す|~|~|\n+ |~|[[&attachref(アイテム一覧/Stone Generator.png,nolink,15x15);石のジェネレーター>アイテム/石のジェネレーター]]を置く|~|~|\n+ |~|[[&attachref(アイテム一覧/Stone Generator.png,nolink,15x15);石のジェネレーター>アイテム/石のジェネレーター]]の[[&attachref(アイテム一覧/Stone.png,nolink,15x15);石>アイテム/石]]を32個掘る|~|~|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "d205e1dd0a",
     "title": "ゲームモード/パイレーツ",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84",
