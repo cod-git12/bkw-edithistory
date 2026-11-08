@@ -1,5 +1,15 @@
 [
   {
+    "id": "e9cb21164b",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/8 23:05:35",
+    "diff": "+ スキルは右クリック、もしくはタップで発動する。\n+ #cssbox(width:fit-content;margin:20px 40px auto;padding:5px;border-radius:8px;background-color:#44444420){{\n+ |画像|アイテム名|総合力|攻撃力|攻撃速度|ノックバック|攻撃範囲|防御率|特殊効果|スキル|h\n+ |&attachref(アイテム一覧/Wood Sword.png,,50x50);|ロレンゾの授業&br;Lorenzo's Lesson|+9%|+6+|+3+|+0%|+0%|+0%|-|警戒&br;Wary&br;8秒間攻撃力が30%上昇する|\n+ |&attachref(アイテム一覧/Stone Sword.png,,50x50);|鉱山夫の包丁&br;Quarryman's Cleaver|+12%|+9%|+3%|+5%|+0%|+2%|-|振動&br;Quake&br;5ブロック以内の敵に|\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ |&attachref(アイテム一覧/.png,,50x50);||||||||||\n+ }}",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "6b718bd316",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
