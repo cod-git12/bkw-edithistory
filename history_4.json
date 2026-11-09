@@ -1,5 +1,15 @@
 [
   {
+    "id": "df13d8e948",
+    "title": "ゲームモード/ワンブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%AF%E3%83%B3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/9 17:22:18",
+    "diff": "- |デイリー&br;クエスト&br;&br;Daily&br;Quest|&attachref(アイテム一覧/Diamond Sword.png,,50x50);|[[狼>モブ/狼]]を殺す&br;Defeat a Wolf|50&attachref(アイテム一覧/Gold Coin.png,,15x15);|\n- |~|~|[[雄鹿>モブ/雄鹿]]を殺す&br;Defeat a Stag|100&attachref(アイテム一覧/Gold Coin.png,,15x15);|\n+ |デイリー&br;クエスト&br;&br;Daily&br;Quest|&attachref(アイテム一覧/Diamond Sword.png,,50x50);|[[オオカミ>モブ/オオカミ]]を殺す&br;Defeat a Wolf|50&attachref(アイテム一覧/Gold Coin.png,,15x15);|\n+ |~|~|[[オスジカ>モブ/オスジカ]]を殺す&br;Defeat a Stag|100&attachref(アイテム一覧/Gold Coin.png,,15x15);|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/ワンブロック",
+    "_isComment": false
+  },
+  {
     "id": "f540d5bbe7",
     "title": "ゲームモード/ワンブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%83%AF%E3%83%B3%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
