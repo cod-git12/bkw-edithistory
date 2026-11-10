@@ -1,5 +1,15 @@
 [
   {
+    "id": "8385bddee3",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/10 13:10:23",
+    "diff": "+ |&attachref(アイテム一覧/Treading Terminal.png,,50x50);|取引端末&br;Treading Terminal|使うことで自分の島で即時売却、マーケット、注文ができる|島からの貿易の進行中|\n+ |&attachref(アイテム一覧/Stone Generator.png,,50x50);|石のジェネレーター&br;Stone Generator|掘ってから5秒経つと65%の確率で[[&attachref(アイテム一覧/Stone.png,,50x50);石>アイテム/石]]、20%の確率で[[&attachref(アイテム一覧/Coal Ore.png,,50x50);石炭鉱石>アイテム/石炭鉱石]]、10%の確率で[[&attachref(アイテム一覧/Iron Ore.png,,50x50);鉄鉱石>アイテム/鉄鉱石]]、5%の確率で[[&attachref(アイテム一覧/Gold Ore.png,,50x50);金鉱石>アイテム/金鉱石]]を生成する&br;上にものがあったり[[プレイヤー]]が乗っていると生成できない|石の春の進行中|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "c51ed83b25",
     "title": "メニューコメント！",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%EF%BC%81",
