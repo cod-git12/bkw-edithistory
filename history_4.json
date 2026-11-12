@@ -1,5 +1,15 @@
 [
   {
+    "id": "7d044d96b1",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/12 15:01:44",
+    "diff": "- |&attachref(アイテム一覧/Spectral Helmet.png,,50x50);||&attachref(アイコン一覧/Poisoned.png,nolink,15x15);毒のダメージを半減する|||\n+ |&attachref(アイテム一覧/Spectral Helmet.png,,50x50);|ワイルドスピリットの被り物&br;Wildspirit Food|&attachref(アイコン一覧/Poisoned.png,nolink,15x15);毒のダメージを半減する|||\n- |&attachref(アイテム一覧/Spectral Gauntlets.png,,50x50);|||~||\n- |&attachref(アイテム一覧/Spectral Boots.png,,50x50);|||~|~|\n+ |&attachref(アイテム一覧/Spectral Gauntlets.png,,50x50);|ワイルドスピリットの握り&br;Wildspirit Grip||~||\n+ |&attachref(アイテム一覧/Spectral Boots.png,,50x50);|原生林の踏み板&br;Wildspirit Traeds||~|~|",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "8a09644100",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
