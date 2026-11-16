@@ -1,5 +1,15 @@
 [
   {
+    "id": "5346382d9d",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/17 2:24:31",
+    "diff": "- |&attachref(アイテム一覧/Wood Sword.png,,50x50);|ロレンゾの授業&br;Lorenzo's Lesson|+9%|+6+|+3+|+0%|+0%|+0%|-|警戒&br;Wary&br;8秒間攻撃力が30%上昇する||\n+ |&attachref(アイテム一覧/Wood Sword.png,,50x50);|ロレンゾの授業&br;Lorenzo's Lesson|+9%|+6+|+3+|+0%|+0%|+0%|-|戦いの叫び&br;Warcry&br;8秒間攻撃力が30%上昇する||\n- |&attachref(アイテム一覧/Iron Sword.png,,50x50);|民兵の剣&br;Militia Blade|+12%|+9%|+3%|+0%|+0%|+0%|防壁&br;Bulwark&br;受けるダメージを6%軽減する|警戒&br;Wary&br;8秒間攻撃力が30%上昇する||\n- |&attachref(アイテム一覧/Iron Sword.png,,50x50);|古き良いもの&br;Old Faithful||||||||||\n- |&attachref(アイテム一覧/Gold Sword.png,,50x50);|王の高級品&br;King's Ransom||||||||||\n- |&attachref(アイテム一覧/Gold Sword.png,,50x50);|ミダスの月&br;Midas Moon||||||||||\n+ |&attachref(アイテム一覧/Iron Sword.png,,50x50);|民兵の剣&br;Militia Blade|+12%|+9%|+3%|+0%|+0%|+0%|防壁&br;Bulwark&br;受けるダメージを6%軽減する|戦いの叫び&br;Warcry&br;8秒間攻撃力が30%上昇する||\n+ |&attachref(アイテム一覧/Iron Sword.png,,50x50);|古き良いもの&br;Old Faithful|+22%|+16%|+6%|+10%|+0%|+5%|防壁&br;Bulwark&br;受けるダメージを6%軽減する|戦いの叫び&br;Warcry&br;8秒間攻撃力が30%上昇する||\n+ |&attachref(アイテム一覧/Gold Sword.png,,50x50);|王の高級品&br;King's Ransom|+30%|+18%|+10%|+5%|+0%|+4%|ミダス&br;Midas&br;モブを倒すと追加で10枚のコインがドロップする|金箔を貼った刃&br;Gilded Edge&br;発動してからの5発の攻撃で与えるダメージが50%上昇する||\n+ |&attachref(アイテム一覧/Gold Sword.png,,50x50);|ミダスの月&br;Midas Moon|+30%|+18%|+10%|+5%|+0%|+4%|ミダス&br;Midas&br;モブを倒すと追加で8枚のコインがドロップする&br;ボスの厄介者&br;Bossbane&ボスに与えるダメージが12%上昇する|||",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "2633984b55",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
