@@ -1,5 +1,15 @@
 [
   {
+    "id": "120b6b5f85",
+    "title": "ゲームモード/スカイブロック",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
+    "timestamp": "2026/11/19 16:24:54",
+    "diff": "- スキルは右クリック、もしくはタップで発動する。またスキルのクールダウンは武器の種類ごとに決められているので同じ種類の武器を複数所持しても意味はない。\n+ 確率で発生する技は戦闘スキルが上がるにつれ不規則に変化していく。\n+ スキルは右クリック、もしくはタップで発動する。またスキルのクールダウンは武器の種類ごとに決められているので同じ種類の武器を複数所持しても意味はない。また、スキルの攻撃力もスキルレベルによって変化していく。\n- |&attachref(アイテム一覧/Stone Sword.png,,50x50);|鉱山夫の包丁&br;Quarryman's Cleaver|+12%|+9%|+3%|+5%|+0%|+2%|-|振動&br;Quake&br;5ブロック以内の敵に||||||||\n+ |&attachref(アイテム一覧/Stone Sword.png,,50x50);|鉱山夫の包丁&br;Quarryman's Cleaver|+12%|+9%|+3%|+5%|+0%|+2%|-|振動&br;Quake&br;5ブロック以内のモブに21ダメージを与える||||||||\n- |&attachref(アイテム一覧/Diamond Sword.png,,50x50);|角柱の牙&br;Prism Fang|+47%|+28%|+14%|+10%|+0%|+7%|鋭い刃&br;Keen Edge&br;22%の確率でダメージが60%上昇する|金箔を貼った刃&br;Gilded Edge&br;発動してから5発の攻撃で与えるダメージが50%上昇する||||||||\n+ |&attachref(アイテム一覧/Diamond Sword.png,,50x50);|角柱の牙&br;Prism Fang|+47%|+29%|+14%|+10%|+0%|+7%|鋭い刃&br;Keen Edge&br;22%の確率でダメージが60%上昇する|金箔を貼った刃&br;Gilded Edge&br;発動してから5発の攻撃で与えるダメージが50%上昇する||||||||\n- |&attachref(アイテム一覧/Moonstone Sword.png,,50x50);|月の鎮魂曲&br;Lunar Requiem|+59%|+35%|+18%|+10%|+2|||||||||||\n- |&attachref(アイテム一覧/Moonstone Sword.png,,50x50);|銀の潮&br;Silver Tide||||||||||||||||\n- |&attachref(アイテム一覧/Magmasteel Sword.png,,50x50);|鍛冶職人&br;Forgehand||||||||||||||||\n+ |&attachref(アイテム一覧/Moonstone Sword.png,,50x50);|月の鎮魂曲&br;Lunar Requiem|+59%|+35%|+18%|+10%|&tooltip(+25%){合成前は+30%と書かれている};|8%|ボスの厄介者&br;Bossbane&br;ボスに与えるダメージが54%上昇する|月の走り&br;Moondash&br;少しだけ前に突進し、当たったモブに54ダメージ与える||||||||\n+ |&attachref(アイテム一覧/Moonstone Sword.png,,50x50);|銀の潮&br;Silver Tide|+65%|+40%|+19%|+10%|&tooltip(+25%){合成前は+30%と書かれている};|12%|ボスの厄介者&br;Bossbane&br;ボスに与えるダメージが32%上昇する&br;隕石&br;攻撃時6%の確率で当たるとダメージと鈍化を与える隕石を落とす|月の走り&br;Moondash&br;少しだけ前に突進し、当たったモブに56ダメージを与える||||||||\n+ |&attachref(アイテム一覧/Magmasteel Sword.png,,50x50);|鍛冶職人&br;Forgehand|+56%|+40%|+11%|+5%|+0%|+5%|マグマプール&br;Magmapool&br;攻撃時15%の確率でモブに0.5秒ごとにダメージを与える3x3の炎を3秒間作り出す&br;防壁&br;Bulwark&br;受けるダメージを4%軽減する|振動&br;Quake&br;5ブロック以内のモブに40ダメージを与える||||||||",
+    "isComment": false,
+    "_displayTitle": "ゲームモード/スカイブロック",
+    "_isComment": false
+  },
+  {
     "id": "d0f79b44de",
     "title": "ランク",
     "url": "https://bloxd.wikiru.jp/?%E3%83%A9%E3%83%B3%E3%82%AF",
