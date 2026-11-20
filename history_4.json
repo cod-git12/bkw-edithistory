@@ -1,5 +1,15 @@
 [
   {
+    "id": "fb35766f6f",
+    "title": "コメント/コード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2F%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/11/20 20:36:38",
+    "diff": "+ これは自作コード &br;{{虹色|const mobTypes = {} &br; &br;onWorldSpawnMob = (mobId, mobType) => { &br;    mobTypes[mobId] = mobType &br;} &br; &br;onPlayerSpawnMob = (playerId, mobId, mobType) => { &br;    mobTypes[mobId] = mobType &br;} &br; &br;onPlayerKilledMob = (playerId, mobId, damageDealt, withItem) => { &br;    const mobType = mobTypes[mobId] &br; &br;    // Cave GolemだけLime &br;   if (mobType === \"Cave Golem\") { &br;    api.giveItem(playerId, \"Lime Paintball\", 1) &br;       return &br;   } &br;   if (mobType === \"Gorilla\")　{ &br;    api.giveItem(playerId, \"White Paintball\") &br;       return &br;   } &br;    if (mobType === \"Draugr Knight\") { &br;  api.giveItem(playerId, \"Custom Lobby Block\") &br;       return &br;   } &br; &br; &br;    // それ以外のモブは全部Light Gray &br;    api.giveItem(playerId, \"Gray Paintball\", 1) &br;} &br; &br;onPlayerDamagingOtherPlayer = (attackingPlayer, damagedPlayer, damageDealt, withItem) => { &br;    if (withItem === \"Sanguine Sword\") { &br;        api.applyEffect(attackingPlayer, \"Lifesteal\", 5000, { &br;            inbuiltLevel: 5 &br;        }) &br;    } &br;} &br; &br;onPlayerDamagingMob = (playerId, mobId, damageDealt, withItem) => { &br;    if (withItem === \"Sanguine Sword\") { &br;        api.applyEffect(playerId, \"Lifesteal\", 5000, { &br;            inbuiltLevel: 5 &br;        }) &br;    } &br;} &br; &br;onPlayerJoin = (p) => { &br; &br;    const armor = [ &br;        \"Helmet\", &br;        \"Chestplate\", &br;        \"Gauntlets\", &br;        \"Leggings\", &br;        \"Boots\" &br;    ] &br; &br;    for (const part of armor) { &br; &br;        api.editItemCraftingRecipes( &br;            p, &br;            `Cursemetal ${part}`, &br;            [ &br;                { &br;                    requires: [ &br;                        { items: [`Diamond ${part}`], amt: 1 }, &br;                        { items: [\"Knight Heart\"], amt: 2 } &br;                    ], &br;                    produces: 1, &br;                    station: \"Workbench\", &br;                    attributes: { &br;                        customAttributes: { &br;                            enchantments: { &br;                                \"Protection\": 3 &br;                            }, &br;                            enchantmentTier: \"Tier 1\" &br;                        } &br;                    } &br;                } &br;            ] &br;        ) &br; &br;    } &br;} &br;}} &br;剣×銃バトロワのコード -- やよい[23UGG1NO.ik] &new{2026-11-20 (金) 20:36:37};",
+    "isComment": true,
+    "_displayTitle": "コメント/コード",
+    "_isComment": true
+  },
+  {
     "id": "82c9921d93",
     "title": "コメント/コード",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2F%E3%82%B3%E3%83%BC%E3%83%89",
