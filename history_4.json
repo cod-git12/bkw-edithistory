@@ -1,5 +1,15 @@
 [
   {
+    "id": "0e9f76b86d",
+    "title": "コメント/コード",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%2F%E3%82%B3%E3%83%BC%E3%83%89",
+    "timestamp": "2026/11/20 20:28:24",
+    "diff": "+ 引退するのでai(?)コードを公開します &br;''// 大砲ごとのクールダウン管理 &br;const cannonCooldowns = {}; &br; &br;// クールダウン設定 &br;const ASH_COOLDOWN = 1000;       // 1秒 &br;const BLACK_COOLDOWN = 5000;     // 5秒 &br; &br;onPlayerAltAction = (playerId, x, y, z, block) => { &br;    let projectile; &br;    let cooldown; &br; &br;    // Ash：Capitano Grenade &br;    if (block === \"Ash\") { &br;        projectile = \"Capitano Grenade\"; &br;        cooldown = ASH_COOLDOWN; &br;    } &br;    // Black Concrete：Super RPG &br;    else if (block === \"Black Concrete\") { &br;        projectile = \"Super RPG\"; &br;        cooldown = BLACK_COOLDOWN; &br;    } &br;    else { &br;        return; &br;    } &br; &br;    const now = Date.now(); &br; &br;    // ブロックごとに別々のクールダウン &br;    const key = `${playerId}_${x}_${y}_${z}`; &br; &br;    if (cannonCooldowns[key] && now < cannonCooldowns[key]) { &br;        const remaining = Math.ceil( &br;            (cannonCooldowns[key] - now) / 1000 &br;        ); &br; &br;        api.sendMessage( &br;            playerId, &br;            `再発射まで ${remaining} 秒！` &br;        ); &br;        return; &br;    } &br; &br;    const info = api.getPlayerFacingInfo(playerId); &br;    const dir = info.dir; &br; &br;    // 大砲の前方に弾を出す &br;    const pos = [ &br;        x + 0.5 + dir[0] * 2, &br;        y + 0.5 + dir[1] * 2, &br;        z + 0.5 + dir[2] * 2 &br;    ]; &br; &br;    api.attemptCreateThrowable( &br;        playerId, &br;        projectile, &br;        pos, &br;        dir, &br;        0.8, &br;        1, &br;        2, &br;        { customAttributes: {} } &br;    ); &br; &br;    // クールダウン開始 &br;    cannonCooldowns[key] = now + cooldown; &br; &br;    api.sendMessage( &br;        playerId, &br;        `${projectile} 発射！次の発射まで${cooldown / 1000}秒！` &br;    ); &br;}; &br; &br; &br;'' -- やよい[23UGG1NO.ik] &new{2026-11-20 (金) 20:28:23};",
+    "isComment": true,
+    "_displayTitle": "コメント/コード",
+    "_isComment": true
+  },
+  {
     "id": "faa3c4f070",
     "title": "ゲームモード/スカイブロック",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A2%E3%83%BC%E3%83%89%2F%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF",
