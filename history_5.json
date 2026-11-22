@@ -1,5 +1,15 @@
 [
   {
+    "id": "a5cbd6157a",
+    "title": "管理人へ",
+    "url": "https://bloxd.wikiru.jp/?%E7%AE%A1%E7%90%86%E4%BA%BA%E3%81%B8",
+    "timestamp": "2026/11/22 21:46:51",
+    "diff": "+ 設定がアプデで、なんかいろいろと被ってて、例えばｂ -- ノム &new{2026-11-22 (日) 21:46:50};",
+    "isComment": true,
+    "_displayTitle": "管理人へ",
+    "_isComment": true
+  },
+  {
     "id": "5d2f70d7aa",
     "title": "コード/API関数/setPosition",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
