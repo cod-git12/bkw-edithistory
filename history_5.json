@@ -1,5 +1,15 @@
 [
   {
+    "id": "5d2f70d7aa",
+    "title": "コード/API関数/setPosition",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
+    "timestamp": "2026/11/22 14:41:31",
+    "diff": "- #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DBEAFE;padding:0px 20px;border-radius:10px;){{{\n+ #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DCFCE7;padding:0px 20px;border-radius:10px;){{{",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setPosition",
+    "_isComment": false
+  },
+  {
     "id": "e10342e976",
     "title": "コード/API関数/getLifeformScale",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetLifeformScale",
