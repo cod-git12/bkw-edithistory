@@ -1,5 +1,15 @@
 [
   {
+    "id": "e10342e976",
+    "title": "コード/API関数/getLifeformScale",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetLifeformScale",
+    "timestamp": "2026/11/22 14:40:37",
+    "diff": "+ #navi(コード/API関数);\n+ #style(width:90%;align-items: left;display:flex;margin:0 auto;justify-content:left;gap:20px;background-color:#DBEAFE;padding:0px 20px;border-radius:10px;){{{\n+ #style(width:250px;text-align:center;){{\n+ &size(15){&aname(getLifeformScale){''getLifeformScale''};};&br;生命体の大きさを取得\n+ &fa(lg){cat}; &fa(lg){user}; &fa(lg){ruler};\n+ }}\n+ #style(width:500px;){{\n+ Type: &fa(color=#1E3A8A,lg){arrow-right-from-bracket};&color(#1E40AF){''入力''};\n+ Copy: &clipboard{&size(10){&color(,white){api.getLifeformScale(lifeformId);};};};\n+ &tag(API_入力,API_生命体);\n+ }}\n+ }}}\n+ &aname(desc){Desc:};\n+ 生命体の大きさを取得する\n+ &aname(args){Args:};\n+ >\n+ |必須|引数名|説明|>|型|h\n+ |◯|lifeformId|取得対象の生命体|[[LifeformId>コード/型#LifeformId]]|生命体ーのID|\n+ &aname(ex1){Example:};\n+ > コードを実行したプレイヤーの大きさを取得し、チャット欄にログ出力する。\n+ #code_x{{{\n+ const myScale = api.getLifeformScale(myId);\n+ console.log(myScale);\n+ }}}\n+ &aname(ts){Ts:};\n+ #fold(日本語版 ここをクリックして表示,open){{{{\n+ #code_x{{{\n+ export interface GameApi { //=api\n+ /**\n+ * Get the scale of a lifeform.\n+ * @param lifeformId\n+ */\n+ getLifeformScale(lifeformId: LifeformId): number\n+ }\n+ export type EntityId = string\n+ export type LifeformId = EntityId\n+ }}}\n+ }}}}\n+ #fold(原文 ここをクリックして表示){{{{\n+ #code_x{{{\n+ export interface GameApi {\n+ /**\n+ * 生命体の大きさを取得\n+ * @param lifeformId - 取得対象の生命体ID\n+ * @example\n+ * // コードブロック実行者の大きさを取得\n+ * api.getLifeformScale(myId);\n+ */\n+ getLifeformScale(lifeformId: LifeformId): number\n+ }\n+ export type EntityId = string\n+ export type LifeformId = EntityId\n+ }}}\n+ }}}}\n+ #navi(コード/API関数);",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/getLifeformScale",
+    "_isComment": false
+  },
+  {
     "id": "a46071ae18",
     "title": "コード/API関数/getPosition",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetPosition",
