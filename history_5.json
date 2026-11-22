@@ -1,5 +1,15 @@
 [
   {
+    "id": "c79f8e06ea",
+    "title": "コード/API関数/setWalkThroughType",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughType",
+    "timestamp": "2026/11/22 14:09:56",
+    "diff": "+ #navi(コード/API関数);\n- 通り抜けられないブロック(このAPIで指定したものも含む)の中にいて、かつ上にスペースがある場合、そのブロックの上に押し上げられる。&br;この設定を解除(通り抜け不可に)して押し上げられることを防ぐには、設定解除前にブロックの破壊を。\n+ 通り抜けられないブロック(このAPIで指定したものも含む)の中にいて、かつ上にスペースがある場合、そのブロックの上に押し上げられる。&br;この設定を解除(通り抜け不可に)して押し上げられることを防ぐには、設定解除前にブロックの破壊をすること。\n- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用 / [[ワールドコード>コード#worldCode]]対応\n+ > &attachref(アイテム一覧/Grass Block.png,,20x20);[[草ブロック>アイテム/草ブロック]]をすり抜け可能にする。\n- &attachref(アイテム一覧/Grass Block.png,,20x20);[[草ブロック>アイテム/草ブロック]]をすり抜け可能にする。\n- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用 / [[ワールドコード>コード#worldCode]]対応\n+ > &attachref(アイテム一覧/Grass Block.png,,20x20);[[草ブロック>アイテム/草ブロック]]を通常通りすり抜け不可に戻す。\n- &attachref(アイテム一覧/Grass Block.png,,20x20);[[草ブロック>アイテム/草ブロック]]を通常通りすり抜け不可に戻す。\n+ #navi(コード/API関数);",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setWalkThroughType",
+    "_isComment": false
+  },
+  {
     "id": "dbae6292c2",
     "title": "コード/API関数/setWalkThroughRect",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetWalkThroughRect",
