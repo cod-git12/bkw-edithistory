@@ -1,5 +1,15 @@
 [
   {
+    "id": "b285caddcf",
+    "title": "コード/API関数/setPosition",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FsetPosition",
+    "timestamp": "2026/11/22 13:54:10",
+    "diff": "+ #navi(コード/API関数);\n- |◯|y?|設定先のY座標|number|数値|\n- |◯|z?|設定先のZ座標|number|数値|\n+ |△|y?|設定先のY座標|number|数値|\n+ |△|z?|設定先のZ座標|number|数値|\n- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ : タイプ | &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ : 説明 | コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。\n+ : コード |\n- コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。\n- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ : タイプ | &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ : 説明 | コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。配列での指定。\n+ : コード |\n- コードを実行したプレイヤーを[100,10,100]へ移動、テレポートさせる。配列での指定。\n- > '''自動補完やAI学習に使えます。'''\n+ #navi(コード/API関数);",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/setPosition",
+    "_isComment": false
+  },
+  {
     "id": "f68e76b2f2",
     "title": "コード/API関数/getPosition",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetPosition",
