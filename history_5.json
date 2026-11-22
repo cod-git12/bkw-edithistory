@@ -1,5 +1,15 @@
 [
   {
+    "id": "f68e76b2f2",
+    "title": "コード/API関数/getPosition",
+    "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetPosition",
+    "timestamp": "2026/11/22 13:32:31",
+    "diff": "- > &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ : タイプ | &attachref(アイテム一覧/Code Block.png,nolink,20x20);[[コードブロック>コード#codeBlock]]用\n+ : 説明 | コードを実行したプレイヤーの座標を取得し、チャット欄にログ出力する。\n+ : コード |\n- api.getPosition(myId);\n+ const myPos = api.getPosition(myId);\n+ console.log(`Your position is\\n\\t x: ${myPos[0]},\\n\\t y: ${myPos[1]}, \\n\\t z: ${myPos[2]}`)\n- コードを実行したプレイヤーの座標を取得する。\n+ : 結果例 |\n+ Log: \"Your position is\n+ x: 10026.91015625,\n+ y: 100002.6640625,\n+ z: 10071.5126953125\"\n+ チャット欄にこのようなメッセージが送信される。",
+    "isComment": false,
+    "_displayTitle": "コード/API関数/getPosition",
+    "_isComment": false
+  },
+  {
     "id": "0aec6bf68e",
     "title": "コード/API関数/getPosition",
     "url": "https://bloxd.wikiru.jp/?%E3%82%B3%E3%83%BC%E3%83%89%2FAPI%E9%96%A2%E6%95%B0%2FgetPosition",
